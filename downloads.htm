@@ -1,0 +1,341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <link href="demona.css" rel="Stylesheet" type="text/css" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="shortcut icon" href="images/ico.jpg" />
+
+    <script type="text/javascript" src="demona.js" ></script>
+
+    <title>Demona NWN Module</title>
+
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-25374267-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+
+
+
+<body>
+
+<div id="content">
+
+<table align="center" width="940"  border="0" cellpadding="0" cellspacing="0">
+
+	<tr>
+
+		<td rowspan="2">
+
+			<img src="images/layout/demona_layout_01.png" width="214" height="384" alt=""></td>
+
+		<td>
+
+			<img src="images/layout/demona_layout_02.png" width="445" height="246" alt=""></td>
+
+		<td>
+
+		    <map id="menu" name="menu">
+
+		        <area shape="poly" alt="Demona" coords="46,5,223,14,223,47,134,60,46,48" href="/" onmouseover="mapDownloadDemona_over()" onmouseout="mapDownload_out()" />
+
+		        <area shape="poly" alt="Download" coords="54,56,135,63,236,46,250,70,149,104,54,109" href="downloads.htm"  />
+
+		        <area shape="poly" alt="Fórum" coords="110,125,235,83,239,103,137,166" href="/forum" onmouseover="mapDownloadForum_over()" onmouseout="mapDownload_out()" />
+
+		        <area shape="poly" alt="Svět" coords="162,168,250,105,264,131,195,204" href="svet.htm" onmouseover="mapDownloadSvet_over()" onmouseout="mapDownload_out()" />
+
+		    </map>
+
+			<img id="menuDemona" src="images/layout/demona_layout_03_download.jpg" width="281" height="246" alt="" usemap="#menu" style="border:none;" /></td>
+
+	</tr>
+
+	<tr>
+
+	    <!--horni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_04.png');" width="726" height="138">
+
+	        <a href="/">Demona</a> > Download<br />
+
+	        <br />
+
+	        V sekci Download jsou k dispozici všechny potřebné soubory pro spuštění modulu Demona. Najdete tu i jiné soubory, které se vám můžou při hraní hodit. <br /><br />
+
+	        Soubory s příponou .exe jsou instalační, tzn. po stažení do libovolné složky je třeba tyto soubory spustit a řídit se pokyny instalačního průvodce.
+
+	        Soubory s příponou .zip nebo .7z je po stáhnutí pořeba prvně rozbalit a následně ručně nakopírovat do správných složek.
+
+	    </td>
+
+	</tr>
+
+	<tr>
+
+		<td style="background-image:url('images/layout/demona_layout_05.png');">
+
+		</td>
+
+		<!--hlavni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_06.png');">
+
+           <span class="nadpis_red">Patch na NWN 1.69 </span><br />
+
+            Aktuální <b>patch</b> můžete nainstalovat několika způsoby:
+
+            <br />
+
+            - pomocí tlačítka <a href="javascript:ShowHideElementByID('updateImage')">Update</a> při startu hry (spustěním souboru nwn.exe)<br />
+
+            - potvrzením dialogového okna, které vyskočí při spuštění Demony<br />
+
+            - přímým stáhnutím ze stránek <a href="http://files.bioware.com/neverwinternights/updates/windows/english/NWNEnglish1.69HotUUpdate.exe">Bioware Neverwinter Nights Support: Critical Rebuild</a><br />
+
+            <br />
+
+            <span class="nadpis_red">Aktuální HAKy a TLK</span><br />
+
+            HAKy a TLK obsahují změny Demony oproti standartnímu NWN a jsou pro hraní na serveru bezpodmínečně nutné.<br />
+
+            <br />
+
+            <b>Základní balíček</b> <a href="http://gamepark.cz/download.asp?id=607699">.zip</a> (cca 164 MB) nebo <a href="download/inst-demona-5.03.x.7z">.7z</a> (cca 97 MB)<br />
+
+			<span style="padding-left:20px;">- vhodný především pro nové hráče a čestvé instalace NWN</span><br />
+
+			<span style="padding-left:20px;">- po stáhnutí soubor rozbalte do instalační složky NWN</span><br />
+
+			<span style="padding-left:20px;">- pokud si raději chcete stáhnout jednotlivé složky balíčku a nainstalovat si je sami, využijte podrobný rozpis</span>
+
+			<br /><br/>
+
+            <b>Podrobný rozpis HAKů a TLK</b><br />
+
+            <span style="padding-left:20px;">- následující soubory po stáhnutí rozbalte a umístěte do podadresáře "hak" ve složce, kde máte nainstalovanou hru</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-dem-config_22.zip">.zip</a> nebo <a href="download/hak-dem-config_22.7z">.7z</a> - dem-config_22.hak
+
+			</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-demonat1-castl.zip">.zip</a> nebo <a href="download/hak-demonat1-castl.7z">.7z</a> - demonat1 - castl.hak
+
+			</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-demonat2-ship.zip">.zip</a> nebo <a href="download/hak-demonat2-ship.7z">.7z</a> - demonat2 - ship.hak
+
+			</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-demonat3-rural.zip">.zip</a> nebo <a href="download/hak-demonat3-rural.7z">.7z</a> - demonat3 - rural.hak
+
+			</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-demonat4-mines.zip">.zip</a> nebo <a href="download/hak-demonat4-mines.7z">.7z</a> - demonat4 - mines.hak
+
+			</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-demonat5-water.zip">.zip</a> nebo <a href="download/hak-demonat5-water.7z">.7z</a> - demonat5 - water.hak
+
+			</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-demonat6-blank.zip">.zip</a> nebo <a href="download/hak-demonat6-blank.7z">.7z</a> - demonat6 - blank.hak
+
+			</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-demonat7-rock.zip">.zip</a> nebo <a href="download/hak-demonat7-rock.7z">.7z</a> - demonat7 - rock.hak
+
+			</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-demonat8-abys.zip">.zip</a> nebo <a href="download/hak-demonat8-abys.7z">.7z</a> - demonat8 - abys.hak
+
+			</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-demonat9-tyr.zip">.zip</a> nebo <a href="download/hak-demonat9-tyr.7z">.7z</a> - demonat9 - tyr.hak
+
+			</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-demonat10-baz.zip">.zip</a> nebo <a href="download/hak-demonat10-baz.7z">.7z</a> - demonat10 - baz.hak
+
+			</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-dm-creatures.zip">.zip</a> nebo <a href="download/hak-dm-creatures.7z">.7z</a> - dm - creatures.hak
+
+			</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-dm-itemy-v2.zip">.zip</a> nebo <a href="download/hak-dm-itemy-v2.7z">.7z</a> - dm - itemy_v2.hak
+
+			</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-dm-placeable.zip">.zip</a> nebo <a href="download/hak-dm-placeable.7z">.7z</a> - dm - placeable.hak
+
+			</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-dm-portret.zip">.zip</a> nebo <a href="download/hak-dm-portret.7z">.7z</a> - dm - portret.hak
+
+			</span><br />
+
+			<span style="padding-left:50px;">
+
+				<a href="download/hak-dm-cepheads.zip">.zip</a> nebo <a href="download/hak-dm-cepheads.7z">.7z</a> - dm-cepheads.hak
+
+			</span><br /><br />
+
+			<span style="padding-left:20px;">- následující soubor po stáhnutí rozbalte a umístěte do podadresáře "tlk" ve složce, kde máte nainstalovanou hru</span><br />
+
+            <span style="padding-left:50px;">
+
+				<a href="download/tlk-dem-tlk_01.zip">.zip</a> nebo <a href="download/tlk-dem-tlk_01.7z">.7z</a> - dem-tlk_01.tlk
+
+			</span><br />
+
+			<br />
+
+            <span class="nadpis_red">Doporučená rozšíření</span><br />
+
+            Přestože nejsou tyto soubory potřebné k připojení k serveru, výrazně zvyšují komfort hráčů.<br />
+
+            <br />
+
+            <b>České fonty</b> <a href="download/opt-csfont.zip">.zip</a> (cca 30 KB) nebo <a href="download/opt-csfont.7z">.7z</a> (cca 23 KB)<br />
+
+            <span style="padding-left:20px;">- po stáhnutí rozbalte a umístěte do podadresáře "override" ve složce, kde máte nainstalovanou hru</span><br />
+
+            <br />
+
+            <b>CEP hlavy</b> <a href="download/opt-cepheads.zip">.zip</a> (cca 18 MB) nebo <a href="download/opt-cepheads.7z">.7z</a> (cca 5.3 MB)<br />
+
+            <span style="padding-left:20px;">- po stáhnutí rozbalte a umístěte do podadresáře "override" ve složce, kde máte nainstalovanou hru</span><br />
+
+            <br />
+
+            <span class="nadpis_red">Volitelná rozšíření</span><br />
+
+            Soubory, jejichž instalace nemusí vyhovovat každému a je proto jen na vašem zvážení, zda po nich sáhnete.<br />
+
+            <br />
+
+            <b>Balíček portrétů</b> <a href="download/opt-portraits.zip">.zip</a> (cca 83 MB) nebo <a href="download/opt-portraits.7z">.7z</a> (cca 68 MB)<br />
+
+            <span style="padding-left:20px;">- po stáhnutí rozbalte a umístěte do podadresáře "portraits" ve složce, kde máte nainstalovanou hru</span><br />
+
+            <br />
+
+            <span class="nadpis_red">Nedoporučená rozšíření</span><br />
+
+            Soubory, které mohou být na jednu stranu užitečné, na druhou stranu mohou napáchat více škod než užitku.
+
+            Typickým příkladem je kompletní český překlad, který nejen že někdy nesmyslně komolí výrazy ale občas předkládá vyloženě nepravdivé informace.
+
+            Navíc jeho nainstalování komplikuje případný update NWN na novější verzi. DM mají instalaci přímo zakázánu.<br />
+
+            <br />
+
+            <b>Čeština pro verzi 1.69</b> (viz. <a href="http://www.neverwinter.cz/forum2//?showtopic=9070">www.neverwinter.cz/forum2</a>)
+
+            <br />
+
+			<br />
+
+      <span class="nadpis_red">Plakát modulu Demona</span><br />
+      <br />
+      <a href="http://www.demona.cz/download/dm_plagat1_CZ.pdf">PDF, česká verze, 12 MB</a><br />
+      <br />
+      <a href="http://www.demona.cz/download/dm_plagat1_CZ.png">PNG, česká verze, 4 MB</a><br />
+      <br />
+      <a href="http://www.demona.cz/download/dm_plagat1_CZ.jpg">JPG, česká verze, 300 KB</a><br />
+      <br />
+      <a href="http://www.demona.cz/download/dm_plagat1_SK.pdf">PDF, slovenská verzia, 12 MB</a><br />
+      <br />
+      <a href="http://www.demona.cz/download/dm_plagat1_SK.png">PNG, slovenská verzia, 4 MB</a><br />
+      <br />
+      <a href="http://www.demona.cz/download/dm_plagat1_SK.jpg">JPG, slovenská verzia, 300 KB</a><br />
+
+	    </td>
+
+	</tr>
+
+	<tr>
+
+		<td rowspan="2">
+
+			<img src="images/layout/demona_layout_07.png" width="214" height="174" alt="" />
+
+		</td>
+
+		<!--spodni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_08.png'); text-align:center; vertical-align:bottom;" width="726" height="113" >
+
+		   &nbsp;
+
+		</td>
+
+	</tr>
+
+	<tr>
+
+		<td colspan="2"> <!--class="tdNormalText" style="background-image:url('images/layout/demona_layout_09.png'); text-align:center; vertical-align:bottom;" width="726" height="61"-->
+
+            <img src="images/layout/demona_layout_09.png" width="726" height="61" alt="" />
+
+           <!-- <p class="podpis">last update <script type="text/javascript" language="JavaScript">last_update();</script> | hosted by epicnet.sk | 2008 &copy; R&D</p>-->
+
+		</td>
+
+	</tr>
+
+</table>
+
+</div>
+
+</body>
+
+</html>
+

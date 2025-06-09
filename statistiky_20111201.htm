@@ -1,0 +1,3369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="demona.css" rel="Stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="images/ico.jpg" />
+    <script type="text/javascript" src="demona.js" ></script>
+    <script type="text/javascript" src="highlight.js"></script>
+    <title>Demona NWN Module</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-25374267-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+<body>
+<div id="content">
+<table id="statistics" align="center" width="940"  border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td rowspan="2">
+			<img src="images/layout/demona_layout_01.png" width="214" height="384" alt="" /></td>
+		<td>
+			<img src="images/layout/demona_layout_02.png" width="445" height="246" alt="" /></td>
+		<td>
+		    <map id="menu" name="menu">
+		        <area shape="poly" alt="Demona" coords="46,5,223,14,223,47,134,60,46,48" onmouseover="mapSvetDemona_over()" onmouseout="mapSvet_out()" href="/"/>
+		        <area shape="poly" alt="Download" coords="54,56,135,63,236,46,250,70,149,104,54,109" href="downloads.htm" onmouseover="mapSvetDownload_over()" onmouseout="mapSvet_out()" />
+		        <area shape="poly" alt="Fórum" coords="110,125,235,83,239,103,137,166" href="/forum" onmouseover="mapSvetForum_over()" onmouseout="mapSvet_out()" />
+		        <area shape="poly" alt="Svět" coords="162,168,250,105,264,131,195,204" href="svet.htm"  />
+		    </map>
+			<img id="menuDemona" src="images/layout/demona_layout_03_svet.jpg" width="281" height="246" alt="" usemap="#menu" style="border:none;" /></td>
+	</tr>
+	<tr>
+	    <!--horni text-->
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_04.png');" width="726" height="138">
+	        <a href="/">Demona</a> > <a href="svet.htm">Svět</a> > Statistiky<br />
+	        <br />
+	        Zde jsou v měsíčních intervalech uveřejňovány vybrané zajímavé údaje z vašich postaviček.
+	        Kdo se chce do kronik světa zapsat i jinak než pletichařením na politické scéně, otvírají se mu o kousek níže netušené možnosti...<br />
+	        <br />
+	        Z důvodu zachování alespoň částečné anonymity a taktéž zvýšení vzájemné rivality nejsou uvedena čísla absolutní, ale ve většině případů
+	        jen percentuální podíl ku hráči na prvním místě.
+	        </td>
+	</tr>
+	<tr>
+		<td style="background-image:url('images/layout/demona_layout_05.png');">
+		</td>
+		<!--hlavni text-->
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_06.png');">
+
+
+		<!--
+		<img src="images/layout/hore.gif" width="16" height="16" alt="" />
+		<img src="images/layout/dolu.gif" width="16" height="16" alt="" />
+		<img src="images/layout/hviezda.gif" width="16" height="16" alt="" />
+		-->
+
+		<table width="100%">
+			<tr>
+				<td width="33%" align="left">
+					<a href="statistiky_20111101.htm">&lt;&lt; Předchozí statistika</a>
+				</td>
+				<td width="33%" align="center">
+					<a href="statistiky.htm">Seznam všech statistik</a>
+				</td>
+				<td width="33%" align="right">
+					<a href="statistiky_20120101.htm">Následující statistika &gt;&gt;</a>
+				</td>
+			</tr>
+		</table>
+    <br />
+
+		 <table class="tableStats" cellpadding="0" cellspacing="0" >
+		    <col width="50px" />
+		    <col width="90px" />
+		    <col width="275px" />
+		    <col  />
+
+		    <tr class="headingRow">
+		        <td colspan="4" style="font-size:16px;" >
+		            Dag (Vrchní náčelník)
+		        </td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td>
+		            Pořadí
+		        </td>
+		        <td>
+		            Poměr zabití v porovnání s nejlepším
+		        </td>
+		        <td>
+		            Jméno postavy
+		        </td>
+		        <td>
+		            Jméno účtu
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            1.
+		        </td>
+		        <td>
+		            100%
+		        </td>
+		        <td>
+		            <div style="float:left;">Toryel Ralven</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Toryel Ralven">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Toryel Ralven
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            2.
+		        </td>
+		        <td>
+		            93%
+		        </td>
+		        <td>
+		            <div style="float:left;">KANO</div>
+		            <div style="float:right;">
+		                <a href="?highlight=KANO">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            KANO_T
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            3.
+		        </td>
+		        <td>
+		            91%
+		        </td>
+		        <td>
+		            <div style="float:left;">Hejkal The Crusaider</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Hejkal The Crusaider">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Hejkal
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            4.
+		        </td>
+		        <td>
+		            82%
+		        </td>
+		        <td>
+		            <div style="float:left;">Arenya Debroayne</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Arenya Debroayne">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            GT.Hornet
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            5.
+		        </td>
+		        <td>
+		            81%
+		        </td>
+		        <td>
+		            <div style="float:left;">Kelty</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Kelty">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Seraph_MH
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            6.
+		        </td>
+		        <td>
+		            76%
+		        </td>
+		        <td>
+		            <div style="float:left;">Terka Loo</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Terka Loo">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            M4rSX
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            7.
+		        </td>
+		        <td>
+		            74%
+		        </td>
+		        <td>
+		            <div style="float:left;">Tiffany</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Tiffany">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Ter Leeloo II
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            8.
+		        </td>
+		        <td>
+		            60%
+		        </td>
+		        <td>
+		            <div style="float:left;">Vigo</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Vigo">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            altharian01
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            9.
+		        </td>
+		        <td>
+		            59%
+		        </td>
+		        <td>
+		            <div style="float:left;">Kara</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Kara">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            fetacik
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            10.
+		        </td>
+		        <td>
+		            56%
+		        </td>
+		        <td>
+		            <div style="float:left;">Eriana Le'lyn</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Eriana Le'lyn">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            xxxMajkyxxx
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td colspan="4" style="border:none; background-image:url('images/layout/demona_layout_06.png')">&nbsp;</td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td colspan="4" style="font-size:16px;" >
+		            Gag (Nejvyšší šaman)
+		        </td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td>
+		            Pořadí
+		        </td>
+		        <td>
+		            Poměr zabití v porovnání s nejlepším
+		        </td>
+		        <td>
+		            Jméno postavy
+		        </td>
+		        <td>
+		            Jméno účtu
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            1.
+		        </td>
+		        <td>
+		            100%
+		        </td>
+		        <td>
+		            <div style="float:left;">Katherine Gelven</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Katherine Gelven">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            M4rSX
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            2.
+		        </td>
+		        <td>
+		            88%
+		        </td>
+		        <td>
+		            <div style="float:left;">Xelis</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Xelis">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            xelis1
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            3.
+		        </td>
+		        <td>
+		            71%
+		        </td>
+		        <td>
+		            <div style="float:left;">Lara</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Lara">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Silvaner01
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            4.
+		        </td>
+		        <td>
+		            69%
+		        </td>
+		        <td>
+		            <div style="float:left;">Karin</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Karin">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Paul325
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            5.
+		        </td>
+		        <td>
+		            59%
+		        </td>
+		        <td>
+		            <div style="float:left;">Gyros</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Gyros">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Mistr Killian
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            6.
+		        </td>
+		        <td>
+		            55%
+		        </td>
+		        <td>
+		            <div style="float:left;">Mate</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Mate">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Lord Mate
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            7.
+		        </td>
+		        <td>
+		            51%
+		        </td>
+		        <td>
+		            <div style="float:left;">Dainty Bibelverdt</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Dainty Bibelverdt">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Bedra
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            8.
+		        </td>
+		        <td>
+		            45%
+		        </td>
+		        <td>
+		            <div style="float:left;">Tiffany</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Tiffany">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Ter Leeloo II
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            9.
+		        </td>
+		        <td>
+		            35%
+		        </td>
+		        <td>
+		            <div style="float:left;">Havran</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Havran">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Lord Mate the Great
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            10.
+		        </td>
+		        <td>
+		            31%
+		        </td>
+		        <td>
+		            <div style="float:left;">Marty</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Marty">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            spartaforever
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td colspan="4" style="border:none; background-image:url('images/layout/demona_layout_06.png')">&nbsp;</td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td colspan="4" style="font-size:16px;" >
+		            Strážný Golemek klanu Gurmil
+		        </td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td>
+		            Pořadí
+		        </td>
+		        <td>
+		            Poměr zabití v porovnání s nejlepším
+		        </td>
+		        <td>
+		            Jméno postavy
+		        </td>
+		        <td>
+		            Jméno účtu
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            1.
+		        </td>
+		        <td>
+		            100%
+		        </td>
+		        <td>
+		            <div style="float:left;">Katherine Gelven</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Katherine Gelven">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            M4rSX
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            2.
+		        </td>
+		        <td>
+		            69%
+		        </td>
+		        <td>
+		            <div style="float:left;">Silvanera Golds</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Silvanera Golds">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Silvaner01
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            3.
+		        </td>
+		        <td>
+		            56%
+		        </td>
+		        <td>
+		            <div style="float:left;">Mate</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Mate">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Lord Mate
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            4.
+		        </td>
+		        <td>
+		            53%
+		        </td>
+		        <td>
+		            <div style="float:left;">Nicole</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Nicole">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            M4rSX
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            5.
+		        </td>
+		        <td>
+		            53%
+		        </td>
+		        <td>
+		            <div style="float:left;">Murdoch</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Murdoch">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Krahujec
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            6.
+		        </td>
+		        <td>
+		            51%
+		        </td>
+		        <td>
+		            <div style="float:left;">Toryel Ralven</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Toryel Ralven">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Toryel Ralven
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            7.
+		        </td>
+		        <td>
+		            51%
+		        </td>
+		        <td>
+		            <div style="float:left;">Havran</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Havran">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Lord Mate the Great
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            8.
+		        </td>
+		        <td>
+		            43%
+		        </td>
+		        <td>
+		            <div style="float:left;">Merry</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Merry">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            xelis1
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            9.
+		        </td>
+		        <td>
+		            43%
+		        </td>
+		        <td>
+		            <div style="float:left;">Dainty Bibelverdt</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Dainty Bibelverdt">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Bedra
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            10.
+		        </td>
+		        <td>
+		            43%
+		        </td>
+		        <td>
+		            <div style="float:left;">Karin</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Karin">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Paul325
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td colspan="4" style="border:none; background-image:url('images/layout/demona_layout_06.png')">&nbsp;</td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td colspan="4" style="font-size:16px;" >
+		            Pán Lichů
+		        </td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td>
+		            Pořadí
+		        </td>
+		        <td>
+		            Poměr zabití v porovnání s nejlepším
+		        </td>
+		        <td>
+		            Jméno postavy
+		        </td>
+		        <td>
+		            Jméno účtu
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            1.
+		        </td>
+		        <td>
+		            100%
+		        </td>
+		        <td>
+		            <div style="float:left;">Mate</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Mate">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Lord Mate
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            2.
+		        </td>
+		        <td>
+		            79%
+		        </td>
+		        <td>
+		            <div style="float:left;">Havran</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Havran">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Lord Mate the Great
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            3.
+		        </td>
+		        <td>
+		            18%
+		        </td>
+		        <td>
+		            <div style="float:left;">Murdoch</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Murdoch">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Krahujec
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            4.
+		        </td>
+		        <td>
+		            10%
+		        </td>
+		        <td>
+		            <div style="float:left;">Syclya Jooscient</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Syclya Jooscient">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Aledorn
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            5.
+		        </td>
+		        <td>
+		            9%
+		        </td>
+		        <td>
+		            <div style="float:left;">Godefoi Heiligschlag</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Godefoi Heiligschlag">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Eliter_Optimus
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            6.
+		        </td>
+		        <td>
+		            9%
+		        </td>
+		        <td>
+		            <div style="float:left;">Dainty Bibelverdt</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Dainty Bibelverdt">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Bedra
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            7.
+		        </td>
+		        <td>
+		            9%
+		        </td>
+		        <td>
+		            <div style="float:left;">Gozer</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Gozer">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            altharian01
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            8.
+		        </td>
+		        <td>
+		            8%
+		        </td>
+		        <td>
+		            <div style="float:left;">Toryel Ralven</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Toryel Ralven">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Toryel Ralven
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            9.
+		        </td>
+		        <td>
+		            8%
+		        </td>
+		        <td>
+		            <div style="float:left;">Rachel Mael Sechlainn</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Rachel Mael Sechlainn">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            M4rSX
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            10.
+		        </td>
+		        <td>
+		            7%
+		        </td>
+		        <td>
+		            <div style="float:left;">Erkwinn</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Erkwinn">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            martin
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td colspan="4" style="border:none; background-image:url('images/layout/demona_layout_06.png')">&nbsp;</td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td colspan="4" style="font-size:16px;" >
+		            Mazlíček Pána Lichů
+		        </td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td>
+		            Pořadí
+		        </td>
+		        <td>
+		            Poměr zabití v porovnání s nejlepším
+		        </td>
+		        <td>
+		            Jméno postavy
+		        </td>
+		        <td>
+		            Jméno účtu
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            1.
+		        </td>
+		        <td>
+		            100%
+		        </td>
+		        <td>
+		            <div style="float:left;">Mate</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Mate">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Lord Mate
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            2.
+		        </td>
+		        <td>
+		            80%
+		        </td>
+		        <td>
+		            <div style="float:left;">Havran</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Havran">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Lord Mate the Great
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            3.
+		        </td>
+		        <td>
+		            30%
+		        </td>
+		        <td>
+		            <div style="float:left;">Murdoch</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Murdoch">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Krahujec
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            4.
+		        </td>
+		        <td>
+		            17%
+		        </td>
+		        <td>
+		            <div style="float:left;">Syclya Jooscient</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Syclya Jooscient">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Aledorn
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            5.
+		        </td>
+		        <td>
+		            17%
+		        </td>
+		        <td>
+		            <div style="float:left;">Godefoi Heiligschlag</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Godefoi Heiligschlag">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Eliter_Optimus
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            6.
+		        </td>
+		        <td>
+		            13%
+		        </td>
+		        <td>
+		            <div style="float:left;">Anaron</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Anaron">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Honzaa
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            7.
+		        </td>
+		        <td>
+		            11%
+		        </td>
+		        <td>
+		            <div style="float:left;">Erkwinn</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Erkwinn">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            martin
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            8.
+		        </td>
+		        <td>
+		            11%
+		        </td>
+		        <td>
+		            <div style="float:left;">Dainty Bibelverdt</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Dainty Bibelverdt">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Bedra
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            9.
+		        </td>
+		        <td>
+		            10%
+		        </td>
+		        <td>
+		            <div style="float:left;">Alex</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Alex">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Pistuch
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            10.
+		        </td>
+		        <td>
+		            9%
+		        </td>
+		        <td>
+		            <div style="float:left;">Sir Hrouda II</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Sir Hrouda II">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Sir Hrouda
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td colspan="4" style="border:none; background-image:url('images/layout/demona_layout_06.png')">&nbsp;</td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td colspan="4" style="font-size:16px;" >
+		            Železožrout
+		        </td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td>
+		            Pořadí
+		        </td>
+		        <td>
+		            Poměr zabití v porovnání s nejlepším
+		        </td>
+		        <td>
+		            Jméno postavy
+		        </td>
+		        <td>
+		            Jméno účtu
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            1.
+		        </td>
+		        <td>
+		            100%
+		        </td>
+		        <td>
+		            <div style="float:left;">Mate</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Mate">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Lord Mate
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            2.
+		        </td>
+		        <td>
+		            67%
+		        </td>
+		        <td>
+		            <div style="float:left;">Katherine Gelven</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Katherine Gelven">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            M4rSX
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            3.
+		        </td>
+		        <td>
+		            63%
+		        </td>
+		        <td>
+		            <div style="float:left;">Havran</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Havran">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Lord Mate the Great
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            4.
+		        </td>
+		        <td>
+		            59%
+		        </td>
+		        <td>
+		            <div style="float:left;">Ket</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Ket">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Rata Mahata
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            5.
+		        </td>
+		        <td>
+		            58%
+		        </td>
+		        <td>
+		            <div style="float:left;">Monara Golds</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Monara Golds">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Silvaner01
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            6.
+		        </td>
+		        <td>
+		            55%
+		        </td>
+		        <td>
+		            <div style="float:left;">Samuel</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Samuel">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Paulus_CZ
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            7.
+		        </td>
+		        <td>
+		            47%
+		        </td>
+		        <td>
+		            <div style="float:left;">Murdoch</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Murdoch">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Krahujec
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            8.
+		        </td>
+		        <td>
+		            45%
+		        </td>
+		        <td>
+		            <div style="float:left;">Padrill</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Padrill">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Timirek
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            9.
+		        </td>
+		        <td>
+		            44%
+		        </td>
+		        <td>
+		            <div style="float:left;">Erkwinn</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Erkwinn">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            martin
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            10.
+		        </td>
+		        <td>
+		            41%
+		        </td>
+		        <td>
+		            <div style="float:left;">Merry</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Merry">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            xelis1
+		        </td>
+		    </tr>
+
+	            <tr>
+		        <td colspan="4" style="border:none; background-image:url('images/layout/demona_layout_06.png')">&nbsp;</td>
+		    </tr>
+
+			<tr class="headingRow">
+		        <td colspan="4" style="font-size:16px;">Ohnivý démon</td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td>Pořadí</td>
+		        <td>Poměr zabití v porovnání s nejlepším</td>
+		        <td>Jméno postavy</td>
+		        <td>Jméno účtu</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>1.</td>
+		        <td>100%</td>
+		        <td>
+		            <div style="float:left;">Mate</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Mate">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Lord Mate</td>
+		    </tr>
+
+		    <tr>
+		        <td>2.</td>
+		        <td>88%</td>
+		        <td>
+		            <div style="float:left;">Monara Golds</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Monara Golds">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Silvaner01</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>3.</td>
+		        <td>84%</td>
+		        <td>
+		            <div style="float:left;">Katherine Gelven</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Katherine Gelven">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>M4rSX</td>
+		    </tr>
+
+		    <tr>
+		        <td>4.</td>
+		        <td>80%</td>
+		        <td>
+		            <div style="float:left;">Padrill</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Padrill">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Timirek</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>5.</td>
+		        <td>68%</td>
+		        <td>
+		            <div style="float:left;">Havran</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Havran">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Lord Mate the Great</td>
+		    </tr>
+
+		    <tr>
+		        <td>6.</td>
+		        <td>67%</td>
+		        <td>
+		            <div style="float:left;">Ket</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Ket">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Rata Mahata</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>7.</td>
+		        <td>61%</td>
+		        <td>
+		            <div style="float:left;">Samuel</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Samuel">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Paulus_CZ</td>
+		    </tr>
+
+		    <tr>
+		        <td>8.</td>
+		        <td>57%</td>
+		        <td>
+		            <div style="float:left;">Murdoch</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Murdoch">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Krahujec</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>9.</td>
+		        <td>55%</td>
+		        <td>
+		            <div style="float:left;">Merry</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Merry">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>xelis1</td>
+		    </tr>
+
+		    <tr>
+		        <td>10.</td>
+		        <td>52%</td>
+		        <td>
+		            <div style="float:left;">Marcus</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Marcus">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Paulus_CZ</td>
+		    </tr>
+
+		    <tr>
+		        <td colspan="4" style="border:none; background-image:url('images/layout/demona_layout_06.png')">&nbsp;</td>
+		    </tr>
+
+			<tr class="headingRow">
+		        <td colspan="4" style="font-size:16px;" >
+		            Isseth
+		        </td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td>Pořadí</td>
+		        <td>Poměr zabití v porovnání s nejlepším</td>
+		        <td>Jméno postavy</td>
+		        <td>Jméno účtu</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>1.</td>
+		        <td>100%</td>
+		        <td>
+		            <div style="float:left;">Katherine Gelven</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Katherine Gelven">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>M4rSX</td>
+		    </tr>
+
+		    <tr>
+		        <td>2.</td>
+		        <td>76%</td>
+		        <td>
+		            <div style="float:left;">Karin</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Karin">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Paul325</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>3.</td>
+		        <td>62%</td>
+		        <td>
+		            <div style="float:left;">Gyros</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Gyros">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Mistr Killian</td>
+		    </tr>
+
+		    <tr>
+		        <td>4.</td>
+		        <td>34%</td>
+		        <td>
+		            <div style="float:left;">Sparta</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Sparta">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>spartaforever</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>5.</td>
+		        <td>34%</td>
+		        <td>
+		            <div style="float:left;">Alneira</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Alneira">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Meandriel</td>
+		    </tr>
+
+		    <tr>
+		        <td>6.</td>
+		        <td>31%</td>
+		        <td>
+		            <div style="float:left;">Tulipán</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Tulipán">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Timirek</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>7.</td>
+		        <td>24%</td>
+		        <td>
+		            <div style="float:left;">Kallisto</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Kallisto">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>xelis1</td>
+		    </tr>
+
+		    <tr>
+		        <td>8.</td>
+		        <td>24%</td>
+		        <td>
+		            <div style="float:left;">Silvanera Golds</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Silvanera Golds">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Silvaner01</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>9.</td>
+		        <td>24%</td>
+		        <td>
+		            <div style="float:left;">Gorhynk Dračí hněv</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Gorhynk Dračí hněv">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>GT.Hornet</td>
+		    </tr>
+
+		    <tr>
+		        <td>10.</td>
+		        <td>21%</td>
+		        <td>
+		            <div style="float:left;">Havran</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Havran">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Lord Mate the Great</td>
+		    </tr>
+
+		    <tr>
+		        <td colspan="4" style="border:none; background-image:url('images/layout/demona_layout_06.png')">&nbsp;</td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td colspan="4" style="font-size:16px;" >
+		            Orleg
+		        </td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td>
+		            Pořadí
+		        </td>
+		        <td>
+		            Poměr zabití v porovnání s nejlepším
+		        </td>
+		        <td>
+		            Jméno postavy
+		        </td>
+		        <td>
+		            Jméno účtu
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            1.
+		        </td>
+		        <td>
+		            100%
+		        </td>
+		        <td>
+		            <div style="float:left;">Havran</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Havran">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Lord Mate the Great
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            2.
+		        </td>
+		        <td>
+		            61%
+		        </td>
+		        <td>
+		            <div style="float:left;">William Haller</div>
+		            <div style="float:right;">
+		                <a href="?highlight=William Haller">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Darkus_CZ
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            3.
+		        </td>
+		        <td>
+		            49%
+		        </td>
+		        <td>
+		            <div style="float:left;">Toryel Ralven</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Toryel Ralven">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Toryel Ralven
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            4.
+		        </td>
+		        <td>
+		            42%
+		        </td>
+		        <td>
+		            <div style="float:left;">Alneira</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Alneira">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Meandriel
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            5.
+		        </td>
+		        <td>
+		            38%
+		        </td>
+		        <td>
+		            <div style="float:left;">Njoerdan</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Njoerdan">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Meandriel
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            6.
+		        </td>
+		        <td>
+		            32%
+		        </td>
+		        <td>
+		            <div style="float:left;">Pukavec</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Pukavec">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            hastrman
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            7.
+		        </td>
+		        <td>
+		            32%
+		        </td>
+		        <td>
+		            <div style="float:left;">Hejkal Ansti</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Hejkal Ansti">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Hejkal
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            8.
+		        </td>
+		        <td>
+		            32%
+		        </td>
+		        <td>
+		            <div style="float:left;">Drax Smith</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Drax Smith">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            petr111111
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            9.
+		        </td>
+		        <td>
+		            31%
+		        </td>
+		        <td>
+		            <div style="float:left;">Alenka</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Alenka">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            MrKure
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            10.
+		        </td>
+		        <td>
+		            29%
+		        </td>
+		        <td>
+		            <div style="float:left;">Hejkal The Crusaider</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Hejkal The Crusaider">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Hejkal
+		        </td>
+		    </tr>
+
+	            <tr>
+		        <td colspan="4" style="border:none; background-image:url('images/layout/demona_layout_06.png')">&nbsp;</td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td colspan="4" style="font-size:16px;" >
+		            Adamantinový Golem
+		        </td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td>
+		            Pořadí
+		        </td>
+		        <td>
+		            Poměr zabití v porovnání s nejlepším
+		        </td>
+		        <td>
+		            Jméno postavy
+		        </td>
+		        <td>
+		            Jméno účtu
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            1.
+		        </td>
+		        <td>
+		            100%
+		        </td>
+		        <td>
+		            <div style="float:left;">Lusianna Golds</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Lusianna Golds">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Silvaner01
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            2.
+		        </td>
+		        <td>
+		            95%
+		        </td>
+		        <td>
+		            <div style="float:left;">Natasa </div>
+		            <div style="float:right;">
+		                <a href="?highlight=Natasa ">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            KANO_T
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            3.
+		        </td>
+		        <td>
+		            80%
+		        </td>
+		        <td>
+		            <div style="float:left;">Haribald Velkolepý</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Haribald Velkolepý">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Timirek
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            4.
+		        </td>
+		        <td>
+		            76%
+		        </td>
+		        <td>
+		            <div style="float:left;">Nick Kee</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Nick Kee">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            M4rSX
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            5.
+		        </td>
+		        <td>
+		            73%
+		        </td>
+		        <td>
+		            <div style="float:left;">Pirat</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Pirat">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            pirat942
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            6.
+		        </td>
+		        <td>
+		            73%
+		        </td>
+		        <td>
+		            <div style="float:left;">Pepan z Josefova</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Pepan z Josefova">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Paulus_CZ
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            7.
+		        </td>
+		        <td>
+		            60%
+		        </td>
+		        <td>
+		            <div style="float:left;">Havran</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Havran">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Lord Mate the Great
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            8.
+		        </td>
+		        <td>
+		            58%
+		        </td>
+		        <td>
+		            <div style="float:left;">Keltor</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Keltor">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            altharian01
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            9.
+		        </td>
+		        <td>
+		            47%
+		        </td>
+		        <td>
+		            <div style="float:left;">Mate</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Mate">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Lord Mate
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            10.
+		        </td>
+		        <td>
+		            36%
+		        </td>
+		        <td>
+		            <div style="float:left;">Toryel Ralven</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Toryel Ralven">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Toryel Ralven
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td colspan="4" style="border:none; background-image:url('images/layout/demona_layout_06.png')">&nbsp;</td>
+		    </tr>
+
+			<tr class="headingRow">
+		        <td colspan="4" style="font-size:16px;" >
+		            Pouštní mravenec
+		        </td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td>Pořadí</td>
+		        <td>Poměr zabití v porovnání s nejlepším</td>
+		        <td>Jméno postavy</td>
+		        <td>Jméno účtu</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>1.</td>
+		        <td>100%</td>
+		        <td>
+		            <div style="float:left;">Gozer</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Gozer">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>altharian01</td>
+		    </tr>
+
+		    <tr>
+		        <td>2.</td>
+		        <td>96%</td>
+		        <td>
+		            <div style="float:left;">Katherine Gelven</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Katherine Gelven">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>M4rSX</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>3.</td>
+		        <td>61%</td>
+		        <td>
+		            <div style="float:left;">Padrill</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Padrill">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Timirek</td>
+		    </tr>
+
+		    <tr>
+		        <td>4.</td>
+		        <td>60%</td>
+		        <td>
+		            <div style="float:left;">Munen Dessh</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Munen Dessh">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Honzaa</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>5.</td>
+		        <td>44%</td>
+		        <td>
+		            <div style="float:left;">Sefira</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Sefira">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Silvaner01</td>
+		    </tr>
+
+		    <tr>
+		        <td>6.</td>
+		        <td>39%</td>
+		        <td>
+		            <div style="float:left;">Murdoch</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Murdoch">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Krahujec</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>7.</td>
+		        <td>35%</td>
+		        <td>
+		            <div style="float:left;">Merry</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Merry">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>xelis1</td>
+		    </tr>
+
+		    <tr>
+		        <td>8.</td>
+		        <td>34%</td>
+		        <td>
+		            <div style="float:left;">Aengela Neagley</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Aengela Neagley">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Pistuch</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>9.</td>
+		        <td>31%</td>
+		        <td>
+		            <div style="float:left;">Pepan z Josefova</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Pepan z Josefova">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>Paulus_CZ</td>
+		    </tr>
+
+		    <tr>
+		        <td>10.</td>
+		        <td>26%</td>
+		        <td>
+		            <div style="float:left;">Victoria Mekhet</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Victoria Mekhet">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>xelis1</td>
+		    </tr>
+
+		    <tr>
+		        <td colspan="4" style="border:none; background-image:url('images/layout/demona_layout_06.png')">&nbsp;</td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td colspan="4" style="font-size:16px;" >
+		            Hráč s nejvyšším počtem zabitých NPC
+		        </td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td>
+		            Pořadí
+		        </td>
+		        <td>
+		            Poměr zabití v porovnání s nejlepším
+		        </td>
+		        <td>
+		            Jméno postavy
+		        </td>
+		        <td>
+		            Jméno účtu
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            1.
+		        </td>
+		        <td>
+		            100%
+		        </td>
+		        <td>
+		            <div style="float:left;">Toryel Ralven</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Toryel Ralven">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Toryel Ralven
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            2.
+		        </td>
+		        <td>
+		            96%
+		        </td>
+		        <td>
+		            <div style="float:left;">Alneira</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Alneira">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Meandriel
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            3.
+		        </td>
+		        <td>
+		            94%
+		        </td>
+		        <td>
+		            <div style="float:left;">Murdoch</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Murdoch">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Krahujec
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            4.
+		        </td>
+		        <td>
+		            93%
+		        </td>
+		        <td>
+		            <div style="float:left;">Katherine Gelven</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Katherine Gelven">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            M4rSX
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            5.
+		        </td>
+		        <td>
+		            92%
+		        </td>
+		        <td>
+		            <div style="float:left;">Hejkal The Crusaider</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Hejkal The Crusaider">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Hejkal
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            6.
+		        </td>
+		        <td>
+		            91%
+		        </td>
+		        <td>
+		            <div style="float:left;">Gozer</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Gozer">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            altharian01
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            7.
+		        </td>
+		        <td>
+		            81%
+		        </td>
+		        <td>
+		            <div style="float:left;">KANO</div>
+		            <div style="float:right;">
+		                <a href="?highlight=KANO">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            KANO_T
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            8.
+		        </td>
+		        <td>
+		            79%
+		        </td>
+		        <td>
+		            <div style="float:left;">Ket</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Ket">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Rata Mahata
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            9.
+		        </td>
+		        <td>
+		            72%
+		        </td>
+		        <td>
+		            <div style="float:left;">William Haller</div>
+		            <div style="float:right;">
+		                <a href="?highlight=William Haller">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Darkus_CZ
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            10.
+		        </td>
+		        <td>
+		            71%
+		        </td>
+		        <td>
+		            <div style="float:left;">Mate</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Mate">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Lord Mate
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td colspan="4" style="border:none; background-image:url('images/layout/demona_layout_06.png')">&nbsp;</td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td colspan="4" style="font-size:16px;" >
+		            Hráč s nejvyšším obnosem v bance a měšci
+		        </td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td>
+		            Pořadí
+		        </td>
+		        <td>
+		            Poměr částky vůči nejlepšímu
+		        </td>
+		        <td>
+		            Jméno postavy
+		        </td>
+		        <td>
+		            Jméno účtu
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            1.
+		        </td>
+		        <td>
+		            100%
+		        </td>
+		        <td>
+		            <div style="float:left;">Merry</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Merry">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            xelis1
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            2.
+		        </td>
+		        <td>
+		            100%
+		        </td>
+		        <td>
+		            <div style="float:left;">Kara Steel</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Kara Steel">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Paulus_CZ
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            3.
+		        </td>
+		        <td>
+		            91%
+		        </td>
+		        <td>
+		            <div style="float:left;">Murdoch</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Murdoch">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Krahujec
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            4.
+		        </td>
+		        <td>
+		            82%
+		        </td>
+		        <td>
+		            <div style="float:left;">Havran</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Havran">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Lord Mate the Great
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            5.
+		        </td>
+		        <td>
+		            81%
+		        </td>
+		        <td>
+		            <div style="float:left;">Rold</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Rold">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            koumakxxx
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            6.
+		        </td>
+		        <td>
+		            58%
+		        </td>
+		        <td>
+		            <div style="float:left;">Lara</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Lara">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Silvaner01
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            7.
+		        </td>
+		        <td>
+		            47%
+		        </td>
+		        <td>
+		            <div style="float:left;">Katherine Gelven</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Katherine Gelven">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            M4rSX
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            8.
+		        </td>
+		        <td>
+		            42%
+		        </td>
+		        <td>
+		            <div style="float:left;">Timir</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Timir">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Timirek
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            9.
+		        </td>
+		        <td>
+		            37%
+		        </td>
+		        <td>
+		            <div style="float:left;">Nicole</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Nicole">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            M4rSX
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            10.
+		        </td>
+		        <td>
+		            30%
+		        </td>
+		        <td>
+		            <div style="float:left;">Sefira</div>
+		            <div style="float:right;">
+		                <a href="?highlight=Sefira">
+		                    <img src="images/layout/highlight.gif" alt="zvýraznit" title="zvýraznit" style="border:none;" />
+		                </a>
+		            </div>
+		        </td>
+		        <td>
+		            Silvaner01
+		        </td>
+		    </tr>
+		</table>
+
+		<br />
+
+		<table class="tableStats" cellpadding="0" cellspacing="0" >
+		    <col width="50px" />
+		    <col width="450px" />
+		    <col  />
+		    <col  />
+
+		    <tr class="headingRow">
+		        <td colspan="4" style="font-size:16px;" >
+		            Nejčastější povolání
+		        </td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td>
+		            Pořadí
+		        </td>
+		        <td>
+		            Povolání
+		        </td>
+		        <td>
+		            Počet postav obsahující povolání
+		        </td>
+		        <td>
+		            Průměrný počet úrovní u postavy
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            1.
+		        </td>
+		        <td>
+		            <img src="images/layout/16fighter.gif" width="16" height="16" alt="" /> Bojovník
+		        </td>
+		        <td>
+		            684
+		        </td>
+		        <td>
+		            6
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            2.
+		        </td>
+		        <td>
+		            <img src="images/layout/16rogue.gif" width="16" height="16" alt="" /> Zloděj
+		        </td>
+		        <td>
+		            459
+		        </td>
+		        <td>
+		            5
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            3.
+		        </td>
+		        <td>
+		            <img src="images/layout/16monk.gif" width="16" height="16" alt="" /> Mnich
+		        </td>
+		        <td>
+		            340
+		        </td>
+		        <td>
+		            5
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            4.
+		        </td>
+		        <td>
+		            <img src="images/layout/16cleric.gif" width="16" height="16" alt="" /> Klerik
+		        </td>
+		        <td>
+		            317
+		        </td>
+		        <td>
+		            11
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            5.
+		        </td>
+		        <td>
+		            <img src="images/layout/16bard.gif" width="16" height="16" alt="" /> Bard
+		        </td>
+		        <td>
+		            226
+		        </td>
+		        <td>
+		            6
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            6.
+		        </td>
+		        <td>
+		            <img src="images/layout/16wizard.gif" width="16" height="16" alt="" /> Čaroděj
+		        </td>
+		        <td>
+		            147
+		        </td>
+		        <td>
+		            9
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            7.
+		        </td>
+		        <td>
+		            <img src="images/layout/16paladin.gif" width="16" height="16" alt="" /> Paladin
+		        </td>
+		        <td>
+		            133
+		        </td>
+		        <td>
+		            6
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            8.
+		        </td>
+		        <td>
+		            <img src="images/layout/16weaponmaster.gif" width="16" height="16" alt="" /> Pán zbraně
+		        </td>
+		        <td>
+		            130
+		        </td>
+		        <td>
+		            7
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            9.
+		        </td>
+		        <td>
+		            <img src="images/layout/16ranger.gif" width="16" height="16" alt="" /> Hraničář
+		        </td>
+		        <td>
+		            111
+		        </td>
+		        <td>
+		            6
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            10.
+		        </td>
+		        <td>
+		            <img src="images/layout/16reddragondisciple.gif" width="16" height="16" alt="" /> Učedník rudého draka
+		        </td>
+		        <td>
+		            111
+		        </td>
+		        <td>
+		            7
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            11.
+		        </td>
+		        <td>
+		            <img src="images/layout/16sorcerer.gif" width="16" height="16" alt="" /> Zaklínač
+		        </td>
+		        <td>
+		            102
+		        </td>
+		        <td>
+		            7
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            12.
+		        </td>
+		        <td>
+		            <img src="images/layout/16druid.gif" width="16" height="16" alt="" /> Druid
+		        </td>
+		        <td>
+		            93
+		        </td>
+		        <td>
+		            7
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            13.
+		        </td>
+		        <td>
+		            <img src="images/layout/16shadowdancer.gif" width="16" height="16" alt="" /> Stínový tanečník
+		        </td>
+		        <td>
+		            85
+		        </td>
+		        <td>
+		            3
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            14.
+		        </td>
+		        <td>
+		            <img src="images/layout/16barbarian.gif" width="16" height="16" alt="" /> Barbar
+		        </td>
+		        <td>
+		            82
+		        </td>
+		        <td>
+		            5
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            15.
+		        </td>
+		        <td>
+		            <img src="images/layout/16arcanearcher.gif" width="16" height="16" alt="" /> Tajemný lučištník
+		        </td>
+		        <td>
+		            40
+		        </td>
+		        <td>
+		            10
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            16.
+		        </td>
+		        <td>
+		            <img src="images/layout/16championoftorm.gif" width="16" height="16" alt="" /> Tormův hrdina
+		        </td>
+		        <td>
+		            34
+		        </td>
+		        <td>
+		            6
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            17.
+		        </td>
+		        <td>
+		            <img src="images/layout/16palemaster.gif" width="16" height="16" alt="" /> Pán smrti
+		        </td>
+		        <td>
+		            25
+		        </td>
+		        <td>
+		            7
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            18.
+		        </td>
+		        <td>
+		            <img src="images/layout/16shifter.gif" width="16" height="16" alt="" /> Měňavec
+		        </td>
+		        <td>
+		            24
+		        </td>
+		        <td>
+		            6
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            19.
+		        </td>
+		        <td>
+		            <img src="images/layout/16blackguard.gif" width="16" height="16" alt="" /> Temný rytíř
+		        </td>
+		        <td>
+		            24
+		        </td>
+		        <td>
+		            5
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            20.
+		        </td>
+		        <td>
+		            <img src="images/layout/16asassin.gif" width="16" height="16" alt="" /> Vrah
+		        </td>
+		        <td>
+		            24
+		        </td>
+		        <td>
+		            8
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            21.
+		        </td>
+		        <td>
+		            <img src="images/layout/16dwarvendefender.gif" width="16" height="16" alt="" /> Trpasličí obránce
+		        </td>
+		        <td>
+		            20
+		        </td>
+		        <td>
+		            10
+		        </td>
+		    </tr>
+
+		    <tr>
+		        <td>
+		            22.
+		        </td>
+		        <td>
+		            <img src="images/layout/16purpledragonknight.gif" width="16" height="16" alt="" /> Učedník purpurového draka
+		        </td>
+		        <td>
+		            12
+		        </td>
+		        <td>
+		            9
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+		        <td>
+		            23.
+		        </td>
+		        <td>
+		            <img src="images/layout/" width="16" height="16" alt="" />
+		        </td>
+		        <td>
+
+		        </td>
+		        <td>
+
+		        </td>
+		    </tr>
+		</table>
+
+		<br />
+
+		<table class="tableStats" cellpadding="0" cellspacing="0" >
+		    <col width="50px" />
+		    <col />
+		    <col width="80px" />
+		    <col width="80px" />
+		    <col width="80px" />
+		    <col width="80px" />
+		    <col width="80px" />
+		    <tr class="headingRow">
+		        <td colspan="7" style="font-size:16px;" >
+		            Populace na Demoně
+		        </td>
+		    </tr>
+		    <tr class="headingRow">
+		        <td rowspan="2">
+		            Pořadí
+		        </td>
+		        <td rowspan="2">
+		            Rasa
+		        </td>
+		        <td rowspan="2">
+		            Počet
+		        </td>
+		        <td colspan="4">
+		            Z toho
+		        </td>
+		    </tr>
+
+		    <tr class="headingRow">
+		        <td>
+		            žen
+		        </td>
+		        <td>
+		            mužů
+		        </td>
+		        <td>
+		            hubených
+		        </td>
+		        <td>
+		            tlustých
+		        </td>
+		    </tr>
+
+		    <tr class="alternateRow">
+			<td>
+		            1.</td>
+		        <td>
+		            Človek</td>
+			<td>
+			    745</td>
+		        <td>
+		            233</td>
+		        <td>
+		            512</td>
+		        <td>
+		            691</td>
+		        <td>
+		            53</td>
+		    </tr>
+
+		    <tr>
+			<td>
+		            2.</td>
+		        <td>
+		            Elf</td>
+			<td>
+			    427</td>
+		        <td>
+		            185</td>
+		        <td>
+		            242</td>
+		        <td>
+		            397</td>
+		        <td>
+		            29</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+			<td>
+		            3.</td>
+		        <td>
+		            Půlčík</td>
+			<td>
+			    199</td>
+		        <td>
+		            68</td>
+		        <td>
+		            131</td>
+		        <td>
+		            176</td>
+		        <td>
+		            23</td>
+		    </tr>
+
+		    <tr>
+			<td>
+		            4.</td>
+		        <td>
+		            Trpaslík</td>
+			<td>
+			    166</td>
+		        <td>
+		            27</td>
+		        <td>
+		            139</td>
+		        <td>
+		            109</td>
+		        <td>
+		            57</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+			<td>
+		            5.</td>
+		        <td>
+		            Půlork</td>
+			<td>
+			    92</td>
+		        <td>
+		            5</td>
+		        <td>
+		            87</td>
+		        <td>
+		            53</td>
+		        <td>
+		            39</td>
+		    </tr>
+
+		    <tr>
+			<td>
+		            6.</td>
+		        <td>
+		            Gnóm</td>
+			<td>
+			    41</td>
+		        <td>
+		            7</td>
+		        <td>
+		            34</td>
+		        <td>
+		            39</td>
+		        <td>
+		            2</td>
+		    </tr>
+
+		    <tr class="alternateRow">
+			<td>
+		            7.</td>
+		        <td>
+		            Půlelf</td>
+			<td>
+			    39</td>
+		        <td>
+		            12</td>
+		        <td>
+		            27</td>
+		        <td>
+		            39</td>
+		        <td>
+		            0</td>
+		    </tr>
+		</table>
+
+
+
+
+	    </td>
+	</tr>
+	<tr>
+		<td rowspan="2">
+			<img src="images/layout/demona_layout_07.png" width="214" height="174" alt="" />
+		</td>
+		<!--spodni text-->
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_08.png'); text-align:center; vertical-align:middle;" width="726" height="113" >
+
+		    Všechny údaje jsou aktuální k 1.12.2011
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_09.png'); text-align:center; vertical-align:bottom;" width="726" height="61">
+            <!--<img src="images/layout/demona_layout_09.png" width="726" height="61" alt="" />-->
+            <p class="podpis">last update <script type="text/javascript" language="JavaScript">last_update();</script> | hosted by epicnet.sk | 2008 &copy; R&D</p>
+		</td>
+	</tr>
+</table>
+</div>
+</body>
+</html>

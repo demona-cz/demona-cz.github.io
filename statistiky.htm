@@ -1,0 +1,751 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <link href="demona.css" rel="Stylesheet" type="text/css" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="shortcut icon" href="images/ico.jpg" />
+
+    <script type="text/javascript" src="demona.js" ></script>
+
+    <script type="text/javascript" src="highlight.js"></script>
+
+    <title>Demona NWN Module</title>
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-25374267-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+
+<body>
+
+<div id="content">
+
+<table id="statistics" align="center" width="940"  border="0" cellpadding="0" cellspacing="0">
+
+	<tr>
+
+		<td rowspan="2">
+
+			<img src="images/layout/demona_layout_01.png" width="214" height="384" alt="" /></td>
+
+		<td>
+
+			<img src="images/layout/demona_layout_02.png" width="445" height="246" alt="" /></td>
+
+		<td>
+
+		    <map id="menu" name="menu">
+
+		        <area shape="poly" alt="Demona" coords="46,5,223,14,223,47,134,60,46,48" onmouseover="mapSvetDemona_over()" onmouseout="mapSvet_out()" href="/"/>
+
+		        <area shape="poly" alt="Download" coords="54,56,135,63,236,46,250,70,149,104,54,109" href="downloads.htm" onmouseover="mapSvetDownload_over()" onmouseout="mapSvet_out()" />
+
+		        <area shape="poly" alt="Fórum" coords="110,125,235,83,239,103,137,166" href="/forum" onmouseover="mapSvetForum_over()" onmouseout="mapSvet_out()" />
+
+		        <area shape="poly" alt="Svět" coords="162,168,250,105,264,131,195,204" href="svet.htm"  />
+
+		    </map>
+
+			<img id="menuDemona" src="images/layout/demona_layout_03_svet.jpg" width="281" height="246" alt="" usemap="#menu" style="border:none;" /></td>
+
+	</tr>
+
+	<tr>
+
+	    <!--horni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_04.png');" width="726" height="138">
+
+	        <a href="/">Demona</a> > <a href="svet.htm">Svět</a> > Statistiky<br />
+
+	        <br />
+
+	        Zde jsou v měsíčních intervalech uveřejňovány vybrané zajímavé údaje z vašich postaviček.
+
+	        Kdo se chce do kronik světa zapsat i jinak než pletichařením na politické scéně, otvírají se mu o kousek níže netušené možnosti...<br />
+
+	        <br />
+
+	        Z důvodu zachování alespoň částečné anonymity a taktéž zvýšení vzájemné rivality nejsou uvedena čísla absolutní, ale ve většině případů
+
+	        jen percentuální podíl ku hráči na prvním místě.
+
+	        </td>
+
+	</tr>
+
+	<tr>
+
+		<td style="background-image:url('images/layout/demona_layout_05.png');">
+
+		</td>
+
+		<!--hlavni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_06.png');">
+
+
+
+
+
+		<!--
+
+		<img src="images/layout/hore.gif" width="16" height="16" alt="" />
+
+		<img src="images/layout/dolu.gif" width="16" height="16" alt="" />
+
+		<img src="images/layout/hviezda.gif" width="16" height="16" alt="" />
+
+		-->
+
+
+
+		<br />
+
+
+
+		 <table class="tableStats" cellpadding="0" cellspacing="0" >
+
+		    <col width="100px" />
+
+		    <col  />
+
+		    <col  />
+
+
+
+		    <tr class="headingRow">
+
+		        <td colspan="3" style="font-size:16px;" >
+
+		            Seznam všech statistik
+
+		        </td>
+
+		    </tr>
+
+
+
+		    <tr class="headingRow">
+
+		        <td>
+
+		            Měsíc
+
+		        </td>
+
+		        <td>
+
+		            Rok 2008
+
+		        </td>
+
+		        <td>
+
+		            Rok 2009
+
+		        </td>
+
+		    </tr>
+
+
+
+		    <tr class="alternateRow">
+
+		        <td>
+
+		            Leden
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		        <td>
+
+		            <a href="statistiky_20090125.htm">25.1.2009</a>
+
+		        </td>
+
+		    </tr>
+
+
+
+		    <tr>
+
+		        <td>
+
+		            Únor
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		        <td>
+
+		            <a href="statistiky_20090225.htm">25.2.2009</a>
+
+		        </td>
+
+		    </tr>
+
+
+
+		    <tr class="alternateRow">
+
+		        <td>
+
+		            Březen
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		        <td>
+
+		            <a href="statistiky_20090325.htm">25.3.2009</a>
+
+		        </td>
+
+		    </tr>
+
+
+
+		    <tr>
+
+		        <td>
+
+		            Duben
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		    </tr>
+
+
+
+		    <tr class="alternateRow">
+
+		        <td>
+
+		            Květen
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		    </tr>
+
+
+
+		    <tr>
+
+		        <td>
+
+		            Červen
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		    </tr>
+
+
+
+		    <tr class="alternateRow">
+
+		        <td>
+
+		            Červenec
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		    </tr>
+
+
+
+		    <tr>
+
+		        <td>
+
+		            Srpen
+
+		        </td>
+
+		        <td>
+
+		            <a href="statistiky_20080824.htm">24.8.2008</a>
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		    </tr>
+
+
+
+		    <tr class="alternateRow">
+
+		        <td>
+
+		            Září
+
+		        </td>
+
+		        <td>
+
+		            <a href="statistiky_20080927.htm">27.9.2008</a>
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		    </tr>
+
+
+
+		    <tr>
+
+		        <td>
+
+		            Říjen
+
+		        </td>
+
+		        <td>
+
+		            <a href="statistiky_20081025.htm">25.10.2008</a>
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		    </tr>
+
+
+
+		    <tr class="alternateRow">
+
+		        <td>
+
+		            Listopad
+
+		        </td>
+
+		        <td>
+
+		            <a href="statistiky_20081125.htm">25.11.2008</a>
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		    </tr>
+
+
+
+		    <tr>
+
+		        <td>
+
+		            Prosinec
+
+		        </td>
+
+		        <td>
+
+		            <a href="statistiky_20081225.htm">25.12.2008</a>
+
+		        </td>
+
+		        <td>
+
+		            &nbsp;
+
+		        </td>
+
+		    </tr>
+
+			<tr class="headingRow"><td colspan="3">&nbsp;</td></tr>
+
+			<tr class="headingRow">
+		        <td>Měsíc</td>
+				<td>Rok 2010</td>
+				<td>Rok 2011</td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Leden</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr>
+		        <td>Únor</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Březen</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr>
+		        <td>Duben</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Květen</td>
+		        <td>&nbsp;</td>
+		        <td><a href="statistiky_20110601.htm">1.6.2011</a></td>
+		    </tr>
+
+			<tr>
+		        <td>Červen</td>
+		        <td>&nbsp;</td>
+		        <td><a href="statistiky_20110701.htm">1.7.2011</a></td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Červenec</td>
+		        <td>&nbsp;</td>
+		        <td><a href="statistiky_20110801.htm">1.8.2011</a></td>
+		    </tr>
+
+			<tr>
+		        <td>Srpen</td>
+		        <td>&nbsp;</td>
+		        <td><a href="statistiky_20110901.htm">1.9.2011</a></td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Září</td>
+		        <td>&nbsp;</td>
+		        <td><a href="statistiky_20111001.htm">1.10.2011</a></td>
+		    </tr>
+
+			<tr>
+		        <td>Říjen</td>
+		        <td>&nbsp;</td>
+		        <td><a href="statistiky_20111101.htm">1.11.2011</a></td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Listopad</td>
+		        <td>&nbsp;</td>
+		        <td><a href="statistiky_20111201.htm">1.12.2011</a></td>
+		    </tr>
+
+			<tr>
+		        <td>Prosinec</td>
+		        <td>&nbsp;</td>
+		        <td><a href="statistiky_20120101.htm">1.1.2012</a></td>
+		    </tr>
+
+			<tr class="headingRow"><td colspan="3">&nbsp;</td></tr>
+
+			<tr class="headingRow">
+		        <td>Měsíc</td>
+				<td>Rok 2012</td>
+				<td>Rok 2013</td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Leden</td>
+		        <td><a href="statistiky_20120201.htm">1.2.2012</a></td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr>
+		        <td>Únor</td>
+		        <td><a href="statistiky_20120301.htm">1.3.2012</a></td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Březen</td>
+		        <td><a href="statistiky_20120401.htm">1.4.2012</a></td>
+		        <td><a href="statistiky_20130401.htm">1.4.2013</a></td>
+		    </tr>
+
+			<tr>
+		        <td>Duben</td>
+		        <td>&nbsp;</td>
+		        <td><a href="statistiky_20130501.htm">1.5.2013</a></td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Květen</td>
+		        <td>&nbsp;</td>
+		        <td><a href="statistiky_20130601.htm">1.6.2013</a></td>
+		    </tr>
+
+			<tr>
+		        <td>Červen</td>
+		        <td>&nbsp;</td>
+		        <td><a href="statistiky_20130701.htm">1.7.2013</a></td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Červenec</td>
+		        <td>&nbsp;</td>
+		        <td><a href="statistiky_20130801.htm">1.8.2013</a></td>
+		    </tr>
+
+			<tr>
+		        <td>Srpen</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Září</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr>
+		        <td>Říjen</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Listopad</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr>
+		        <td>Prosinec</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+		    <tr class="headingRow"><td colspan="3">&nbsp;</td></tr>
+
+			<tr class="headingRow">
+		        <td>Měsíc</td>
+				<td>Rok 2014</td>
+				<td>Rok 2015</td>
+		    </tr>
+
+		    <tr class="headingRow"><td colspan="3">&nbsp;</td></tr>
+
+			<tr class="headingRow">
+		        <td>Měsíc</td>
+				<td>Rok 2016</td>
+				<td>Rok 2017</td>
+		    </tr>
+
+			<tr class="headingRow"><td colspan="3">&nbsp;</td></tr>
+
+			<tr class="headingRow">
+		        <td>Měsíc</td>
+				<td>Rok 2018</td>
+				<td>Rok 2019</td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Leden</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr>
+		        <td>Únor</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Březen</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr>
+		        <td>Duben</td>
+		        <td>&nbsp;</td>
+		        <td><a href="statistiky_20190410.htm">10.4.2019</a></td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Květen</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr>
+		        <td>Červen</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Červenec</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr>
+		        <td>Srpen</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Září</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr>
+		        <td>Říjen</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr class="alternateRow">
+		        <td>Listopad</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+
+			<tr>
+		        <td>Prosinec</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		    </tr>
+		 </table>
+
+	    </td>
+
+	</tr>
+
+	<tr>
+
+		<td rowspan="2">
+
+			<img src="images/layout/demona_layout_07.png" width="214" height="174" alt="" />
+
+		</td>
+
+		<!--spodni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_08.png'); text-align:center; vertical-align:middle;" width="726" height="113" >
+
+		</td>
+
+	</tr>
+
+	<tr>
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_09.png'); text-align:center; vertical-align:bottom;" width="726" height="61">
+
+            <!--<img src="images/layout/demona_layout_09.png" width="726" height="61" alt="" />-->
+
+            <p class="podpis">last update <script type="text/javascript" language="JavaScript">last_update();</script> | hosted by epicnet.sk | 2008 &copy; R&D</p>
+
+		</td>
+
+	</tr>
+
+</table>
+
+</div>
+
+</body>
+
+</html>
+

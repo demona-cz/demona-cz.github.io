@@ -1,0 +1,563 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <link href="demona.css" rel="Stylesheet" type="text/css" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="shortcut icon" href="images/ico.jpg" />
+
+    <script type="text/javascript" src="demona.js" ></script>
+
+    <title>Demona NWN Module</title>
+
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-25374267-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+
+<body>
+
+<div id="content">
+
+<table align="center" width="940"  border="0" cellpadding="0" cellspacing="0">
+
+	<tr>
+
+		<td rowspan="2">
+
+			<img src="images/layout/demona_layout_01.png" width="214" height="384" alt="" /></td>
+
+		<td>
+
+			<img src="images/layout/demona_layout_02.png" width="445" height="246" alt="" /></td>
+
+		<td>
+
+		    <map id="menu" name="menu">
+
+		        <area shape="poly" alt="Demona" coords="46,5,223,14,223,47,134,60,46,48" onmouseover="mapSvetDemona_over()" onmouseout="mapSvet_out()" href="/"/>
+
+		        <area shape="poly" alt="Download" coords="54,56,135,63,236,46,250,70,149,104,54,109" href="downloads.htm" onmouseover="mapSvetDownload_over()" onmouseout="mapSvet_out()" />
+
+		        <area shape="poly" alt="Fórum" coords="110,125,235,83,239,103,137,166" href="/forum" onmouseover="mapSvetForum_over()" onmouseout="mapSvet_out()" />
+
+		        <area shape="poly" alt="Svět" coords="162,168,250,105,264,131,195,204" href="svet.htm"  />
+
+		    </map>
+
+			<img id="menuDemona" src="images/layout/demona_layout_03_svet.jpg" width="281" height="246" alt="" usemap="#menu" style="border:none;" /></td>
+
+	</tr>
+
+	<tr>
+
+	    <!--horni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_04.png');" width="726" height="138">
+
+	        <a href="/">Demona</a> > <a href="svet.htm">Svět</a> > Mechanika<br />
+
+	        <br />
+
+	         <i>Proč já mistře? Vy ovládáte síly, které jsou zcela mimo mou představivost. Nejsem pro to vhodný.<br />
+
+            Za logickou odpověď jsem se snažil schovat strach. Ne strach z poměření sil s jiným mágem. Toho jsem se nebál. Zabít přítele? Zabít zrádce? Nebál jsem se toho, že by mi nestačily síly, já... obával jsem se... ne, věděl jsem, že to nedokážu.<br />
+
+            Zahalil jsem se oblakem magie. Bože, v tu chvíli jsem musel vypadat opravdu strašlivě. Promočený, obklopený zářivou aurou, kolem prstů mi vzplanul oheň a...<br />
+
+            --Garibalde</i>
+
+
+
+		</td>
+
+	</tr>
+
+	<tr>
+
+		<td style="background-image:url('images/layout/demona_layout_05.png');">
+
+		</td>
+
+		<!--hlavni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_06.png');">
+
+		    <ul>
+
+            <li><b>Úpravy dovedností (Skilly a Featy)</b>: Zmenene Featy a Skilly | Zrusene Featy a Skilly | Nedoporucene Skilly</li>
+
+            <li><b>Úpravy kouzel (Spells)</b>: Zaklinac/Carodej | Klerik | Hraniciar | Paladin | Bard | Druid</li>
+
+            </ul>
+
+
+
+		    <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                    Úprava featov a skillov
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+            <br />
+
+
+
+            <span class="nadpis_red">Zrušené featy a skilly</span><br />
+
+
+
+		    <b>Přítelíček Pixie</b><br />
+
+            Pixie byla zrušena.<br />
+
+            <br />
+
+            <b>Devastating Critical</b><br />
+
+		    Bez náhrady zrušen.<br />
+
+            <br />
+
+
+
+	        <span class="nadpis_red">Změnené featy a skilly</span><br />
+
+            <br />
+
+
+
+		    <b>Use Poison</b><br />
+
+		    Duration: 1 turn / level<br />
+
+            Jedy mohou používat pouze ti, jež mají feat "Use Poison".<br />
+
+            <br />
+
+            <b>Expertise (Improved Expertise)</b><br />
+
+            Při kouzlení se tato dovednost vždy deaktivuje.<br />
+
+            <br />
+
+
+
+            <span class="nadpis_red">Nedoporučené featy a skilly</span><br />
+
+            <br />
+
+
+
+            <b>Bluff, Intimidate</b><br />
+
+		    V rozhovorech nepoužívají žádná NPC.<br />
+
+            <br />
+
+            <b>CraftArmor, CraftWeapon </b><br />
+
+		    Ve hře lze nalézt NPC, které vám tento skill na krátkou dobu za drobný poplatek zvýší na maximum.<br />
+
+            <br />
+
+            <b>Appraise</b><br />
+
+		    Velmi omezené použití.<br />
+
+            <br />
+
+            <b>Craft Trap</b><br />
+
+		    Nejsou dostupné téměř žádné materiály pro výrobu.<br />
+
+		    <br />
+
+            <b>Pickpocketing</b><br />
+
+		    NPC ve hře nemají žádnou ukradnutelnou výbavu. Kradení od hráčů je velmi složité, provadí se dodatečný hod na úspěch a drtivá většina ukradených věcí
+
+		    je podepsána - tudiž nepoužitelná. Peníze od hráčů lze krást jen velmi omezeně.<br />
+
+		    <br />
+
+
+
+		    <span class="nadpis_red">Ostatní změny</span><br />
+
+            <br />
+
+
+
+            <b>Examine protívníka</b><br />
+
+		    Zrušeno.<br />
+
+		    <br />
+
+		    <b>Resting</b><br />
+
+		    Jen na určených místech a s potřebným množstvím proviantu. Před spaním je dobré si sundat zbroj.<br />
+
+		    <br />
+
+            <b>Kama</b><br />
+
+            Zbraň kama není ve hře dostupná.<br />
+
+            <br />
+
+            <br />
+
+
+
+            <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                    Úprava kouzel
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+            <br />
+
+		    <span class="nadpis_red">Kouzla zaklínače / čaroděje</span><br />
+
+            <br />
+
+            <b>Bigby's Interposing Hand</b><br />
+
+            Duration: (Caster level / 4) + 2 rounds<br />
+
+		    <br />
+
+		    <b>Bigby's Forceful Hand</b><br />
+
+            Duration: (Caster level / 4) + 2 rounds <br />
+
+            Bullrush: pokud je 1d20 + 8 větší anebo roven 1d20 + STR + Size Modifier, podaří se kouzlo úspěšně seslat.<br />
+
+            <br />
+
+            <b>Bigby's Grasping Hand</b><br />
+
+            Duration: (Caster level / 4) + 2 rounds <br />
+
+            Spell Resistance: Yes + druhý hod na SR. Pokud je SR cíle + 1d20 vyšší jak 41 anebo padne 20, kouzlo se nezdaří.<br />
+
+            <br />
+
+            <b>Bigby's Clenched Fist</b><br />
+
+            Duration: (Caster level / 4) + 2 rounds<br />
+
+            Spell Resistance: Yes + druhý hod na SR. Pokud je SR cíle + 1d20 vyšší jak 41 anebo padne 20, kouzlo se nezdaří.<br />
+
+            <br />
+
+            <b>Bigby's Crushing Hand</b><br />
+
+            Duration: (Caster level / 4) + 2 rounds<br />
+
+            Spell Resistance: Yes + druhý hod na SR. Pokud je SR cíle + 1d20 vyšší jak 41 anebo padne 20, kouzlo se nezdaří.<br />
+
+            <br />
+
+            <b>Find Traps</b><br />
+
+            Funguje jen na pasti s DC < 35 a v okruhu 30 metrů.<br />
+
+            <br />
+
+            <b>Knock</b><br />
+
+            Funguje jen na zámky s DC < 35 a v okruhu 50 metrů.<br />
+
+            <br />
+
+            <b>Polymorph Self</b><br />
+
+            Přeměna na pixie nahrazena přeměnou na vlka.<br />
+
+            <br />
+
+            <b>Greater Sanctuary</b><br />
+
+            Duration: 1round/caster level<br />
+
+            Kouzlo je možné seslat pouze jednou za 4 minuty. Pokus o dřívější seslání vede k selhání a vyplýtvání kouzla.<br />
+
+            <br />
+
+            <b>Time Stop</b>
+
+            Duration: 3s + (1d3 * 6s)<br />
+
+            Kouzlo je možné seslat pouze jednou za minutu. Pokus o dřívější seslání vede k selhání a vyplýtvání kouzla.
+
+            Zastavení času se nevztahuje na sesilatele ani jeho přítelíčka.<br />
+
+            <br />
+
+            <b>Flame Weapon</b><br />
+
+            Target: Sesilatel, Člen družiny - kouzlo se sešle na zbraň, kterou drží v ruce.<br />
+
+            Duration: Turn / caster lvl<br />
+
+            Při sesílání se háže d20. Pokud padne 1, očarovávaná zbraň je nenávratně zničena.<br />
+
+            <br />
+
+            <b>Greater Magic Weapon</b><br />
+
+            Target: Sesilatel, Člen družiny - kouzlo se sešle na zbraň, kterou drží v ruce.<br />
+
+            Kouzlo přidává zbrani +1 enhancement za každé 4 levely sesilatele. Při sesílání se háže d20. Pokud padne 1, očarovávaná zbraň je nenávratně zničena.<br />
+
+            <br />
+
+            <b>Keen Edge</b>
+
+            Target: Sesilatel, Člen družiny - kouzlo se sešle na zbraň, kterou drží v ruce.<br />
+
+            Duration: Turn / caster lvl <br />
+
+            Při sesílání se háže d20. Pokud padne 1, očarovávaná zbraň je nenávratně zničena.<br />
+
+            <br />
+
+
+
+            <span class="nadpis_red">Klerická kouzla</span><br />
+
+            <br />
+
+            <b>Heal</b><br />
+
+            Cooldown: 60sec - bonus za odolnost * 5<br />
+
+            Přijmutí kouzla před uplynutím Cooldownu: vyléčení jen za třetinu životů.<br />
+
+            Pokud sesílá kouzlo postava, jež má feat Heal_Domain, cooldown se ignoruje.<br  />
+
+            <br />
+
+            <b>Raise Dead</b><br />
+
+            Cíl kouzla je omráčen na počet kol rovnajících se úrovni postavy.<br />
+
+            <br />
+
+            <b>Ressurection</b><br />
+
+            Cíl kouzla je omráčen na počet kol rovnajících se úrovni postavy.<br />
+
+            <br />
+
+            <b>Greater Sanctuary</b><br />
+
+            Duration: 1round/caster level<br />
+
+            Kouzlo je možné seslat pouze jednou za 4 minuty. Pokus o dřívější seslání vede k selhání a vyplýtvání kouzla.<br />
+
+            <br />
+
+            <b>Find Traps</b><br />
+
+            Funguje jen na pasti s DC < 35 a v okruhu 30 metrů.<br />
+
+            <br />
+
+            <b>Knock</b><br />
+
+            Funguje jen na zámky s DC < 35 a v okruhu 50 metrů.<br />
+
+            <br />
+
+            <b>Darkfire</b><br />
+
+            Target: Sesilatel, Člen družiny - kouzlo se sešle na zbraň, kterou drží v ruce.<br />
+
+            Duration: Turn / caster lvl<br />
+
+            Při sesílání se háže d20. Pokud padne 1, očarovávaná zbraň je nenávratně zničena.<br />
+
+            <br />
+
+            <b>Greater Magic Weapon</b><br />
+
+            Target: Sesilatel, Člen družiny - kouzlo se sešle na zbraň, kterou drží v ruce.<br />
+
+            Kouzlo přidává zbrani +1 enhancement za každé 4 levely sesilatele. Při sesílání se háže d20. Pokud padne 1, očarovávaná zbraň je nenávratně zničena.<br />
+
+            <br />
+
+            <b>Magic Vestment</b><br />
+
+            Target: Sesilatel, Člen družiny - kouzlo se sešle na zbroj, kterou má na sobě.<br />
+
+            Kouzlo přidává zbroji +1 AC za každé 4 levely sesilatele. Při sesílání se háže d20. Pokud padne 1, očarovávaná zbroj je nenávratně zničena.<br />
+
+            <br />
+
+            <b>Harm</b><br />
+
+            Zraňuje za 1/2 životů. Nemrtvé léči za plný počet životů.<br />
+
+            <br />
+
+
+
+            <span class="nadpis_red">Hraničářská kouzla</span><br />
+
+            <br />
+
+            <b>Polymorph Self</b><br />
+
+            Přeměna na pixie nahrazena přeměnou na vlka.<br />
+
+            <br />
+
+
+
+            <span class="nadpis_red">Kouzla paladina</span><br />
+
+            <br />
+
+            <b>Greater Magic Weapon</b><br />
+
+            Target: Sesilatel, Člen družiny - kouzlo se sešle na zbraň, kterou drží v ruce.<br />
+
+            Kouzlo přidává zbrani +1 enhancement za každé 4 levely sesilatele. Při sesílání se háže d20. Pokud padne 1, očarovávaná zbraň je nenávratně zničena.<br />
+
+            <br />
+
+
+
+            <span class="nadpis_red">Bardská kouzla</span><br />
+
+            <br />
+
+            <b>Find Traps</b><br />
+
+            Funguje jen na pasti s DC < 35 a v okruhu 30 metrů.<br />
+
+            <br />
+
+            <b>Knock</b><br />
+
+            Funguje jen na zámky s DC < 35 a v okruhu 50 metrů.<br />
+
+            <br />
+
+            <b>Greater Magic Weapon</b><br />
+
+            Target: Sesilatel, Člen družiny - kouzlo se sešle na zbraň, kterou drží v ruce.<br />
+
+            Kouzlo přidává zbrani +1 enhancement za každé 4 levely sesilatele. Při sesílání se háže d20. Pokud padne 1, očarovávaná zbraň je nenávratně zničena.<br />
+
+            <br />
+
+
+
+            <span class="nadpis_red">Druidská kouzla</span><br />
+
+            <br />
+
+
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+		<td rowspan="2">
+
+			<img src="images/layout/demona_layout_07.png" width="214" height="174" alt="" />
+
+		</td>
+
+		<!--spodni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_08.png');" width="726" height="113" >
+
+
+
+            <b>Heal</b><br />
+
+            Cooldown: 60sec - bonus za odolnost * 5<br />
+
+            Přijmutí kouzla před uplynutím Cooldownu: vyléčení jen za třetinu životů.<br />
+
+            Pokud sesílá kouzlo postava, jež má feat Heal_Domain, cooldown se ignoruje.<br  />
+
+            <br />
+
+
+
+		</td>
+
+	</tr>
+
+
+
+	<tr>
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_09.png'); text-align:center; vertical-align:bottom;" width="726" height="61">
+
+            <!--<img src="images/layout/demona_layout_09.png" width="726" height="61" alt="" />-->
+
+            <p class="podpis">last update <script type="text/javascript" language="JavaScript">last_update();</script> | hosted by epicnet.sk | 2008 &copy; R&D</p>
+
+		</td>
+
+	</tr>
+
+</table>
+
+</div>
+
+</body>
+
+</html>
+

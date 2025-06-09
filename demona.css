@@ -1,0 +1,190 @@
+body
+
+{
+
+    background-color:black;
+
+    font-family: Segoe UI, Tahoma, Arial;
+
+    font-size: 13px;
+
+    
+
+}
+
+
+body a, .javascriptLink
+
+{
+
+    color: DarkRed;
+
+    text-decoration: underline;
+
+}
+
+
+
+body a:hover
+
+{
+
+    text-decoration: none;
+
+}
+
+
+
+.javascriptLink:hover
+
+{
+
+    text-decoration: none;
+
+    cursor:pointer;
+
+}
+
+
+
+
+
+
+
+#content 
+
+{
+
+  width: 942px ;
+
+  margin-left: auto ;
+
+  margin-right: auto ;
+
+  background-color:black;
+
+}
+
+
+
+.tdNormalText
+
+{
+
+     vertical-align:top; 
+
+     padding-right: 14px;
+
+     padding-left: 7px;
+
+}
+
+
+
+.tdHeading
+
+{
+
+    font-size: 16px;
+
+    text-align:center;
+
+    padding-top:9px;
+
+    font-weight:bold;  
+
+}
+
+
+
+.podpis
+
+{
+
+    color: #F0A965;
+
+}
+
+
+
+span.nadpis_red{font-size: 20px; font-weight: bold; color: #993300;}
+
+span.nadpis{font-size: 20px; font-weight: bold;}
+
+
+
+/* statistiky fragu */
+
+.tableStats
+
+{
+
+    border-collapse:collapse;
+
+    width:100%;     
+
+    background-color:#FEF3E2;
+
+    font-size:13px;  
+
+    
+
+      
+
+}
+
+
+
+.tableStats TD
+
+{
+
+    border:solid 1px black; 
+
+    padding: 2px 5px;
+
+    
+
+    
+
+}
+
+
+
+.headingRow
+
+{
+
+   
+
+    text-align:center;
+
+    font-weight:bold;
+
+}
+
+
+
+.alternateRow
+
+{
+
+    background-color:#FAE2CC;    
+
+}
+
+
+
+.highlightedText
+
+{
+
+    background-color:Yellow;
+
+    font-weight:bold;
+
+    padding-right:10px;
+
+    padding-left:10px;
+
+}

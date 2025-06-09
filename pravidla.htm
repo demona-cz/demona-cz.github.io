@@ -1,0 +1,759 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <link href="demona.css" rel="Stylesheet" type="text/css" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="shortcut icon" href="images/ico.jpg" />
+
+    <script type="text/javascript" src="demona.js" ></script>
+
+    <title>Demona NWN Module</title>
+
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-25374267-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+
+<body>
+
+<div id="content">
+
+<table align="center" width="940"  border="0" cellpadding="0" cellspacing="0">
+
+	<tr>
+
+		<td rowspan="2">
+
+			<img src="images/layout/demona_layout_01.png" width="214" height="384" alt="" /></td>
+
+		<td>
+
+			<img src="images/layout/demona_layout_02.png" width="445" height="246" alt="" /></td>
+
+		<td>
+
+		    <map id="menu" name="menu">
+
+		        <area shape="poly" alt="Demona" coords="46,5,223,14,223,47,134,60,46,48" href="/"/>
+
+		        <area shape="poly" alt="Download" coords="54,56,135,63,236,46,250,70,149,104,54,109" href="downloads.htm" onmouseover="mapDemonaDownload_over()" onmouseout="mapDemona_out()" />
+
+		        <area shape="poly" alt="Fórum" coords="110,125,235,83,239,103,137,166" href="/forum" onmouseover="mapDemonaForum_over()" onmouseout="mapDemona_out()" />
+
+		        <area shape="poly" alt="Svět" coords="162,168,250,105,264,131,195,204" href="svet.htm" onmouseover="mapDemonaSvet_over()" onmouseout="mapDemona_out()" />
+
+		    </map>
+
+			<img id="menuDemona" src="images/layout/demona_layout_03_demona.jpg" width="281" height="246" alt="" usemap="#menu" style="border:none;" /></td>
+
+	</tr>
+
+	<tr>
+
+	    <!--horni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_04.png');" width="726" height="138">
+
+	        <a href="/">Demona</a> > Pravidla<br />
+
+	        <br />
+
+	        Server Demona je provozován zcela zdarma. Jednotliví organizátoři (Admini, Dungeon Masteři, Counseloři, dále jen DMs)
+
+            věnují serveru svůj volný čas s jediným cílem - zajistit Vám, hráčům, krásné chvíle strávené hrou.
+
+            Stejně jako v každé hře, tak i v Neverwinter Nights je zapotřebí jistých pravidel. Naše pravidla sledují dva cíle,
+
+            prvním je vymezení obecných postupů a druhým pak ochrana poctivých hráčů a DMs před těmi,
+
+            kteří by záměrně či neúmyslně poškozovali chod serveru nebo běh hry samotné.
+
+		</td>
+
+	</tr>
+
+	<tr>
+
+		<td style="background-image:url('images/layout/demona_layout_05.png');">
+
+		</td>
+
+		<!--hlavni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_06.png');">
+
+		    <!--heading-->
+
+	        <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                    Hráči
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+
+
+            <ol>
+
+                <li>
+
+                    <b>Pravidla slušného chování </b>
+
+                    <ol type="a">
+
+                        <li>
+
+                            Všichni hráči na serveru jsou povinni vyjadřovat se dle obecně zažitých pravidel slušného chování.
+
+                        </li>
+
+                         <li>
+
+                            Sprostá mluva není tolerována, server je otevřen všem věkovým kategoriím bez rozdílu, tedy vždy mějte na zřeteli,
+
+                            že přicházíte do kontaktu i s dětmi! Platí pro všechny druhy komunikace.
+
+                        </li>
+
+                         <li>
+
+                             Urážky jsou povoleny pouze v rámci RP a nesmí přesahovat rámec slušného chování.
+
+                        </li>
+
+                    </ol>
+
+                </li>
+
+                <li>
+
+                    <b>Pojmenování postav</b>
+
+                    <ol type="a">
+
+                        <li>
+
+                            Je zakázáno úmyslně zakládat postavy se jmény, které již existují, nebo se jmény jinak nevhodnými.
+
+                        </li>
+
+                        <li>
+
+                            Hráč nesmí zakládat postavy se jmény ostatních hráčů, DM postav a NPC postav.
+
+                        </li>
+
+                        <li>
+
+                            Jména obsahující mechanické, technologické nebo jiné výrazy nevhodné do fantasy světa jsou nepřípustná.
+
+                        </li>
+
+                         <li>
+
+                            Jména delší než 16 znaků jsou z technických důvodů zakázána.
+
+                        </li>
+
+                         <li>
+
+                            Jména nesmí obsahovat nealfabetické znaky (!@#$%^&* atd.) a šlechtické tituly (lord, lady atp.).
+
+                            Mohou však obsahovat číslice, nejlépe římské, jako symbol posloupnosti rodu.
+
+                        </li>
+
+                         <li>
+
+                            Jména postav nesmí obsahovat sprostá slova nebo mít urážlivý charakter a to v jakémkoliv jazyce.
+
+                        </li>
+
+                         <li>
+
+                            Jména známých fantasy hrdinů nejsou doporučena.
+
+                        </li>
+
+                    </ol>
+
+                </li>
+
+                <li>
+
+                    <b>PvP a NoPvP lokace</b>
+
+                    <ol type="a">
+
+                        <li>
+
+                            Z technických důvodů jsou zakázány jakékoliv nepřátelské akce vůči přátelským NPC, obzvláště ve městě.
+
+                        </li>
+
+                        <li>
+
+                            Odhalené okrádání ve městě je bráno jako útočná akce. Stejně tak pokládání pastí.
+
+                        </li>
+
+                        <li>
+
+                            Používání plošných útočných kouzel (jako např. imploze) na ostatní hráče je v noPVP lokacích zakázáno.
+
+                        </li>
+
+                    </ol>
+
+                </li>
+
+                <li>
+
+                    <b>Relog, opuštění hry a AFK</b>
+
+                    <ol type="a">
+
+                        <li>
+
+                            Hráč nesmí zůstávat ve hře, pokud jeho nepřítomnost u počítače bude delší než 7 minut. Na získávání expů nebo bodů víry po dobu nepřítomnosti je nahlíženo výrazně přísněji.
+
+                        </li>
+
+                        <li>
+
+                            K opuštění hry je nutné použít předmětu magické pero.
+
+                        </li>
+
+                        <li>
+
+                            Opustit hru bez použití magického pera lze pouze v případě smrti.
+
+                            A to jen v případě, že hráč tím neutíká před okrádáním nebo jinou interakcí s okolím.
+
+                        </li>
+
+                        <li>
+
+                            Je zakázáno dožadovat se oživení mrtvé postavy.
+
+                        </li>
+
+                        <li>
+
+                            Relog je povolen jen ve výjimečných případech, například pokud došlo k chybě, která vám znemožňuje hrát (neplatí pro nezávislé hraní různých postav).
+
+                        </li>
+
+                        <li>
+
+                            V případě problému s připojením k modulu by měl hráč kontaktovat admina místo neustálých pokusů o připojení.
+
+                        </li>
+
+                        <li>
+
+                            Po opuštění hry z jakéhokoliv důvodu, musí hráč vyčkat zhruba 30 vteřin před dalším pokusem o login.
+
+                        </li>
+
+                        <li>
+
+                            Provádět restart modulu může jen DM nebo counselor. V případě jejich nepřítomnosti je restart povolen pouze když je k tomu vážný důvod, například bug ve hře.
+
+                            Restartem se rozumí i úmyslné opuštění modulu všemi hráči.
+
+                        </li>
+
+                        <li>
+
+                            Odlogování se v případě hrozby smrti nebo v souboji je podlé a trestné.
+
+                        </li>
+
+                    </ol>
+
+                </li>
+
+                <li>
+
+                    <b>Hráč ve vztahu k DM a counselorům</b>
+
+                    <ol type="a">
+
+                        <li>
+
+                            Hráč je povinen uznávat DM jako nejvyšší autoritu.
+
+                        </li>
+
+                        <li>
+
+                            Hráč se musí podřídit rozhodnutí DM a counselorů ve hře.
+
+                        </li>
+
+                        <li>
+
+                            Hráč by měl DM chatu využívat minimálně, určitě ne k získání informací nebo ke stížnostem. Pro delší diskuzi s konkrétním DM je preferován TALK.
+
+                        </li>
+
+                    </ol>
+
+                </li>
+
+                <li>
+
+                    <b>Využívání technických nedostatků, děr v systému (BUGY) a útoky na server</b>
+
+                    <ol type="a">
+
+                        <li>
+
+                            Hráč je povinen upozornit DM nebo WB na veškeré BUGY.
+
+                        </li>
+
+                        <li>
+
+                            Hráč se nesmí jakýmkoliv způsobem zdokonalovat nebo obohacovat nebo jinak zneužívat BUGu.
+
+                        </li>
+
+                        <li>
+
+                            Veškeré externí programy nebo útoky na server jsou zakázány, včetně maker.
+
+                        </li>
+
+                        <li>
+
+                            Veškeré změny, editace, úpravy postavy mimo server jsou zakázány. Vyjímku může ze závažných důvodů udělit DM (po diskuzi s ostatními DM a šéfem modulu).
+
+                        </li>
+
+                        <li>
+
+                            Pokud si hráč není jistý, zda se jedná o BUG, je povinen se o této skutečnosti informovat.
+
+                        </li>
+
+                        <li>
+
+                            Na využívání BUGů, které nelze opravit je nahlíženo vždy daleko přísněji.
+
+                        </li>
+
+                        <li>
+
+                            Hráč se nesmí šířit o těchto chybách mezi ostatními hráči.
+
+                            Pokud se jedná o velmi závažný a snadno zneužitelný BUG, měl by preferovat jinou cestu oznámení než na fóru (icq, mail …).
+
+                        </li>
+
+                    </ol>
+
+                </li>
+
+                <li>
+
+                    <b>Technická nařízení, omezení</b>
+
+                    <ol type="a">
+
+                        <li>
+
+                            Hráč je povinen mít v inventáři volné místo minimálně 12 slotů. Jedná se o souvislé volné místo, například 3*4. Nedodržení tohoto pravidla může mít krom
+
+                            trestu za následek samovolnou ztrátu vybavení herní postavičky.
+
+                        </li>
+
+                        <li>
+
+                            Pokud dojde k jakékoliv ztrátě v důsledku bugu v modulu nebo pádem serveru, PC nemusí být poskytnuta žádná náhrada! Hráč nemá právo náhradu vyžadovat.
+
+                        </li>
+
+                        <li>
+
+                            Nepotřebné věci vyhazujte do odpadkových košů. Každý by měl dbát na to, aby po něm zůstával minimální loot v lokacích, které opustil.
+
+                        </li>
+
+                        <li>
+
+                            I když hráč prochází územím s pro něho snadnými NPC, měl by se snažit, aby po něm tyto NPC v lokaci nezůstali, neboť zatěžují server.
+
+                        </li>
+
+                    </ol>
+
+                </li>
+
+                <li>
+
+                    <b>Herní situace</b>
+
+                    <ol type="a">
+
+                        <li>
+
+                            Je zakázaná jakákoliv výměna předmětů mezi postavami (v rámci jednoho CD-KEY, IP adresy nebo počítače).
+
+                            Výjimečně je povolena RP forma schválená ze strany DM, v případě přesné formulace co a jak má být přeneseno.
+
+                            Toto pravidlo nijak neomezuje DM při řešení problémů.
+
+                        </li>
+
+                        <li>
+
+                            Hráč je povinen chovat se v každé situaci eticky a dle morálního kodexu (neplatí pro odpovídající RP hru postavy).
+
+                        </li>
+
+                        <li>
+
+                            Hráč je povinen respektovat systémy modulu a vyhnout se přílišnému negativnímu zásahu do těchto systémů.
+
+                        </li>
+
+                        <li>
+
+                            Je zakázáno dožadovat se při questu oživení mrtvé postavy hráčem, který do questu není žádným způsobem zapojen nebo nešlo o jejich náhodné setkání.
+
+                        </li>
+
+                        <li>
+
+                            Okrádání někoho během souboje (PvP i NPCvP) je zakázáno a to platí jak pro aktéry souboje tak pro náhodného kolemjdoucího.
+
+                        </li>
+
+                        <li>
+
+                            Pokud hráči mluví OOC (vykládají si, jaké sou lagy, ať je DM zvedne atd), kazí dojem ze hry ostatním.
+
+                            Uvědomte si to a snažte se tomu vyhnout. Pro kritiku je tu forum.
+
+                        </li>
+
+                        <li>
+
+                            Ukládejte často hru přes magické pero.
+
+                        </li>
+
+                    </ol>
+
+                </li>
+
+                <li>
+
+                    <b>Questy (rady jak se chovat)</b>
+
+                    <ol type="a">
+
+                        <li>
+
+                            Držte se při questech pohromadě se svojí partou. Nerozprchněte se po celém modulu, pokud v zadání questu není uvedeno jinak.
+
+                        </li>
+
+                        <li>
+
+                            Snažte se vytvořit jednotlivé party podle zadání questu. Většinou nebudete mít šanci ho splnit osamoceni.
+
+                        </li>
+
+                        <li>
+
+                            Odměna za quest není samozřejmá a hráč ji nemůže vyžadovat. Taktéž nemá nárok diktovat si, co by chtěl jako odměnu.
+
+                        </li>
+
+                        <li>
+
+                            Snažte se neběhat a závodit s ostatními. Obzvlášť to platí pro hráče s haste.
+
+                        </li>
+
+                        <li>
+
+                            Při plnění questu si zvolte jednoho mluvčího a mluvte do PARTY kanálu. Snažte se mluvit málo a k věci. Pozdravy kolemjdoucím vynechte.
+
+                        </li>
+
+                        <li>
+
+                            Bezhlavé útočení na všechno hostile okolo vás je vaše chyba. V některých případech to vede k nesplnění questu nebo vaší rychlé smrti.
+
+                        </li>
+
+                    </ol>
+
+                </li>
+
+                <li>
+
+                    <b>Fórum a GP klient</b>
+
+                    <ol type="a">
+
+                        <li>
+
+                            Fórum, a hlavně jeho IC verze a GP klient, jsou součástí hry. Platí zde stejná pravidla.
+
+                        </li>
+
+                        <li>
+
+                            Příspěvky se musí bezprostředně týkat tématu nebo se musí držet vývoje diskuze.
+
+                        </li>
+
+                        <li>
+
+                            Zakládejte témata s rozmyslem a nejdřív se přesvědčte, zda už na fóru podobné téma není.
+
+                        </li>
+
+                        <li>
+
+                            Podle jména tématu musí být zřejmé, o co v diskuzi půjde.
+
+                        </li>
+
+                        <li>
+
+                            Příspěvky na téma pirátských kopií, cracku apod nejsou povoleny.
+
+                        </li>
+
+                    </ol>
+
+                </li>
+
+            </ol>
+
+
+
+            <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+                <tr align="left" valign="top">
+
+                    <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                    <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                        Counseloři
+
+                    </td>
+
+                    <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+                </tr>
+
+            </table>
+
+            <br />
+
+            <b>Counselor je hráč, který se uchází o post DM. Po dobu nezbytně nutnou musí vykonávat tyto povinosti:</b>
+
+            <ol>
+
+                <li>
+
+                Pomáhat hráčům řešit různé technické problémy, připadně předat daný problém DM.</li>
+
+                <li>
+
+                Trestat hráče za drobné prohřešky proti pravidlům (domluva, napomenutí, paralýza, vězení). Hráč musí dostat šanci na obhajobu a pokud se mu trest nelíbí, může se odvolat k vyšší instanci - DM.</li>
+
+                <li>
+
+                Chránit Alicii před výtržníky a vandaly. K tomu slouží jeho vybavení, stejně jako level. Nesmí svého postavení (věcí nebo levelu) zneužít. Takové chovani u něj bude posuzováno jako hrubé porušení pravidel.</li>
+
+                <li>
+
+                Útok na counselora je považován za lehke porušení pravidel, stejně jako útok na stráže alicie. Výtržník by měl skončit ve vězení.</li>
+
+                <li>
+
+                Chovat se k hráčům slušně a to za každých okolností. Žádná arogance nebo nadřazenost není na místě, jsou tu pro hráče a ne na opak.</li>
+
+                <li>
+
+                Seznamovat nové hráče s hrou. Měl by rozumnou cestou informovat nováčky o systému Demony. V podstatě RP stylem, pokud mu to situace (otazka) dovolí.</li>
+
+                <li>
+
+                Komunikovat s hráči o hře obecně, hledat bugy a navrhovat zlepšení nebo novinky ve hře.</li>
+
+                <li>
+
+                Může porušit nebo spíše obejít pravidla, pokud to situace vyžaduje. Nejčastěji z důvodu odhalení bugu.</li>
+
+                <li>
+
+                Při řešení problémů musí využít svých znalostí. Pokud counselor na problém zavolá DM, musí už být odzkoušen např relog, restart serveru apodobně.</li>
+
+                <li>
+
+                Counseloři by si mezi sebou měli určit "služby" na Demone. V podstatě se jedná o to, aby byl na Demone každý den alespoň jeden counselor nejméně 10-15 minut. Toto není povinost.</li>
+
+                <li>
+
+                Counselor by se měl snažit zadávat questy i s těmi omezenými možnostmi. Předtím by se měl přesvědčit, že je alespoň jeden DM k dispozici, aby se quest nedostal do mrtvého bodu.</li>
+
+                <li>
+
+                Counselor nesmí výrazně zasahovat do boje a to ani léčením nebo oživováním.</li>
+
+                <li>
+
+                Předchazející bod se může porušit pouze v případě, že to nezbytně vyžaduje counselorův quest. Ale měl by se snažit tomu vyhnout.</li>
+
+                <li>
+
+                Counselor by měl mít přímý kontakt (icq, mail, tlf nebo křikem z okna pokud bydlí přes ulici) na jednoho z DM.</li>
+
+                <li>
+
+                Counselorovo rozhodnutí může zvrátit jen Counselor, který ho vydal. Ve vyjímečných případech DM.</li>
+
+            </ol>
+
+
+
+            <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+                <tr align="left" valign="top">
+
+                    <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                    <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                        DMs
+
+                    </td>
+
+                    <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+                </tr>
+
+            </table>
+
+            <br />
+
+            <b>Dungeon Master je tvůrce hry s širokým polem působnosti. Musí však dodržovat následujicí pravidla:</b>
+
+            <ol>
+
+                <li>
+
+                DM je povinen se k hráčům chovat slušně a to za každých okolností.</li>
+
+                <li>
+
+                DM se musí řídit dle těchto pravidel.</li>
+
+                <li>
+
+                DM může jakéhokoliv hráče potrestat pokud porušuje pravidla serveru.</li>
+
+                <li>
+
+                DM je režisérem hry, jeho úkolem je hru zpestřit v rámci RP.</li>
+
+                <li>
+
+                DM nesmí zvýhodňovat některé hráče.</li>
+
+                <li>
+
+                Jakákoliv odměna pro postavu musí být, úměrná questu, která daná postava splnila.</li>
+
+                <li>
+
+                Rozhodnutí daného DM může zvrátit jen DM který ho vydal, případně šéf DM.</li>
+
+                <li>
+
+                DM neni vaším průvodce hrou, technická podpora nebo nápověda. Pro získání konkrétních informací, používejte prosím náš web, forum nebo Counselora.</li>
+
+            </ol>
+
+	    </td>
+
+	</tr>
+
+	<tr>
+
+		<td rowspan="2">
+
+			<img src="images/layout/demona_layout_07.png" width="214" height="174" alt="" />
+
+		</td>
+
+		<!--spodni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_08.png'); text-align:center; vertical-align:bottom;" width="726" height="113" >
+
+		   &nbsp;
+
+		</td>
+
+	</tr>
+
+	<tr>
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_09.png'); text-align:center; vertical-align:bottom;" width="726" height="61">
+
+            <!--<img src="images/layout/demona_layout_09.png" width="726" height="61" alt="" />-->
+
+            <p class="podpis">last update <script type="text/javascript" language="JavaScript">last_update();</script> | hosted by epicnet.sk | 2008 &copy; R&D</p>
+
+		</td>
+
+	</tr>
+
+</table>
+
+</div>
+
+</body>
+
+</html>
+

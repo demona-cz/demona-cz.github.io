@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <link href="demona.css" rel="Stylesheet" type="text/css" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="shortcut icon" href="images/ico.jpg" />
+
+    <script type="text/javascript" src="demona.js" ></script>
+
+    <title>Demona NWN Module</title>
+
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-25374267-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+
+<body>
+
+<div id="content">
+
+<table align="center" width="940"  border="0" cellpadding="0" cellspacing="0">
+
+	<tr>
+
+		<td rowspan="2">
+
+			<img src="images/layout/demona_layout_01.png" width="214" height="384" alt="" /></td>
+
+		<td>
+
+			<img src="images/layout/demona_layout_02.png" width="445" height="246" alt="" /></td>
+
+		<td>
+
+		    <map id="menu" name="menu">
+
+		        <area shape="poly" alt="Demona" coords="46,5,223,14,223,47,134,60,46,48" onmouseover="mapSvetDemona_over()" onmouseout="mapSvet_out()" href="/"/>
+
+		        <area shape="poly" alt="Download" coords="54,56,135,63,236,46,250,70,149,104,54,109" href="downloads.htm" onmouseover="mapSvetDownload_over()" onmouseout="mapSvet_out()" />
+
+		        <area shape="poly" alt="Fórum" coords="110,125,235,83,239,103,137,166" href="/forum" onmouseover="mapSvetForum_over()" onmouseout="mapSvet_out()" />
+
+		        <area shape="poly" alt="Svět" coords="162,168,250,105,264,131,195,204" href="svet.htm"  />
+
+		    </map>
+
+			<img id="menuDemona" src="images/layout/demona_layout_03_svet.jpg" width="281" height="246" alt="" usemap="#menu" style="border:none;" /></td>
+
+	</tr>
+
+	<tr>
+
+	    <!--horni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_04.png');" width="726" height="138">
+
+	        <a href="/">Demona</a> > Svět<br />
+
+	        <br />
+
+	        Zde se můžete dozvědět více o tom, jak funguje svět Demony.<br />
+
+	        <div style="padding-left:20px;">
+
+	        <a href="mechanika.htm" onmouseover="circleMechanika_over()" onmouseout="circle_out()">Mechanika</a> - seznam změn oproti standartnímu NeverwinterNights<br />
+
+	        <a href="systemy.htm" onmouseover="circleSystemy_over()" onmouseout="circle_out()">Systémy</a> - specifické úpravy a nastavení v modulu (systém smrti, peněz, sokeotývch zbraní a mnohé další)<br />
+
+	        <a href="craft.htm" onmouseover="circleRemesla_over()" onmouseout="circle_out()">Řemesla</a> - všechny důležité informace o systému řemesel<br />
+
+	        <a href="" onmouseover="circleObrazky_over()" onmouseout="circle_out()">Obrázky</a> - galerie z výprav, zajímavých akcí či z historie Démony<br />
+
+	        <a href="postava.htm"  onmouseover="circlePostava_over()" onmouseout="circle_out()">Postava</a> - popis ras a povolání NeverwinterNights<br />
+
+	        </div>
+
+		</td>
+
+	</tr>
+
+	<tr>
+
+		<td style="background-image:url('images/layout/demona_layout_05.png');">
+
+		</td>
+
+		<!--hlavni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_06.png');">
+
+		    <table width="100%">
+
+		        <tr>
+
+		            <td align="center" valign="middle">
+
+		                <map id="circle" name="circle">
+
+                            <area shape="poly" alt="Mechanika" coords="39,165,125,190,165,140,230,120,230,20,105,70" onmouseover="circleMechanika_over()" onmouseout="circle_out()" href="mechanika.htm"/>
+
+                            <area shape="poly" alt="Herní systémy" coords="240,20,380,75,440,165,350,190,245,115" onmouseover="circleSystemy_over()" onmouseout="circle_out()" href="systemy.htm"/>
+
+                            <area shape="poly" alt="Řemesla" coords="440,180,440,300,365,400,310,325,345,270,350,210" onmouseover="circleRemesla_over()" onmouseout="circle_out()" href="craft.htm"/>
+
+                            <area shape="poly" alt="Obrázky" coords="300,335,360,405,245,445,115,400,170,330" onmouseover="circleObrazky_over()" onmouseout="circle_out()" href=""/>
+
+                            <area shape="poly" alt="Postava" coords="105,400,40,300,36,178,120,210,160,320" onmouseover="circlePostava_over()" onmouseout="circle_out()" href="postava.htm"/>
+
+		                </map>
+
+		                <img id="circleImage" src="images/layout/kolecko_cb.jpg" alt="" usemap="#circle" style="border:none;"  /><br />
+
+		            </td>
+
+		        </tr>
+
+		    </table>
+
+	    </td>
+
+	</tr>
+
+	<tr>
+
+		<td rowspan="2" style="background-image:url('images/layout/demona_layout_07.png'); width:214px; height:174px;">
+
+		</td>
+
+		<!--spodni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_08.png'); text-align:center; vertical-align:bottom;" width="726" height="113" >
+
+		   &nbsp;
+
+		</td>
+
+	</tr>
+
+	<tr>
+
+	  <!--  <td colspan="2">
+
+            <img src="images/layout/demona_layout_09.png" width="726" height="61" alt="" />-->
+
+		<!--<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_09.png'); background-repeat:no-repeat; text-align:center; vertical-align:bottom;" width="726" height="61">
+
+       -->
+
+       <!-- <td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_09.png');" width="726" height="61">-->
+
+   <!--     <td colspan="2" style="background-image:url('images/layout/demona_layout_09.png');" width="726" height="61">
+
+            <img src="images/layout/demona_layout_09.png" width="726" height="61" alt="" />-->
+
+           <!-- last update <script type="text/javascript" language="JavaScript">last_update();</script> | hosted by epicnet.sk | 2008 &copy; R&D-->
+
+        <td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_09.png'); width:726px; height:61px; vertical-align:middle; text-align:center;">
+
+            <span class="podpis"> last update <script type="text/javascript" language="JavaScript">last_update();</script> | hosted by epicnet.sk | 2008 &copy; R&amp;D  </span>
+
+		</td>
+
+	</tr>
+
+</table>
+
+</div>
+
+</body>
+
+</html>
+

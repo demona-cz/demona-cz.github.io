@@ -1,0 +1,1546 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <link href="demona.css" rel="Stylesheet" type="text/css" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="shortcut icon" href="images/ico.jpg" />
+
+    <script type="text/javascript" src="demona.js" ></script>
+
+    <title>Demona NWN Module</title>
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-25374267-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+
+<body>
+
+<div id="content">
+
+<table align="center" width="940"  border="0" cellpadding="0" cellspacing="0">
+
+	<tr>
+
+		<td rowspan="2">
+
+			<img src="images/layout/demona_layout_01.png" width="214" height="384" alt="" /></td>
+
+		<td>
+
+			<img src="images/layout/demona_layout_02.png" width="445" height="246" alt="" /></td>
+
+		<td>
+
+		    <map id="menu" name="menu">
+
+		        <area shape="poly" alt="Demona" coords="46,5,223,14,223,47,134,60,46,48" onmouseover="mapSvetDemona_over()" onmouseout="mapSvet_out()" href="/"/>
+
+		        <area shape="poly" alt="Download" coords="54,56,135,63,236,46,250,70,149,104,54,109" href="downloads.htm" onmouseover="mapSvetDownload_over()" onmouseout="mapSvet_out()" />
+
+		        <area shape="poly" alt="Fórum" coords="110,125,235,83,239,103,137,166" href="/forum" onmouseover="mapSvetForum_over()" onmouseout="mapSvet_out()" />
+
+		        <area shape="poly" alt="Svět" coords="162,168,250,105,264,131,195,204" href="svet.htm"  />
+
+		    </map>
+
+			<img id="menuDemona" src="images/layout/demona_layout_03_svet.jpg" width="281" height="246" alt="" usemap="#menu" style="border:none;" /></td>
+
+	</tr>
+
+	<tr>
+
+	    <!--horni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_04.png');" width="726" height="138">
+
+	        <a href="/">Demona</a> > <a href="svet.htm">Svet</a> > Remesla<br />
+
+	        <br />
+
+	        <i>... Tak vznikly trpaslíci, gnómové, hobiti, orkové a jiné další inteligentní rasy. <br />
+
+	        Protože všech rychle přibývalo a rychle se rozvíjeli, naučili se řemeslům, obchodu, magii, válce a jiným dovednostem přístupným pouze jim...<br />
+
+	        --Genesis</i>
+
+		</td>
+
+	</tr>
+
+	<tr>
+
+		<td style="background-image:url('images/layout/demona_layout_05.png');">
+
+		</td>
+
+		<!--hlavni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_06.png');">
+
+
+
+
+
+		    <!--heading-->
+
+	        <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                <a name="remesla"></a>O systemu remesel vseobecne
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+            [ <a href="/">Demona</a> > <a href="svet.htm">Svet</a> > Remesla ]<br />
+
+	        [ O Craftu | <a href="#hornik">Hornik</a> | <a href="#kovar">Kovar</a> | <a href="#platner">Platner</a> | <a href="#zlatnik">Zlatnik</a> | <a href="#sipar">Sipar</a> | <a href="#lukar">Lukar</a> | <a href="#kozeluh">Kozeluh</a> | <a href="#krejci">Krejci</a> | <a href="#alchymista">Alchymista</a> | <a href="#obchodnik">Obchodnik</a> ]<br />
+
+
+
+                <br />
+
+                <table width="100%">
+
+                <tr>
+
+                <td><img src="images/layout/craft.jpg"></td>
+
+                <td><i>Crafting na Demone je postaven na základě skriptů Ambrosia Tradeskill System od Allen Sun inspirovaný klasickou hrou Ultima Online. Prvotní Implementaci a úpravu těchto skriptů provedl Kallar, Wyvern a Harnan Bliss. Dalsi upravy provedli Kosh, GGeorge, Dedek, Mytko. Řemesla se neustále vyvíjejí, balancují a přidávají se nové výrobky.</i></td>
+
+                </tr>
+
+                </table>
+
+                <br />
+
+
+
+            <span class="nadpis_red">ABILITY PRO CRAFT:</span><br />
+
+                <b>Hornik</b>: zadne omezeni<br />
+
+                <b>Kovar</b>: zadne omezeni<br />
+
+                <b>Platner</b>: zadne omezeni<br />
+
+                <b>Zlatnik</b>: zadne omezeni<br />
+
+                <b>Sipar</b>: zadne omezeni<br />
+
+                <b>Lukar</b>: zadne omezeni<br />
+
+                <b>Kozeluh</b>: zadne omezeni<br />
+
+                <b>Krejci</b>: zadne omezeni<br />
+
+                <b>Alchymista</b>: zadne omezeni<br />
+
+                <b>Obchodnik</b>: Zadny bod v okradani<br />
+
+            <ul>
+
+            <li>Aby postava mohla zacit vykonavat remeslo, musi se vyucit u prislusneho NPC.</li>
+
+            <li>Kazdy sipar muze byt zaroven i lukar a naopak.</li>
+
+            <li>Jakekoliv dalsi remeslo vylucuje, aby se postava naucila zaroven remeslo jine.</li>
+
+            <li>Pokud se chce postava naucit jinemu remeslu, musi si predchozi remeslo zrusit za pooplatek u prislusneho NPC.</li>
+
+            <br />
+
+            <li>Sber nekterych materialu se da vykonavat i bez vyuceni sa jakemukoliv remeslu. Tyyo materialy je pak mozne prodat ruznym remeslnikum.</li>
+
+            <li>Jde o sber bylin (pro alchymii), sekani drivi (pro sipare, lukare, kovare), sbirani kytek (pro krejci).</li>
+
+            <li>Pro nektere s tehle cinnosti je nutne mit v ruce specialni nastroj (sekyru, nuz), tudiz ho postava musi umet pouzivat.</li>
+
+            <br />
+
+            <li>Pro vyrobu vetsiny vyrobku je zapotrebi krome prislusneho materialu u tzv. <b>licenci</b>, ktere sa daji zakoupit ve meste.</li>
+
+            <li>Druh a cena licence zavisi od materialu, z ktereho bude vyraben vyrobek.</li>
+
+            </ul>
+
+            <span class="nadpis_red">Pocty licenci pro craft:</span>
+
+            <ul>
+
+                <li><b>Kovář</b>
+
+                    <ul>
+
+                        <li>Zbrane 2</li>
+
+                        <li>Ostatní 0</li>
+
+                    </ul>
+
+                <li><b>Platner</b>
+
+                    <ul>
+
+                        <li>Brneni 2</li>
+
+                        <li>Helmy 1</li>
+
+                        <li>Stity 1</li>
+
+                        <li>Chranice 1</li>
+
+                        <li>Ostatní 0</li>
+
+                    </ul>
+
+                </li>
+
+                <li><b>Krejci</b>
+
+                    <ul>
+
+                        <li>Roba 3</li>
+
+                        <li>Plast 2</li>
+
+                        <li>Ostatní obleceni 1</li>
+
+                        <li>Ostatní 0</li>
+
+                    </ul>
+
+                </li>
+
+                <li><b>Lukar</b>
+
+                    <ul>
+
+                        <li>Zbrane 1</li>
+
+                        <li>Ostatní 0</li>
+
+                    </ul>
+
+                </li>
+
+                <li><b>Zlatnik</b>
+
+                    <ul>
+
+                        <li>Hole pro magy 2</li>
+
+                        <li>Sperky 1</li>
+
+                        <li>Ostatní 0</li>
+
+                    </ul>
+
+                </li>
+
+                <li><b>Sipar, Kozeluh, Hornik, Alchymista, Obchodnik</b>
+
+                    <ul>
+
+                        <li>Cokoliv 0</li>
+
+                    </ul>
+
+                </li>
+
+
+
+                <li>Z licenci jsou vylouceny skillovaci itemy dle druhu craftu (Hrebiky, Knofliky, Louce, Naramky, Driky).</li>
+
+            </ul>
+
+
+
+            <!--heading-->
+
+	        <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                <a name="hornik"></a>Hornik
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+            [ <a href="/">Demona</a> > <a href="svet.htm">Svet</a> > Remesla ]<br />
+
+	        [ <a href="#remesla">O Craftu</a> | Hornik | <a href="#kovar">Kovar</a> | <a href="#platner">Platner</a> | <a href="#zlatnik">Zlatnik</a> | <a href="#sipar">Sipar</a> | <a href="#lukar">Lukar</a> | <a href="#kozeluh">Kozeluh</a> | <a href="#krejci">Krejci</a> | <a href="#alchymista">Alchymista</a> | <a href="#obchodnik">Obchodnik</a> ]<br />
+
+
+
+                <br />
+
+                <table width="100%">
+
+                <tr>
+
+                <td><img src="images/layout/hornik.jpg"></td>
+
+                <td><i>K tomuto řemeslu je potreba vyucit se u Mistra hornika a zakoupit krumpáč. Potom vyrazit někam na průzkum a najít doly. Pak už jenom kopat a kopat. Úspěšnost vykopání rudy nebo drahokamu závisí jen na vaší síle. Síla je důležitá pro nošení těžké rudy a otevírání těžkých dveří pecí, ve kterých z rudy vznikaji ingoty. Ingoty pak od vás může vykupovat nějaký kovář. Níže se můžete podívat do tabulky všech kovů a drahých kamenů, které lze vytěžit. Neopracované kameny rádi odkoupí zlatníci.</i></td>
+
+                </tr>
+
+                </table>
+
+                <br />
+
+
+
+                <b>Co musi splnit</b>: Nic, ale jeho uspesnost v remesle je ovlivnena silou<br />
+
+                <b>Vyuceni</b>: Folinar (Mistr horník) Grubus<br />
+
+                <b>Nastroje</b>: Krumpac (medeny, bronzovy, zelezny, mistra)<br />
+
+                <b>Pracovni misto</b>: Dul, Vyhen<br />
+
+                <b>Prirucka</b>: Ucednikuv pruvodce hornicinou<br />
+
+                <b>Remeslne dovednosti</b>: Tezba rudy (Mining), Taveni rudy (Blacksmithing)<br />
+
+                <b>Maximalni level skillu</b>: 1000<br />
+
+                <br />
+
+                <span class="nadpis_red">Materialy:</span><br />
+
+                    <ul>
+
+                        <li>Copper (Med) ruda / ingot</li>
+
+                        <li>Bronze (Bronz) ruda / ingot</li>
+
+                        <li>Iron (Zelezo) ruda / ingot</li>
+
+                        <li>Silver (Stribro) ruda / ingot</li>
+
+                        <li>Gold (Zlato) ruda / ingot</li>
+
+                        <li>Syenite ruda / ingot</li>
+
+                        <li>Rubicite ruda / ingot</li>
+
+                        <li>Verdicite ruda / ingot</li>
+
+                        <li>Mithral ruda / ingot</li>
+
+                        <li>Shadow ruda / ingot</li>
+
+                        <li>Adamantine ruda / ingot</li>
+
+                        <li>Mirkandite ruda / ingot</li>
+
+                    </ul>
+
+                    <ul>
+
+                        <li>Rough Malachite</li>
+
+                        <li>Rough Amethyst</li>
+
+                        <li>Rough Lapis Lazuli</li>
+
+                        <li>Rough Turqouise</li>
+
+                        <li>Rough Jade</li>
+
+                        <li>Rough Opal</li>
+
+                        <li>Rough Onyx</li>
+
+                        <li>Rough Fire Opal</li>
+
+                        <li>Rough Saphire</li>
+
+                        <li>Rough Pearl</li>
+
+                        <li>Rough Black Saphire</li>
+
+                        <li>Rough Ruby</li>
+
+                        <li>Rough Emerald</li>
+
+                        <li>Rough Diamond</li>
+
+                    </ul>
+
+
+
+            <!--heading-->
+
+	        <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                <a name="kovar"></a>Kovar
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+            [ <a href="/">Demona</a> > <a href="svet.htm">Svet</a> > Remesla ]<br />
+
+	        [ <a href="#remesla">O Craftu</a> | <a href="#hornik">Hornik</a> | Kovar | <a href="#platner">Platner</a> | <a href="#zlatnik">Zlatnik</a> | <a href="#sipar">Sipar</a> | <a href="#lukar">Lukar</a> | <a href="#kozeluh">Kozeluh</a> | <a href="#krejci">Krejci</a> | <a href="#alchymista">Alchymista</a> | <a href="#obchodnik">Obchodnik</a> ]<br />
+
+
+
+                <br />
+
+                <table width="100%">
+
+                <tr>
+
+                <td><img src="images/layout/kovar.jpg" /></td>
+
+                <td><i>Zvládnutím tohoto řemesla se naučíte vyrábět různé zbraně. Od nejjednodušších z mědi až po zbraně ze vzácného kovu Mithrill. Zbraní je spousta druhú a správný kovář by se vnich mal dobře vyznat. Samotná výroba zbraně je poměrně jednoduchá, postačí k ní jen správný počet kovových ingotů, kladivo a trocha štěstí při kování. Kromně zbraní se naučíte vyrábět i rúzné nástroje pro řemeslníky. Na malých kovových cetkách si pak múžete cvičit svoje umění přesného kováni ze vzácných kovú. </i></td>
+
+                </tr>
+
+                </table>
+
+                <br />
+
+
+
+                <b>Co musi splnit</b>: Nic, ale jeho uspesnost v remesle je ovlivnena silou<br />
+
+                <b>Vyuceni</b>: Kovar Matej Kendt z Alicie, Alicie<br />
+
+                <b>Nastroje</b>: Kovarske kladivo (medene, bornzove, zelezne, mistra)<br />
+
+                <b>Pracovni misto</b>: Kovadlina, Vyhen<br />
+
+                <b>Prirucka</b>: Zapisky<br />
+
+                <b>Remeslne dovednosti</b>: Vyroba zbrani (Weaponcrafting), Taveni rudy (Blacksmithing) <br />
+
+                <b>Maximalni level skillu</b>: 1000<br />
+
+
+
+                <span class="nadpis_red">CIRL pre vyrobky kovare (zbrane):</span><br />
+
+                CIRL(Custom Item Restriction Level) urcuje minimalny level, ktory musi dosiahnut postava, aby mohla nosit zbran z uvedeneho materialu.
+
+                    <ul>
+
+                        <li><b>Copper</b>(Med): lvl 1</li>
+
+                        <li><b>Bronze</b>(Bronz): lvl 2</li>
+
+                        <li><b>Iron</b>(Zelezo): lvl 3</li>
+
+                        <li><b>Silver</b>(Stribro): lvl 4</li>
+
+                        <li><b>Gold</b>(Zlato): lvl 7</li>
+
+                        <li><b>Syenite</b>: lvl 10</li>
+
+                        <li><b>Rubicite</b>: lvl 13</li>
+
+                        <li><b>Verdicite</b>: lvl 17</li>
+
+                        <li><b>Mithral</b>: lvl 20</li>
+
+                        <li><b>Shadow</b>: lvl 20</li>
+
+                        <li><b>Adamantine</b>: lvl 25</li>
+
+                        <li><b>Mirkandite</b>: lvl 30</li>
+
+                    </ul>
+
+                <span class="nadpis_red">Vyrobky:</span><br />
+
+                Sekery, Cepele, Tupe, Tycove, Exoticke, Vrhaci, Dvoustranne, Polotovary (Hroty sipu, Hroty sipek, Bullety do praku, Herbiky), Naradi (Kovarske kladivo, Krumpac, Noze, Drevorubecka sekera, Zlatnicke nastroje)<br />
+
+                <span class="nadpis_red">Licence:</span><br />
+
+                Vsechny zbrane (2), Ostani (0)<br />
+
+                <br />
+
+
+
+		    <!--heading-->
+
+	        <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                <a name="platner"></a>Platner
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+            [ <a href="/">Demona</a> > <a href="svet.htm">Svet</a> > Remesla ]<br />
+
+	        [ <a href="#remesla">O Craftu</a> | <a href="#hornik">Hornik</a> | <a href="#kovar">Kovar</a> | Platner | <a href="#zlatnik">Zlatnik</a> | <a href="#sipar">Sipar</a> | <a href="#lukar">Lukar</a> | <a href="#kozeluh">Kozeluh</a> | <a href="#krejci">Krejci</a> | <a href="#alchymista">Alchymista</a> | <a href="#obchodnik">Obchodnik</a> ]<br />
+
+
+
+                <br />
+
+                <table width="100%">
+
+                <tr>
+
+                <td><img src="images/layout/platner.jpg"></td>
+
+                <td><i>Výroba zbrojí je poněkud náročnější jak na výrobu tak na použité materiály. K výrobě zbrojí je dále potřeba spolupráce s koželuhem jehož kúže jsou k výrobě brnění potřebné. Výrobu začínáte s mědí a postupem času se naučíte vyrábět velmi cenné zbroje ze vzácných kovů. Na chráničích a menších věcech múžete cvičit, aby ste se postupně v kováni zlepšovali ale nezničili u toho příliš mnoho drahého materiálu. Kromně zbrojí se naučte vyrábět i helmy a štíty rúzných tvarú.</i></td>
+
+                </tr>
+
+                </table>
+
+                <br />
+
+
+
+                <b>Co musi splnit</b>: Nic, ale jeho uspesnost v remesle je ovlivnena silou<br />
+
+                <b>Vyuceni</b>: Kovar Matej Kendt z Alicie, Alicie<br />
+
+                <b>Nastroje</b>: Kovarske kladivo (medene, bornzove, zelezne, mistra)<br />
+
+                <b>Pracovni misto</b>: Kovadlina, Vyhen<br />
+
+                <b>Prirucka</b>: Zapisky<br />
+
+                <b>Remeslne dovednosti</b>: Vyroba zbroji (Armorcrafting), Taveni rudy (Blacksmithing)<br />
+
+                <b>Maximalni level skillu</b>: 1000<br />
+
+
+
+                <span class="nadpis_red">CIRL pre vyrobky platnere (zbroje):</span><br />
+
+                CIRL(Custom Item Restriction Level) urcuje minimalny level, ktory musi dosiahnut postava, aby mohla nosit zbroj z uvedeneho materialu.
+
+                    <ul>
+
+                        <li><b>Copper</b>(Med): lvl 1</li>
+
+                        <li><b>Bronze</b>(Bronz): lvl 2</li>
+
+                        <li><b>Iron</b>(Zelezo): lvl 3</li>
+
+                        <li><b>Silver</b>(Stribro): lvl 4</li>
+
+                        <li><b>Gold</b>(Zlato): lvl 7</li>
+
+                        <li><b>Syenite</b>: lvl 10</li>
+
+                        <li><b>Rubicite</b>: lvl 13</li>
+
+                        <li><b>Verdicite</b>: lvl 17</li>
+
+                        <li><b>Mithral</b>: lvl 20</li>
+
+                        <li><b>Shadow</b>: lvl 20</li>
+
+                        <li><b>Adamantine</b>: lvl 25</li>
+
+                        <li><b>Mirkandite</b>: lvl 30</li>
+
+                    </ul>
+
+                <span class="nadpis_red">Vyrobky:</span><br />
+
+                Zbroje, Helmy, Stity, Chranice, Ostatni (Cvocky)<br />
+
+                <span class="nadpis_red">Licence:</span><br />
+
+                Vsechny brneni (2), Helmy, Stity a Chranice (1), Ostani (0)<br />
+
+                <br />
+
+
+
+ 		    <!--heading-->
+
+	        <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                <a name="zlatnik"></a>Zlatník
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+
+
+            [ <a href="/">Demona</a> > <a href="svet.htm">Svet</a> > Remesla ]<br />
+
+	        [ <a href="#remesla">O Craftu</a> | <a href="#hornik">Hornik</a> | <a href="#kovar">Kovar</a> | <a href="#platner">Platner</a> | Zlatnik | <a href="#sipar">Sipar</a> | <a href="#lukar">Lukar</a> | <a href="#kozeluh">Kozeluh</a> | <a href="#krejci">Krejci</a> | <a href="#alchymista">Alchymista</a> | <a href="#obchodnik">Obchodnik</a> ]<br />
+
+
+
+                <br />
+
+                <table width="100%">
+
+                <tr>
+
+                <td><img src="images/layout/zlatnik.jpg"></td>
+
+                <td><i>Zlatnické řemeslo je nejtěžší co do náročnosti. Ale zkušený zlatník umí vyrobit velmi vzácné a magické šperky. Skutečný mistr pak zvládá výrobu velice drahých prstenů a náhrdelníků. K vykonu remesla je potrebne aby remeslnik oplyval charismou a rozumel krase, kterou je potreba vlozit do sperkarskych vyrobku. Prsteny i nahrdelniky se vyrabeji pomocou odlevani zlata do ruznych forem a osazovanim brousenych drahokamu, ktere se remeslnik musi take naucit vybrousit. Rozličnou kombinací kovu a drahokamu lze vyrobit předměty s různými magickými účinky.</i></td>
+
+                </tr>
+
+                </table>
+
+                <br />
+
+
+
+                <b>Co musi splnit</b>: Nic, ale jeho uspesnost v remesle je ovlivnena charismou<br />
+
+                <b>Vyuceni</b>: Calia Amedia , Elfi ostrov<br />
+
+                <b>Nastroje</b>: Zlatnicke dlato, Zlatnicke kladivko (medene, bornzove, zelezne, mistra)<br />
+
+                <b>Pracovni misto</b>: Zlatnicky stul<br />
+
+                <b>Prirucka</b>: Kniha navodov na tvorbu sperkov, Nalezene zapisky mlade zlatnice, Vlastnosti drahokamov 1 a 2<br />
+
+                <b>Remeslne dovednosti</b>: Opracovani kamenu (Gamecutting), Vyroba sperku (Jewelcrafting)<br />
+
+                <b>Maximalni level skillu</b>: 1000<br />
+
+
+
+                <span class="nadpis_red">CIRL pre vyrobky zlatnika (sperky):</span><br />
+
+                CIRL(Custom Item Restriction Level) urcuje minimalny level, ktory musi dosiahnut postava, aby mohla nosit sperk z uvedeneho materialu.
+
+                    <ul>
+
+                        <li><b>Malachite</b>: lvl 1</li>
+
+                        <li><b>Amethyst</b>: lvl 2</li>
+
+                        <li><b>Lapis Lazuli</b>: lvl 3</li>
+
+                        <li><b>Turqouise</b>: lvl 4</li>
+
+                        <li><b>Jade</b>: lvl 7</li>
+
+                        <li><b>Opal</b>: lvl 9</li>
+
+                        <li><b>Onyx</b>: lvl 11</li>
+
+                        <li><b>Fire Opal</b>: lvl 14</li>
+
+                        <li><b>Saphire</b>: lvl 17</li>
+
+                        <li><b>Pearl</b>: lvl 20</li>
+
+                        <li><b>Black Saphire</b>: lvl 20</li>
+
+                        <li><b>Ruby</b>: lvl 23</li>
+
+                        <li><b>Emerald</b>: lvl 26</li>
+
+                        <li><b>Diamond</b>: lvl 30</li>
+
+                    </ul>
+
+                <span class="nadpis_red">Vyrobky:</span><br />
+
+                Opracovane kameny (Broken / Cut), Prsteny, Amulety, Magicke hole, Ostatni (Naramek, Nausnice) <br />
+
+                <span class="nadpis_red">Licence:</span><br />
+
+                Sperky (1), Magicke hole (2), Ostani (0)<br />
+
+                <br />
+
+
+
+		    <!--heading-->
+
+	        <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                <a name="sipar"></a>Sipar
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+            [ <a href="/">Demona</a> > <a href="svet.htm">Svet</a> > Remesla ]<br />
+
+	        [ <a href="#remesla">O Craftu</a> | <a href="#hornik">Hornik</a> | <a href="#kovar">Kovar</a> | <a href="#platner">Platner</a> | <a href="#zlatnik">Zlatnik</a> | Sipar | <a href="#lukar">Lukar</a> | <a href="#kozeluh">Kozeluh</a> | <a href="#krejci">Krejci</a> | <a href="#alchymista">Alchymista</a> | <a href="#obchodnik">Obchodnik</a> ]<br />
+
+
+
+                <br />
+
+                <table width="100%">
+
+                <tr>
+
+                <td><img src="images/layout/sipar.jpg"></td>
+
+                <td><i>Co by byl sebelepší střelec bez šípů. Proto si každý lučištník může vyrobit šípy. Stačí k tomu jen dostatečná obratnost. K vlastní výrobě pak potřebujete šípařský stolec a nůž, který zakoupíte u svého mistra. Můžete si ho též nechat vyrobit z nějakého lepšího kovu u kováře. Zakoupený nůž není moc kvalitní a každou chvilku se láme. K vlastní výrobě šípu pak potřebujete dva základní komponenty. Prvním komponentem je drik ze dreva, ktery si vyrobite sami, tedy vlastní dřevěné tělo šípu. Na jeho jeden konec přiděláte špičku, kterou vam vyrobi kovar. Kombinací různých špiček či opeření vyrobíte různé druhy šípů.</i></td>
+
+                </tr>
+
+                </table>
+
+                <br />
+
+
+
+                <b>Co musi splnit</b>: Nic, ale jeho uspesnost v remesle je ovlivnena obratnosti<br />
+
+                <b>Vyuceni</b>: Mistr Padrier Amoles, Elfi Ostrov<br />
+
+                <b>Nastroje</b>: Siparuv nuz (medeny, bornzovy, zelezny, mistra), Drevorubecka Sekera (medena, bornzova, zelezna, mistra)<br />
+
+                <b>Pracovni misto</b>: Siparuv stolec<br />
+
+                <b>Prirucka</b>: Kterak sipy stipat<br />
+
+                <b>Remeslne dovednosti</b>: Vyroba sipu (Fletching)<br />
+
+                <b>Maximalni level skillu</b>: 1000<br />
+
+
+
+                <span class="nadpis_red">CIRL pre vyrobky sipare (sipy):</span><br />
+
+                CIRL(Custom Item Restriction Level) urcuje minimalny level, ktory musi dosiahnut postava, aby mohla pouzivat sipy z uvedeneho materialu.
+
+                    <ul>
+
+                        <li><b>Copper</b>(Med): lvl 1</li>
+
+                        <li><b>Bronze</b>(Bronz): lvl 2</li>
+
+                        <li><b>Iron</b>(Zelezo): lvl 3</li>
+
+                        <li><b>Silver</b>(Stribro): lvl 4</li>
+
+                        <li><b>Gold</b>(Zlato): lvl 7</li>
+
+                        <li><b>Syenite</b>: lvl 10</li>
+
+                        <li><b>Rubicite</b>: lvl 13</li>
+
+                        <li><b>Verdicite</b>: lvl 17</li>
+
+                        <li><b>Mithral</b>: lvl 20</li>
+
+                        <li><b>Shadow</b>: lvl 20</li>
+
+                        <li><b>Adamantine</b>: lvl 25</li>
+
+                        <li><b>Mirkandite</b>: lvl 30</li>
+
+                    </ul>
+
+
+
+                <span class="nadpis_red">Material:</span><br />
+
+                Drevo se ziskava ze stromu, ktrere rostou v lesich a v okolich mest.
+
+                    <ul>
+
+                        <li>Drevo - dlouha / kratka Vrba</li>
+
+                        <li>Drevo - dlouha / kratka Olse</li>
+
+                        <li>Drevo - dlouha / kratka Liska</li>
+
+                        <li>Drevo - dlouhy / kratky Dub</li>
+
+                        <li>Drevo - dlouhy / kratky Jilm</li>
+
+                        <li>Drevo - dlouhy / kratky Tis</li>
+
+                        <li>Drevo - dlouhy / kratky Javor</li>
+
+                        <li>Drevo - dlouhy / kratky Jasan</li>
+
+                    </ul>
+
+                <span class="nadpis_red">Vyrobky:</span><br />
+
+                Sipy, Sipky, Polotovary (Driky)<br />
+
+                <span class="nadpis_red">Licence:</span><br />
+
+                Vsechno(0)<br />
+
+                <br />
+
+
+
+            <!--heading-->
+
+	        <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                <a name="lukar"></a>Lukar
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+            [ <a href="/">Demona</a> > <a href="svet.htm">Svet</a> > Remesla ]<br />
+
+	        [ <a href="#remesla">O Craftu</a> | <a href="#hornik">Hornik</a> | <a href="#kovar">Kovar</a> | <a href="#platner">Platner</a> | <a href="#zlatnik">Zlatnik</a> | <a href="#sipar">Sipar</a> | Lukar | <a href="#kozeluh">Kozeluh</a> | <a href="#krejci">Krejci</a> | <a href="#alchymista">Alchymista</a> | <a href="#obchodnik">Obchodnik</a> ]<br />
+
+
+
+                <br />
+
+                <table width="100%">
+
+                <tr>
+
+                <td><img src="images/layout/lukar.jpg"></td>
+
+                <td><i>Předpoklad pro vykonavani tohoto remesla je velká inteligence. K tomuto řemeslu budete, po zvládnutí základů, potřebovat ze všeho nejdříve dřevorubeckou sekyru. Potom je potřeba najít vhodný strom a naštípat z něj dřevo na základ luku. Touto poměrně nezábavnou prací můžete za úplatu pověřit kohokoli. Když máte potřebné dřevo, zakoupíte u svého mistra konopnou tětivu a lukařský nůž. A můžete začít cvičit výrobu základních luků. Časem se naučíte vyrábět nejen obyčejné krátké či dlouhé luky, ale i kuše, bojové luky a speciální luky.</i></td>
+
+                </tr>
+
+                </table>
+
+                <br />
+
+
+
+                <b>Co musi splnit</b>: Nic, ale jeho uspesnost v remesle je ovlivnena inteligenci<br />
+
+                <b>Vyuceni</b>: Mistr Padrier Amoles, Elfi Ostrov<br />
+
+                <b>Nastroje</b>: Lukarsky nuz (medeny, bornzovy, zelezny, mistra), Drevorubecka Sekera (medena, bornzova, zelezna, mistra)<br />
+
+                <b>Pracovni misto</b>: Lukarsky stolec<br />
+
+                <b>Prirucka</b>: Zaklady vyroby luku<br />
+
+                <b>Remeslne dovednosti</b> (skill): Vyroba luku (Bowyering)<br />
+
+                <b>Maximalni level skillu</b>: 1000<br />
+
+
+
+                <span class="nadpis_red">CIRL pre vyrobky lukare (luky):</span><br />
+
+                CIRL(Custom Item Restriction Level) urcuje minimalny level, ktory musi dosiahnut postava, aby mohla pouzivat luky z uvedeneho materialu.
+
+                    <ul>
+
+                        <li><b>Vrba</b>: lvl 1</li>
+
+                        <li><b>Olse</b>: lvl 4</li>
+
+                        <li><b>Liska</b>: lvl 7</li>
+
+                        <li><b>Dub</b>: lvl 11</li>
+
+                        <li><b>Jilm</b>: lvl 15</li>
+
+                        <li><b>Tis</b>: lvl 19</li>
+
+                        <li><b>Javor</b>: lvl 24</li>
+
+                        <li><b>Jasan</b>: lvl 29</li>
+
+                    </ul>
+
+                <span class="nadpis_red">Material:</span><br />
+
+                Drevo se ziskava ze stromu, ktrere rostou v lesich a v okolich mest.
+
+                    <ul>
+
+                        <li>Drevo - dlouha / kratka Vrba</li>
+
+                        <li>Drevo - dlouha / kratka Olse</li>
+
+                        <li>Drevo - dlouha / kratka Liska</li>
+
+                        <li>Drevo - dlouhy / kratky Dub</li>
+
+                        <li>Drevo - dlouhy / kratky Jilm</li>
+
+                        <li>Drevo - dlouhy / kratky Tis</li>
+
+                        <li>Drevo - dlouhy / kratky Javor</li>
+
+                        <li>Drevo - dlouhy / kratky Jasan</li>
+
+                    </ul>
+
+                <span class="nadpis_red">Vyrobky:</span><br />
+
+                Kratke luky, Dlouhe luky, Lehke kuse, Tezke kuse, Praky, Tetivy, Pochodne<br />
+
+                <span class="nadpis_red">Licence:</span><br />
+
+                Luky, Kuse a Praky (1), Tetivy a Pochodne (0)<br />
+
+                <br />
+
+
+
+		    <!--heading-->
+
+	        <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                <a name="kozeluh"></a>Kozeluh
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+            [ <a href="/">Demona</a> > <a href="svet.htm">Svet</a> > Remesla ]<br />
+
+	        [ <a href="#remesla">O Craftu</a> | <a href="#hornik">Hornik</a> | <a href="#kovar">Kovar</a> | <a href="#platner">Platner</a> | <a href="#zlatnik">Zlatnik</a> | <a href="#sipar">Sipar</a> | <a href="#lukar">Lukar</a> | Kozeluh | <a href="#krejci">Krejci</a> | <a href="#alchymista">Alchymista</a> | <a href="#obchodnik">Obchodnik</a> ]<br />
+
+
+
+                <br />
+
+                <table width="100%">
+
+                <tr>
+
+                <td><img src="images/layout/kozeluh.jpg"></td>
+
+                <td><i>Toto řemeslo ovládají pouze lovci a nikdo jiný. Po ulovení zvířete je potřeba mít u sebe stahovací nůž a zvíře rychle stáhnout. Z rúzných zvířat jsou rýzné kúže, co se velikosti i barvy týče. Z některých zvířat lze získat cenné bílé kůže, z kterých po zpracování, umí zkušený krejčí ušít zajímavé věci. Jako nováček po naučení základů u mistra začíná pracovat s jednoduchými kůžemi z jezevce či jelena, které se nejprve učí sušit v sušící peci. K usušení kůží je potřeba dřevo na zatopení v peci a sůl k naložení kůže. Množství závisí na velikosti kůže.  Po zvládnutí základního zpracování kůží se naučí koželuh kůže ve speciální lázni vypalovat a pomocí kyselin a vosků vytvrdit.</i></td>
+
+                </tr>
+
+                </table>
+
+                <br />
+
+
+
+                <b>Co musi splnit</b>: Nic <br />
+
+                <b>Vyuceni</b>: Kean Hald z Alicie, Alicia trziste<br />
+
+                <b>Nastroje</b>: Stahovaci nuz (medeny, bornzovy, zelezny, mistra)<br />
+
+                <b>Pracovni misto</b>: Susarna, Nadrz s vodou<br />
+
+                <b>Prirucka</b>: Zaklady kozeluha<br />
+
+                <b>Remeslne dovednosti</b>: Opracovani kuzi (Tanning)<br />
+
+                <b>Maximalni level skillu</b>: 200<br />
+
+                <br />
+
+                <span class="nadpis_red">Lovna zver:</span><br />
+
+                Ruzna zvirata ziji v lesich, v okoli rek, v horach a nektere i v mestske kanalizaci.
+
+                <ul>
+
+                <li>Jelen</li>
+
+                <li>Jezevec</li>
+
+                <li>Medved</li>
+
+                <li>Neotpyr</li>
+
+                <li>Panter</li>
+
+                <li>Puma</li>
+
+                <li>Rys</li>
+
+                <li>Vlk</li>
+
+                </ul>
+
+                <span class="nadpis_red">Vyrobky:</span><br />
+
+                <b>Kuze podle velikosti</b>: Male kuze, Stredni kuze, Velke kuze<br />
+
+                <b>Kuze podle barvy</b>: Hnede kuze, Cerne kuze, Bile kuze<br />
+
+                <b>Kuze podle kvality</b>: Syrove kuze, Rozpadle kuze, Susene kuze, Kozervovane kuze, Tvrzene kuze<br />
+
+                <span class="nadpis_red">Licence:</span><br />
+
+                Vsechno(0)<br />
+
+                <br />
+
+
+
+		    <!--heading-->
+
+	        <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                <a name="krejci"></a>Krejci
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+            [ <a href="/">Demona</a> > <a href="svet.htm">Svet</a> > Remesla ]<br />
+
+	        [ <a href="#remesla">O Craftu</a> | <a href="#hornik">Hornik</a> | <a href="#kovar">Kovar</a> | <a href="#platner">Platner</a> | <a href="#zlatnik">Zlatnik</a> | <a href="#sipar">Sipar</a> | <a href="#lukar">Lukar</a> | <a href="#kozeluh">Kozeluh</a> | Krejci | <a href="#alchymista">Alchymista</a> | <a href="#obchodnik">Obchodnik</a> ]<br />
+
+
+
+                <br />
+
+                <table width="100%">
+
+                <tr>
+
+                <td><img src="images/layout/krejci.jpg"></td>
+
+                <td><i>Krejcovskym řemeslem mohou se zabývati dostatecne obratni remeslnici. Barvy z rostlin jsou potřeba na obarveni latek ze kterých pak šijete. Časem se naučíte šít njenom šaty, ale i kožené zbroje, opasky, rukavice či boty. K výrobě látky tedy potřebujete jednak barvu a kůži od koželuha. Tato kůže musí být tvrzená a nestačí ji tedy pouze usušit. Po obarvení, pokud se podaří, získáte látku. Na každý kus, který budete chtít ušít pak potřebujete jinak velikou látku. Pokud máte potřebné komponenty, stačí jen zasednout k šicímu stroji a vesele se pustit do práce. </i></td>
+
+                </tr>
+
+                </table>
+
+                <br />
+
+
+
+                <b>Co musi splnit</b>: Nic, ale jeho uspesnost v remesle je ovlivnena obratnosti<br />
+
+                <b>Vyuceni</b>: Mistr Merudoc Undenklefen, Elfi ostrov<br />
+
+                <b>Nastroje</b>: Krecovsky nuz (medeny, bornzovy, zelezny, mistra)<br />
+
+                <b>Pracovni misto</b>: Singrovka<br />
+
+                <b>Prirucka</b>: Herbar, Zaklady mlade svadlenky<br />
+
+                <b>Remeslne dovednosti</b> (skill): Siti (Tailoring)<br />
+
+                <b>Maximalni level skillu</b>: 1000<br />
+
+
+
+                <span class="nadpis_red">CIRL pre vyrobky krejciho:</span><br />
+
+                CIRL(Custom Item Restriction Level) urcuje minimalny level, ktory musi dosiahnut postava, aby mohla nosit obleceni z uvedeneho materialu.
+
+                    <ul>
+
+                        <li><b>Aqua</b>: lvl 1</li>
+
+                        <li><b>Zluta</b>: lvl 3</li>
+
+                        <li><b>Modra</b>: lvl 4</li>
+
+                        <li><b>Hneda</b>: lvl 6</li>
+
+                        <li><b>Bronzova</b>: lvl 7</li>
+
+                        <li><b>Zlata</b>: lvl 9</li>
+
+                        <li><b>Seda</b>: lvl 10</li>
+
+                        <li><b>Zelena</b>: lvl 12</li>
+
+                        <li><b>Lime</b>: lvl 13</li>
+
+                        <li><b>Tmave hneda</b>: lvl 15</li>
+
+                        <li><b>Tmave modra</b>: lvl 16</li>
+
+                        <li><b>Tmave zelena</b>: lvl 18</li>
+
+                        <li><b>Purpurova</b>: lvl 19</li>
+
+                        <li><b>Cervena</b>: lvl 21</li>
+
+                        <li><b>Stribrna</b>: lvl 22</li>
+
+                        <li><b>Nebeska</b>: lvl 24</li>
+
+                        <li><b>Bila</b>: lvl 25</li>
+
+                        <li><b>Cerna</b>: lvl 27</li>
+
+                    </ul>
+
+
+
+                <span class="nadpis_red">Kvetiny:</span><br />
+
+                Z kvetu je mozno vyrobit barvy, ktrere potrebujete na vyrobu latek.
+
+                    <ul>
+
+                        <li><b>Aqua</b>: Iris</li>
+
+                        <li><b>Zluta</b>: Yellow Rose</li>
+
+                        <li><b>Modra</b>: Ageratum</li>
+
+                        <li><b>Hneda</b>: Sunflower</li>
+
+                        <li><b>Bronzova</b>: Snapdragon</li>
+
+                        <li><b>Zlata</b>: Marigold</li>
+
+                        <li><b>Seda</b>: Summer Savory</li>
+
+                        <li><b>Zelena</b>: Spearmint</li>
+
+                        <li><b>Lime</b>: Tarragon</li>
+
+                        <li><b>Tmave hneda</b>: Nasturtium</li>
+
+                        <li><b>Tmave modra</b>: Cornflower</li>
+
+                        <li><b>Tmave zelena</b>: Chives</li>
+
+                        <li><b>Purpurova</b>: Petunia</li>
+
+                        <li><b>Cervena</b>: Geranium</li>
+
+                        <li><b>Stribrna</b>: Dusty Miller</li>
+
+                        <li><b>Nebeska</b>: Pomenka</li>
+
+                        <li><b>Bila</b>: Alyssum</li>
+
+                        <li><b>Cerna</b>: Everlasting</li>
+
+                    </ul>
+
+
+
+                <span class="nadpis_red">Vyrobky:</span><br />
+
+                Obleky (Panske obleky, Damske saty), Opasky (Tenke, Velke), Plaste (Obycejne, Hrube), Rukavice (Lehke, Mnichovy, Zamecnikove, Sermirske, soustredeni, Opatrne, Pracovni), Zbroje (Kozene, Roby), Boty (Lehke, Obrany, Vycviku, Tiche), Batohy, Ostatni (Barvy, Latky - male/velke/stredni)<br />
+
+                <span class="nadpis_red">Licence:</span><br />
+
+                Roba (3), Plast (2), Pracovni rukavice, Barvy a Latky (0), Ostatní (1)<br />
+
+                <br />
+
+
+
+		    <!--heading-->
+
+	        <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                <a name="alchymista"></a>Alchymista
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+            [ <a href="/">Demona</a> > <a href="svet.htm">Svet</a> > Remesla ]<br />
+
+	        [ <a href="#remesla">O Craftu</a> | <a href="#hornik">Hornik</a> | <a href="#kovar">Kovar</a> | <a href="#platner">Platner</a> | <a href="#zlatnik">Zlatnik</a> | <a href="#sipar">Sipar</a> | <a href="#lukar">Lukar</a> | <a href="#kozeluh">Kozeluh</a> | <a href="#krejci">Krejci</a> | Alchymista | <a href="#obchodnik">Obchodnik</a> ]<br />
+
+
+
+                <br />
+
+                <table width="100%">
+
+                <tr>
+
+                <td><img src="images/layout/alchymista.jpg"></td>
+
+                <td><i>Alchymista dokáže z bylin rostoucích v lesích, loukách a někdy i kolem obydlených částí, vyrábět lektvary různých účinků. Zručný alchymista by měl znát všechny druhy bylinek a tak mezi základní předpoklady provozování tohoto řemesla patří moudrost, která ovlivňuje úspěšnost při výrobě. Dále musí alchymista znát různé postupy při míchání lektvarů. Je dobré vědět, že některé bylinky fungují jako katalizátory, to znamena, ze jejich přítomnost při výrobě lektvaru, zvyšuje šanci na úspěch. Lektvary jsou ceněné hlavně dobrodruhy, kteří na svých mnohdy nebezpečných výpravách potřebují rychle pomoc.</i></td>
+
+                </tr>
+
+                </table>
+
+                <br />
+
+
+
+                <b>Co musi splnit</b>: nic, ale dulezita je pro neho Moudrost (Wisdom)<br />
+
+                <b>Vyuceni</b>: Delian Arna, Alchymisticka Dilna ve Slatu<br />
+
+                <b>Nastroje</b>: Truhlice alchymisty<br />
+
+                <b>Pracovni misto</b>: kdekoliv<br />
+
+                <b>Prirucka</b>: Herbar<br />
+
+                <b>Remeslne dovednosti</b>: Vyroba lektvaru, Experiment<br />
+
+                <b>Maximalni mozny level bedny</b>: 25<br />
+
+                na zvyseni levelu truhly jsou potrebne penize a prislusny level postavy<br />
+
+
+
+                <span class="nadpis_red">Bylinky:</span><br />
+
+                Bylinky jsou k nalezeni po cele krajine, obzvlaste v lesich a v prirodnim prostredi.
+
+                <ul>
+
+                <li>Certoryj</li>
+
+                <li>Trýzel</li>
+
+                <li>Babí koren</li>
+
+                <li>Mámivec</li>
+
+                <li>Dryádník</li>
+
+                <li>Zemežluc</li>
+
+                <li>Drací šupinky</li>
+
+                <li>Dobromysl</li>
+
+                <li>Troli slzy</li>
+
+                <li>Studnicka</li>
+
+                <li>Ohnivoun</li>
+
+                <li>Dušenka</li>
+
+                <li>Skretovous</li>
+
+                <li>Tajenka</li>
+
+                <li>Mandragora</li>
+
+                <li>Netopýrník</li>
+
+                <li>Smrdutec</li>
+
+                <li>Druidovo štestí</li>
+
+                <li>Belotrn</li>
+
+                <li>Petilístek</li>
+
+                </ul>
+
+
+
+                <span class="nadpis_red">Vyrobky:</span>
+
+                <ul>
+
+                <li>Pivo, Expeditious Retreat, Resistance, IronGuts, Dispell Magic, Granat,Entropic Shield, Aid, Blood Frenzy, Virtue, Lore, Lektvar Mensi obnovy (3), Clairaudience/Clairvoyance (10),Lektvar Sila (10),Lektvar Obratnost (10), Lektvar Odolnost (10), Lektvar Inteligence (10), Lektvar Moudrost (10), Lektvar Charisma (10), UltraVision (6), Promena (7), Bane (5), Tenserova Transformace (11), Dispell Magic (10), Videni Neviditelneho (3), Lektvar Obnovy (3), Lektvar Protijed (5), Lektvar V. Sila (11), Lektvar V. Obratnost (11), Lektvar Odolnost (11), Lektvar Inteligence (11), Lektvar Moudrost (11), Lektvar Charisma (11), Lektvar rychlosti (10), Lektvar tvrde kuze (12), Ochr. Proti Elementum (10), Ochr. Proti Zlu, Lektvar kamenne kuze (7), Invisiblity (3), Displacement (9), Fullheal (11)</li>
+
+                <li>Lektvar Leceni</li>
+
+                <li>Lecebna souprava</li>
+
+                <li>Lekarnicka vojenska (11)</li>
+
+                </ul>
+
+                <span class="nadpis_red">Licence:</span><br />
+
+                Vsechno(0)<br />
+
+                <br />
+
+
+
+		    <!--heading-->
+
+	        <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                <a name="obchodnik"></a>Obchodnik
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+            [ <a href="/">Demona</a> > <a href="svet.htm">Svet</a> > Remesla ]<br />
+
+	        [ <a href="#remesla">O Craftu</a> | <a href="#hornik">Hornik</a> | <a href="#kovar">Kovar</a> | <a href="#platner">Platner</a> | <a href="#zlatnik">Zlatnik</a> | <a href="#sipar">Sipar</a> | <a href="#lukar">Lukar</a> | <a href="#kozeluh">Kozeluh</a> | <a href="#krejci">Krejci</a> | <a href="#alchymista">Alchymista</a> | Obchodnik ]<br />
+
+
+
+                <br />
+
+                <table width="100%">
+
+                <tr>
+
+                <td><img src="images/layout/obchodnik.jpg"></td>
+
+                <td><i>Cesty za zámřskými obchody jsou nebezpečné a nekdy se stane, že loď přepadnou piráti...</i></td>
+
+                </tr>
+
+                </table>
+
+                <br />
+
+
+
+                <b>Co musi splnit</b>: nesmi mit zadny bod v dovednosti okradani<br />
+
+                <b>Vyuceni</b>: Rodrinar (Obchodní Zmocnenec), Alicie<br />
+
+                <b>Nastroje</b>: Obchodni licence<br />
+
+                <b>Pracovni misto</b>: mesto a obchodni mesto Stromorad<br />
+
+                <b>Prirucka</b>: Licencni vyhlaska obchodni komory<br />
+
+                <b>Remeslne dovednosti</b> (Skilly): Obchodni skill (Obchodni skill nakup predmetu v ST), Doplnkovy skill (Obchodni skill prodej recyklace)<br />
+
+
+
+                <ul>
+
+                <li><b>Obchodni skill</b><br />
+
+                Maximalni hodnota skillu: 100 <br />
+
+                Navysovat lze nekolika zpusoby:<br />
+
+                    <ul>
+
+                    <li>100% ceny ze zboží, odevzdaného k recyklaci. Recyklovat lze pouzite craftove vyrobke (podepsane) k jejichz vyrobe byla potreba materialova licence. Za kazdy takovyto vyrobek dostane obchodnik poplatek ve vyssi priblizne 1/4 bezne nakupni ceny licenci + % bonus ve vyssi recyklacniho skillu tzn. maximalne 100% (tzn. ze pri max skillu dostane 1/2 ceny licenci)</li>
+
+                    <li>25% celkove ceny uspesne splnene Zakazky</li>
+
+                    <li>10% ceny prodanych kaminku</li>
+
+                    <li>5% ceny nakoupenych ST vyrobku u mistra obchodnika</li>
+
+                    <li>5% z poplatku u trhovce prodavajiciho vzacne soketove predmety</li>
+
+                    </ul>
+
+                Maximalniho skillu lze dosahnout na lvl 28
+
+                </li>
+
+                <li><b>Doplnkovy skill</b><br />
+
+                Maximalni hodnota: 40 <br />
+
+                Jedna se o skill uzivany ve forme slevy pri nakupu predmetu v ST (pripadne ostatnich NPC obchodniku). <br />
+
+                Tento skill se neda samostatne zvysovat, je zvysovan automaticky zvysovanim skillu recyklacniho. <br />
+
+                Maximalniho skillu ze dosahnout na lvl 20.
+
+                </li>
+
+                <li><b>Vlastni obchod(vykup) predmetu (tzv. Zakazky)</b>:<br />
+
+                Realizuje se pres questove zakazky kdy NPC obchodnici pozaduji urcitou nahodnou skupinu predmetu (1 - 8) a prvni obchodnik ktery vsechny tyto predmety (nepodepsane) prinese dostane vyplacenou castku. <br />
+
+                NPC obchodnik nevykoupi predmety pokud nejsou vsechny, pripadne je nektery z pozadovanych podepsany. <br />
+
+                V pripade ze neni poptavka NPC obchodnika uspokojena do 20 dni Demony (cca 1 den real), ztrati o tuto zakazku zajem.<br />
+
+                Cena zakazky se primerene navysuje o vysi Obchodniho skillu.
+
+                </li>
+
+                <li><b>Kredity</b>:<br />
+
+                Neexistuje zadny kredit, zadny bonus za cesty ani zadna jina socialisticka jistina.<br />
+
+                Recyklace je financne neomezena, stejne tak questove zakazky.
+
+                </li>
+
+                <li><b>Nakup predmetu v ST</b>:<br />
+
+                Nakup probiha prostrednictvim specialniho obchodnika, do jehož obchodu je mozne vstoupit az po zaplaceni specialnim platidlem. <br />
+
+                Cena za vstup je primo umerna vysi doplnekového skillu.<br />
+
+                Obchodnici se zpravidla objevuji jen v urcitych hodinach.
+
+                </li>
+
+                </ul>
+
+
+
+	    </td>
+
+	</tr>
+
+	<tr>
+
+		<td rowspan="2">
+
+			<img src="images/layout/demona_layout_07.png" width="214" height="174" alt="" />
+
+		</td>
+
+		<!--spodni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_08.png'); text-align:center; vertical-align:bottom;" width="726" height="113" >
+
+		   &nbsp;
+
+		</td>
+
+	</tr>
+
+	<tr>
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_09.png'); text-align:center; vertical-align:bottom;" width="726" height="61">
+
+            <!--<img src="images/layout/demona_layout_09.png" width="726" height="61" alt="" />-->
+
+            <p class="podpis">last update <script type="text/javascript" language="JavaScript">last_update();</script> | hosted by epicnet.sk | 2008 &copy; R&D</p>
+
+		</td>
+
+	</tr>
+
+</table>
+
+</div>
+
+</body>
+
+</html>
+

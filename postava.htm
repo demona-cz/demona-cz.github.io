@@ -1,0 +1,917 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <link href="demona.css" rel="Stylesheet" type="text/css" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="shortcut icon" href="images/ico.jpg" />
+
+    <script type="text/javascript" src="demona.js" ></script>
+
+    <script type="text/javascript" src="highlight.js"></script>
+
+    <title>Demona NWN Module</title>
+
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-25374267-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+
+<body>
+
+<div id="content">
+
+<table align="center" width="940"  border="0" cellpadding="0" cellspacing="0">
+
+	<tr>
+
+		<td rowspan="2">
+
+			<img src="images/layout/demona_layout_01.png" width="214" height="384" alt="" /></td>
+
+		<td>
+
+			<img src="images/layout/demona_layout_02.png" width="445" height="246" alt="" /></td>
+
+		<td>
+
+		    <map id="menu" name="menu">
+
+		        <area shape="poly" alt="Demona" coords="46,5,223,14,223,47,134,60,46,48" onmouseover="mapSvetDemona_over()" onmouseout="mapSvet_out()" href="/"/>
+
+		        <area shape="poly" alt="Download" coords="54,56,135,63,236,46,250,70,149,104,54,109" href="downloads.htm" onmouseover="mapSvetDownload_over()" onmouseout="mapSvet_out()" />
+
+		        <area shape="poly" alt="Fórum" coords="110,125,235,83,239,103,137,166" href="/forum" onmouseover="mapSvetForum_over()" onmouseout="mapSvet_out()" />
+
+		        <area shape="poly" alt="Svět" coords="162,168,250,105,264,131,195,204" href="svet.htm"  />
+
+		    </map>
+
+			<img id="menuDemona" src="images/layout/demona_layout_03_svet.jpg" width="281" height="246" alt="" usemap="#menu" style="border:none;" /></td>
+
+	</tr>
+
+	<tr>
+
+	    <!--horni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_04.png');" width="726" height="138">
+
+	        <a href="/">Demona</a> > <a href="svet.htm">Svět</a> > Rasy a povolání<br />
+
+	        <br />
+
+	        <i>„Dokážem. Vytvorím ostrov. Ostrov plný ľudí, radosti, trpenia a odolnosti. Dokážem Ti, koľko ľudia dokážu prežiť, zvládnuť. Ak sa ukáže, že slabí nie sú, tak mi dovolíš vziať si Loneru za moju ženu. Potom budeme spolu žiť do konca vesmíru, do konca večnosti. Zatiaľ, v čase skúšky, bude žiť večnosťou, neumierajúc a nežijúc. Prijímaš moje podmienky?“ <br />
+
+„Dobre, keď mi dokážeš... Ak mi dokážeš, že ľudia sú takí silní ako tvrdíš, tak ti dovolím zobrať si Loneru. Ale ak nie, zostaneš sám do konca vesmíru. Do konca nekonečnosti.“<br />
+
+A tak, Olios, stále poháňaný svojimi ideálmi a víziami poprosil boha zeme a skál, aby vytvoril v oceáne nový ostrov.</i>
+
+	        </td>
+
+	</tr>
+
+	<tr>
+
+		<td style="background-image:url('images/layout/demona_layout_05.png');">
+
+		</td>
+
+		<!--hlavni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_06.png');">
+
+
+
+            <ul>
+
+            <li><b>Rasy</b>: Člověk, Trpaslík, Elf, Gnóm, Pulelf, Pulčík , Pulork</li>
+
+            <li><b>Základné povolania</b>: Barbar, Bard, Klerik, Druid, Bojovník, Mnich, Paladin, Hraničář, Zloděj, Zaklínač, Čaroděj</li>
+
+            <li><b>Prestížne povolania</b>: Arcane Archer, Assassin, Blackguard, Champion of Torm, Dwarven Defender, Harper Scout, Pale Master, Red Dragon Disciple, Shadowdancer, Shifter, Weapon Master, Purple Dragon Knight</li>
+
+            </ul>
+
+
+
+            <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                Rasy (Race)
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+            <table width="90%" border="0" cellpadding="10" cellspacing="10">
+
+            <tr><td><img src="images/layout/human_f.gif" alt="" /></td>
+
+                <td><b>Člověk</b> (Human)<br />
+
+                <i>Ľudia sú dominantnou rasu už dlhé veky, ale nebolo tomu vždy tak. Sú veľmi spočenskí a tolerantní. Sú prispôsobiví a rýchlo sa učia nové veci. Dobre vynikajú vo všetkých povolaniach.
+
+                Krátky životný cykus a neustále migrácie po celej zemi, boje o pôdu a priestor ich spravili značne rozdielnych vo vzhľade aj fyzickej kondícií. Farba kože variuje od
+
+                veľmi svetlej až bielej po takmer čiernu, vlasy od blond po čiernu. Ľudia nemajú obvykle vyhranený vkus pre oblečenie, sú však ochotní nosiť aj pomerne exotické účesy a zdobenie tela.</i>
+
+                <ul>
+
+                <li><u>Quick to Master:</u> 1 extra feat na prvom leveli</li>
+
+                <li><u>Skilled:</u> 4 extra skill pointy na prvom leveli, plus 1 ďalší skillpoint pri každom lvl-UP</li>
+
+                </ul>
+
+                </td></tr>
+
+            <tr><td><img src="images/layout/dwarf.gif" alt="" /></td>
+
+                <td><b>Trpaslík</b> (Dwarf)<br />
+
+                <i>Trpaslíci sú menšieho vzrastu, ale zato bývajú pomerne rozložití. Majú tmavé tváre, temné oči and tmavé vlasy. Muži si vysoko cenia svoje brady. Sú obzvlášť odolní proti mágií a jedom.
+
+                Obyčajne dobre vidia aj v tme. Sú obávanými bojovníkmi a ich zúrivé útoky sú povestné. Meno si získali aj vďaka svojej remeselnej šikovnosti, pracovitosti a množstvu piva ktoré dokážu naraz vypiť.
+
+                Nie sú dvôverčiví voči cuzdincom, ale sú veľkorysí a srdeční k tým, ktorí si zaslúžili ich priateľstvo.</i>
+
+                <ul>
+
+                <li><u>Dwarven Ability Adjustments:</u> +2 Con, -2 Cha</li>
+
+                <li><u>Special Abilities:</u> Stonecunning, Darkvision, Hardiness vs. Poisons, Hardiness vs. Spells, Offensive Training vs. Orcs, Offensive Training vs. Goblinoids, Defensive Training vs. Giants, Skill Affinity (Lore)</li>
+
+                </ul>
+
+                </td></tr>
+
+            <tr><td><img src="images/layout/elf_f.gif" alt="" /></td>
+
+                <td><b>Elf</b> (Elf)<br />
+
+                 <i>Elfovia bývajú o málo menší a chudší ako ľudia. Ich výzor a rysy tváre sú jemné, farba pleti je svetlá, vlasy tmavé a často mávajú tmavozelené oči. Nemajú žiadne ochlpnie na tele ani na tvári.
+
+                 Pre mnohé iné rasy sú elfovia stelesnením krásy a oplyvajú neobyčajnou charizmou. Doživajú sa až 700 rokov a podľa ľudských štandardov si nachádzajú priateľov iba pomaly.
+
+                 Sú známi svojim nádherným hlasom, pisňami a poéziou. Vynikajú v streľbe lukom.</i>
+
+                <ul>
+
+                <li><u>Elven Ability Adjustments:</u> +2 Dex, -2 Con</li>
+
+                <li><u>Special Abilities:</u> Immunity to Sleep, Hardiness vs. Enchantments, Bonus Proficiencies (Longsword, Rapier, Shortbow, Longbow), Skill Affinity (Listen), Skill Affinity (Search), Skill Affinity (Spot), Keen Senses, Low-light vision</li>
+
+                </ul>
+
+                </td></tr>
+
+            <tr><td><img src="images/layout/gnome.gif" alt="" /></td>
+
+                <td><b>Gnóm</b> (Gnome)<br />
+
+                 <i>Gnómovia sú vzdialení príbuzní trpaslíkov. Sú menší ako trpaslíci aj menej mohutní. Majú tmavú pokožku alebo opálenie, biele alebo veľmi svetlé vlasy a obzvlášť veľké nosy. Oči majú často modrý odtieň. Radi si zdobia oblečenie zložitými ozdobami z výšivkami. Dožívajú sa 350-500 rokov. Sú preslávení svojimi vynálezmi a bývajú žiadaní alchymisti, ale radšej ostávajú medzi svojimi. Milujú zvieratá, drahé kamene a vtipy. Najradšej sa učia na svojich chybách a baví ich experimentovanie.</i>
+
+                <ul>
+
+                <li><u>Gnome Ability Adjustments:</u> +2 Con, -2 Str</li>
+
+                <li><u>Special Abilities:</u> Small Stature, Hardiness vs. Illusions, Offensive Training vs. Reptilians, Offensive Training vs. Goblinoids, Defensive Training vs. Giants, Skill Affinity (Listen), Skill Affinity (Concentration), Spell Focus (Illusion), Low-light vision</li>
+
+                </ul>
+
+                </td></tr>
+
+            <tr><td><img src="images/layout/halfelf_f.gif" alt="" /></td>
+
+                <td><b>Pulelf</b> (Half-Elf)<br />
+
+                 <i>Polelfovia majú zmiešanú elfskú a ľudskú krv. Obvykle zdedia to najlepšie od každej rasy, ale nájdu sa aj škaredé výnimky. Ľuďom sa javia rovako ako elfovia - krásni so zmyslom pre umenie a prírodu. Elfom sa zdá, že vyzerajú ako ľudia a sú zvedaví, samostatní a ambiciózni. Ich vzhľad je rôzny podobne ako u ľudí, ale vždy majú jemnešie črty a obvykle zdedia zelené elfské oči. Doživajú sa okolo 180 rokov.</i>
+
+                <ul>
+
+                <li><u>Special Abilities:</u> Immunity to Sleep, Hardiness vs. Enchantments, Partial Skill Affinity (Listen), Partial Skill Affinity (Search), Partial Skill Affinity (Spot), Low-light vision</li>
+
+                </ul>
+
+                </td></tr>
+
+            <tr><td><img src="images/layout/halfling_f.gif" alt="" /></td>
+
+                <td><b>Pulčík</b> (Halfling)<br />
+
+                 <i>Polčíci sú nízki, často zabolení a vyzerajú ako malí ľudia. Majú okrúhle široké tváre, vlasy sú často kučeravé a tmavé, oči hnedé. Doživajú sa asi 150 rokov. Oblečenie majú radšej pohodlné a praktické než zdobené. Na nohách majú husté ochlpenie a chodievajú naboso. Sú neobyčajne zvedaví, odvážni a často prežijú aj náročné situácie. Vedia dobre hádzať kamene a narábať s prakom. Bývajú odborníkmi na prácu so zámkami a plíženie sa nocou.</i>
+
+                <ul>
+
+                <li><u>Halfling Ability Adjustments:</u> +2 Dex, -2 Str</li>
+
+                <li><u>Special Abilities:</u> Small Stature, Skill Affinity (Move Silently), Skill Affinity (Listen), Lucky, Fearless, and Good Aim</li>
+
+                </ul>
+
+                </td></tr>
+
+            <tr><td><img src="images/layout/halforc.gif" alt="" /></td>
+
+                <td><b>Pulork</b> (Half-Orc)<br />
+
+                <i>Polorkovia radšej jednajú a bojujú, než by sa s niekym hádali. Majú v obľube divoké tance a pitie, vychvaľovanie sa a najradšej idú vo všetkom rovno na vec. Sú iba o kúsok vyšší ako ľudia, ale na ich hrubých tvárach hneď poznať o koho ide. S obľubou zbierajú aj jazvy, ktorými sa potom chvália pri pitkách. Dožívajú sa 75 rokov. V boji využivajú hrubú silu a priamočiare zbrane ako poriadna sekera či meč.
+
+                </i>
+
+                <ul>
+
+                <li><u>Orc Ability Adjustments:</u> +2 Str, -2 Int, -2 Cha</li>
+
+                <li><u>Special Abilities:</u> Darkvision</li>
+
+                </ul>
+
+                </td></tr>
+
+            </table>
+
+            <br />
+
+            <table border="0" cellspacing="0" cellpadding="0" style="height:40px;">
+
+              <tr align="left" valign="top">
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C1.png');">&nbsp;</td>
+
+                <td class="tdHeading" style="background-image:url('images/button/demona_buttonR1C2.jpg');">
+
+                Povolania (Classes)
+
+                </td>
+
+                <td width="48" style="background-image:url('images/button/demona_buttonR1C3.png');">&nbsp;</td>
+
+              </tr>
+
+            </table>
+
+            <br />
+
+            <span class="nadpis_red">Basic Classes</span> (Základné povolania)
+
+            <table width="90%" border="0" cellpadding="5" cellspacing="5">
+
+            <tr><td valign="top"><img src="images/layout/barbarian.jpg" alt="" /></td>
+
+                <td><b>Barbarian</b> (Barbar)<br />
+
+                <i>Barbari sú odvážni bojovníci, bezhlavo sa vrhajú do boja a ich sila a odolnosť ich predurčúje do prvej línie pri dobrodružstvách. Namiesto systematického tréningu so zbraňou dávajú prednosť zúrivosti, ktoré ich robí silnejšími. Odolajú mnohým útokom, dokážu sa ranám vyhýbať a zavetriť nebezpečenstvo. </i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> akékoľvek nezákonné (non-lawfull)</li>
+
+                <li><u>HP pri lvl-UP:</u> d12</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> Armor (Light, Medium), Shields, Weapons (Martial, Simple)</li>
+
+                <li><u>Class Skilly:</u> Craft Armor, Craft Trap, Craft Weapon, Discipline, Heal, Intimidate, Listen, Lore, Parry, Taunt</li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+            <tr><td valign="top"><img src="images/layout/bard.jpg" alt="" /></td>
+
+                <td><b>Bard</b> (Bard)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+            <tr><td valign="top"><img src="images/layout/cleric.jpg" alt="" /></td>
+
+                <td><b>Cleric</b> (Klerik)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+            <tr><td valign="top"><img src="images/layout/druid.jpg" alt="" /></td>
+
+                <td><b>Druid</b> (Druid)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+            <tr><td valign="top"><img src="images/layout/fighter.jpg" alt="" /></td>
+
+                <td><b>Fighter</b> (Bojovník)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/monk.jpg" alt="" /></td>
+
+                <td><b>Monk</b> (Mních)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/paladin.jpg" alt="" /></td>
+
+                <td><b>Paladin</b> (Paladin)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/ranger.jpg" alt="" /></td>
+
+                <td><b>Ranger</b> (Hraničiar)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/rogue.jpg" alt="" /></td>
+
+                <td><b>Rogue</b> (Zlodej)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/sorcerer.jpg" alt="" /></td>
+
+                <td><b>Sorcerer</b> (Zaklínač)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/wizard.jpg" alt="" /></td>
+
+                <td><b>Wizard</b> (Čarodej)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+            </table>
+
+
+
+            <span class="nadpis_red">Prestige Classes</span> (Prestížne povolania)
+
+
+
+            <table width="90%" border="0" cellpadding="5" cellspacing="5">
+
+            <tr><td valign="top"><img src="images/layout/arcanearcher.jpg" alt="" /></td>
+
+                <td><b>Arcane Archer</b> (Tajemný střelec)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/assassin.jpg" alt="" /></td>
+
+                <td><b>Assassin</b> (nájemný Vrah)<br />
+
+                <i>Vrahové jsou mistři smrticích útoků a překvapení. Často bývají najímáni jako špióni, informátoři nebo jako zabijáci na odstranění nepohodlných. Jejich dovednosti jsou rize zákeřné. Hlavním úkolem vraha je, nebýt dopaden a vyřešit situaci co nejrychleji, precizně a efektivně. Nejsou najímáni pro schopnost bojovat čestně v otevřeném boji, ale pro jasný úkol zabít a přežít. Mnichové, bardové a tuláci jsou vhodní kandidáti pro to stát se nájemným vrahem.</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u>jakékoliv zlé (any Evil)</li>
+
+                <li><u>Požadavky (Requirements):</u>Ukrývání (Hide) 8, Tichý pohyb (Move Silently) 8</li>
+
+                <li><u>HP při lvl up (Hit dice): </u> 6</li>
+
+                <li><u>Dovednostní body (Skill points):</u> 4 + modifikátor inteligence</li>
+
+                <li><u>Používá (Proficiencies): </u>Lehké zbroje (light Armor); Jednoduché zbraně (simple Weapons) </li>
+
+                <li><u>Dovednosti (Class skills): </u> Akrobacie (Tumble), Hledání (Search), Léčení (Heal), Naslouchání (Listen), Odhad (Appraise), Odstraňování Pastí (Disable Trap), Okrádání (Pick Pocket), Pokládání Pastí (Set Trap), Používání Magických Předmětů (Use Magic Device), Tichý Pohyb (Move Silently), Učení (Lore), Ukrývání (Hide), Všímavost (Spot), Výroba Pastí (Craft Trap), Výroba Zbraní (Craft Weapon), Výroba Zbrojí (Craft Armor), Zastrašování (Intimidate)</li>
+
+                <li><u>Primární záchranné hody (Primary saving throw(s)): </u>reflex</li>
+
+                <li><u>Základní bonus k útoku (Basse attack bonus): </u>+3/4</li>
+
+                <li><u>Smrtící útok (Death attack): </u>1d6 na 1.lvl, roste na každém dalším, lichém levelu (3, 5, 7,…)</li>
+
+                <li><u>Paralýza (Paralyze): </u>): 10 + modifikátor inteligence + level vraha</li>
+
+                <li><u>Featy:</u>
+
+                  <br />-	1.lvl Používání jedů (Use poison)
+                  <br />-	2.lvl Vzhled ducha (Ghostly visage), Záhadné uskočení I (Uncanny dodge I), Záchrana proti jedům (Poison save)
+                  <br />-	4.lvl Únik (Evasion)
+                  <br />-	5.lvl Temnota (Darkness), Záhadné uskočení II (Uncanny dodge II)
+                  <br />-	7.lvl Neviditelnost (Invisibility)
+                  <br />-	8.lvl Skrýt se pozorován (Hide in plain sight)
+                  <br />-	9.lvl Vylepšená neviditelnost (Improved Invisibility)
+                  <br />-	10.lvl Záhadné uskočení III (Uncanny dodge III)
+                  <br />-	11.lvl Vylepšený únik (Improved Evasion)
+                  <br />-	14.lvl Epický bonusový feat
+                  <br />-	18.lvl Epický bonusový feat
+
+                </li>
+
+                <li><u>Epické bonusové featy (Epic bonus feat): </u>Epické reflexy (Epic relexes), Epické zaměření na dovednost: ukrývání, tichy pohyb pouze (Epic skill focus hide, move silently only), Obraný kotoul (Defensive roll), Ohromná obratnost (Great dexterity), Ukryj sebe (Self concealment), Vylepšené sesílání v boji (Improved combat casting), Vylepšený zákeřný útok (Improved sneak attack), Špičková iniciativa (Superior inciative) </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/blackguard.jpg" alt="" /></td>
+
+                <td><b>Blackguard</b> (Černý strážce)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/championoftorm.jpg" alt="" /></td>
+
+                <td><b>Champion of Torm</b> (Tormův šampion)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/dwarvendefender.jpg" alt="" /></td>
+
+                <td><b>Dwarven Defender</b> (Trpasličí obránce)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/harperscout.jpg" alt="" /></td>
+
+                <td><b>Harper Scout</b> (Zvěd Harferníků)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/palemaster.jpg" alt="" /></td>
+
+                <td><b>Pale Master</b> (Pán smrti)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/reddragondisciple.jpg" alt="" /></td>
+
+                <td><b>Red Dragon Disciple</b> (Učedník červeného draka)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/shadowdancer.jpg" alt="" /></td>
+
+                <td><b>Shadowdancer</b> (Stínový tanečník)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/shifter.jpg" alt="" /></td>
+
+                <td><b>Shifter</b> (Měňavec)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/weaponmaster.jpg" alt="" /></td>
+
+                <td><b>Weapon Master</b> (Pán zbraně)<br />
+
+                <i>...</i>
+
+                <ul>
+
+                <li><u>Obmedzenie presvedčenia:</u> </li>
+
+                <li><u>HP pri lvl-UP:</u> d</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 4 + INT Mod</li>
+
+                <li><u>Používa:</u> </li>
+
+                <li><u>Class Skilly:</u> </li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+                <tr><td valign="top"><img src="images/layout/purpledragonknight.jpg" alt="" /></td>
+
+                <td><b>Purple Dragon Knight</b> (Rytíř Fialového draka)<br />
+
+                <i>...The famous purple dragons of Cormyr are regarded across Faerûn as exemplars of disciplined, skilled, loyal soldiers. Their reputation is deserved partly because of the heroic actions of their leaders, the purple dragon knights. Purple dragon knights develop uncanny skills relating to coordinating and leading soldiers.>
+
+                <li><u>Obmedzenie presvedčenia:</u> any non-evil and non-chaotic</li>
+
+                <li><u>HP pri lvl-UP:</u> d10</li>
+
+                <li><u>Skill Points pri lvl-UP:</u> 2 + INT Mod</li>
+
+
+
+                <li><u>Class Skilly:</u>  craft armor, craft trap, craft weapon, discipline, intimidate, lore, persuade, ride</li>
+
+                </ul>
+
+                </td></tr>
+
+
+
+
+
+            </table>
+
+	    </td>
+
+	</tr>
+
+	<tr>
+
+		<td rowspan="2">
+
+			<img src="images/layout/demona_layout_07.png" width="214" height="174" alt="" />
+
+		</td>
+
+		<!--spodni text-->
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_08.png'); text-align:center; vertical-align:middle;" width="726" height="113" >
+
+
+
+		</td>
+
+	</tr>
+
+	<tr>
+
+		<td colspan="2" class="tdNormalText" style="background-image:url('images/layout/demona_layout_09.png'); text-align:center; vertical-align:bottom;" width="726" height="61">
+
+            <!--<img src="images/layout/demona_layout_09.png" width="726" height="61" alt="" />-->
+
+            <p class="podpis">last update <script type="text/javascript" language="JavaScript">last_update();</script> | hosted by epicnet.sk | 2008 &copy; R&D</p>
+
+		</td>
+
+	</tr>
+
+</table>
+
+</div>
+
+</body>
+
+</html>
+
