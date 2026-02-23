@@ -1,0 +1,637 @@
+{
+  "generated": "2026-02-23T22:26:02Z",
+  "lootChar": [
+    {
+      "count": 6837,
+      "charName": "Amashiel",
+      "playerName": "Amashiel"
+    },
+    {
+      "count": 2173,
+      "charName": "Nyrelle",
+      "playerName": "tp_master"
+    },
+    {
+      "count": 2027,
+      "charName": "Velisar",
+      "playerName": "Tharok"
+    },
+    {
+      "count": 1827,
+      "charName": "Donatra de Kordan",
+      "playerName": "Lord Dragoo"
+    },
+    {
+      "count": 1558,
+      "charName": "Lorenc Matlal",
+      "playerName": "matysek06"
+    },
+    {
+      "count": 1436,
+      "charName": " Fekal Hadromil",
+      "playerName": "Dedek"
+    },
+    {
+      "count": 1403,
+      "charName": "Ethan Hunt",
+      "playerName": "FN2187"
+    },
+    {
+      "count": 1396,
+      "charName": "žoldák",
+      "playerName": "pitomec"
+    },
+    {
+      "count": 1392,
+      "charName": "Nico Arna",
+      "playerName": "miniork2"
+    },
+    {
+      "count": 1287,
+      "charName": "Wel'din Desp'ana",
+      "playerName": "Welvet"
+    },
+    {
+      "count": 1161,
+      "charName": "Frederick Santer",
+      "playerName": "altharian01"
+    },
+    {
+      "count": 1089,
+      "charName": "Elowen Nightingale",
+      "playerName": "Lord Dragoo"
+    },
+    {
+      "count": 1060,
+      "charName": "Calvix",
+      "playerName": "Calvix"
+    },
+    {
+      "count": 1013,
+      "charName": "Bjorn Drachenblut",
+      "playerName": "Sup__92"
+    },
+    {
+      "count": 1013,
+      "charName": "Layla",
+      "playerName": "Sup__92"
+    },
+    {
+      "count": 982,
+      "charName": "Gaarg",
+      "playerName": "Gumgarian"
+    },
+    {
+      "count": 946,
+      "charName": "Lacko Hrom",
+      "playerName": "Lacko"
+    },
+    {
+      "count": 922,
+      "charName": "Martens",
+      "playerName": "Sup__92"
+    },
+    {
+      "count": 896,
+      "charName": "Palegrim Wraithblade",
+      "playerName": "Stajner2"
+    },
+    {
+      "count": 893,
+      "charName": "Zorka",
+      "playerName": "Vomitar"
+    }
+  ],
+  "lootPlayer": [
+    {
+      "count": 6837,
+      "playerName": "Amashiel"
+    },
+    {
+      "count": 4312,
+      "playerName": "tp_master"
+    },
+    {
+      "count": 3858,
+      "playerName": "Tharok"
+    },
+    {
+      "count": 3660,
+      "playerName": "Lord Dragoo"
+    },
+    {
+      "count": 3620,
+      "playerName": "Sup__92"
+    },
+    {
+      "count": 3292,
+      "playerName": "matysek06"
+    },
+    {
+      "count": 3064,
+      "playerName": "Gumgarian"
+    },
+    {
+      "count": 2843,
+      "playerName": "Vomitar"
+    },
+    {
+      "count": 2625,
+      "playerName": "Mortik"
+    },
+    {
+      "count": 2442,
+      "playerName": "Welvet"
+    },
+    {
+      "count": 2363,
+      "playerName": "Stajner2"
+    },
+    {
+      "count": 2215,
+      "playerName": "Brozijo"
+    },
+    {
+      "count": 2145,
+      "playerName": "miniork2"
+    },
+    {
+      "count": 1950,
+      "playerName": "HattoriHansa"
+    },
+    {
+      "count": 1701,
+      "playerName": "Dedek"
+    },
+    {
+      "count": 1695,
+      "playerName": "altharian01"
+    },
+    {
+      "count": 1627,
+      "playerName": "pitomec"
+    },
+    {
+      "count": 1588,
+      "playerName": "Terezzz"
+    },
+    {
+      "count": 1564,
+      "playerName": "mooll.ii"
+    },
+    {
+      "count": 1554,
+      "playerName": "Numenius"
+    }
+  ],
+  "deathChar": [
+    {
+      "count": 147,
+      "charName": "žoldák",
+      "playerName": "pitomec"
+    },
+    {
+      "count": 51,
+      "charName": "Amashiel",
+      "playerName": "Amashiel"
+    },
+    {
+      "count": 40,
+      "charName": "Yael",
+      "playerName": "Stajner2"
+    },
+    {
+      "count": 34,
+      "charName": "Nerdean syn Modrinuv",
+      "playerName": "slencak"
+    },
+    {
+      "count": 31,
+      "charName": "Donatra de Kordan",
+      "playerName": "Lord Dragoo"
+    },
+    {
+      "count": 30,
+      "charName": "Velisar",
+      "playerName": "Tharok"
+    },
+    {
+      "count": 29,
+      "charName": "Nyrelle",
+      "playerName": "tp_master"
+    },
+    {
+      "count": 29,
+      "charName": "Mazut",
+      "playerName": "Faust"
+    },
+    {
+      "count": 28,
+      "charName": "Lady Linsy",
+      "playerName": "Gortek_Gurmmison_JR"
+    },
+    {
+      "count": 28,
+      "charName": "Bjorn Drachenblut",
+      "playerName": "Sup__92"
+    },
+    {
+      "count": 26,
+      "charName": "Calvix",
+      "playerName": "Calvix"
+    },
+    {
+      "count": 25,
+      "charName": "Aldren",
+      "playerName": "Stajner2"
+    },
+    {
+      "count": 25,
+      "charName": "Anathema",
+      "playerName": "Vomitar"
+    },
+    {
+      "count": 25,
+      "charName": "Dupar",
+      "playerName": "Tharok"
+    },
+    {
+      "count": 25,
+      "charName": "Morokvíl",
+      "playerName": "Brychtezen"
+    },
+    {
+      "count": 24,
+      "charName": "Zlucoblij",
+      "playerName": "slencak"
+    },
+    {
+      "count": 24,
+      "charName": "Elisabeth",
+      "playerName": "Viconia12"
+    },
+    {
+      "count": 23,
+      "charName": "Grimmag",
+      "playerName": "Brozijo"
+    },
+    {
+      "count": 23,
+      "charName": "Ashley",
+      "playerName": "wooh"
+    },
+    {
+      "count": 22,
+      "charName": "Elowen Nightingale",
+      "playerName": "Lord Dragoo"
+    }
+  ],
+  "deathPlayer": [
+    {
+      "count": 192,
+      "playerName": "pitomec"
+    },
+    {
+      "count": 139,
+      "playerName": "Stajner2"
+    },
+    {
+      "count": 96,
+      "playerName": "Tharok"
+    },
+    {
+      "count": 87,
+      "playerName": "Vomitar"
+    },
+    {
+      "count": 80,
+      "playerName": "Brychtezen"
+    },
+    {
+      "count": 79,
+      "playerName": "wooh"
+    },
+    {
+      "count": 76,
+      "playerName": "slencak"
+    },
+    {
+      "count": 73,
+      "playerName": "Viconia12"
+    },
+    {
+      "count": 73,
+      "playerName": "Brozijo"
+    },
+    {
+      "count": 69,
+      "playerName": "Lord Dragoo"
+    },
+    {
+      "count": 66,
+      "playerName": "RICHI"
+    },
+    {
+      "count": 64,
+      "playerName": "Seraph_MH"
+    },
+    {
+      "count": 58,
+      "playerName": "Faust"
+    },
+    {
+      "count": 55,
+      "playerName": "tp_master"
+    },
+    {
+      "count": 55,
+      "playerName": "Sup__92"
+    },
+    {
+      "count": 54,
+      "playerName": "matysek06"
+    },
+    {
+      "count": 52,
+      "playerName": "Numenius"
+    },
+    {
+      "count": 51,
+      "playerName": "Amashiel"
+    },
+    {
+      "count": 50,
+      "playerName": "HattoriHansa"
+    },
+    {
+      "count": 48,
+      "playerName": "Welvet"
+    }
+  ],
+  "npcKillers": [
+    {
+      "count": 133,
+      "name": "Obr Šaman"
+    },
+    {
+      "count": 119,
+      "name": "Erinye"
+    },
+    {
+      "count": 100,
+      "name": "Ohnivý Démon"
+    },
+    {
+      "count": 74,
+      "name": "Kočkodlak z Hluboké jeskyně"
+    },
+    {
+      "count": 70,
+      "name": "Mládě Snovačky"
+    },
+    {
+      "count": 51,
+      "name": "Ettin Válečník"
+    },
+    {
+      "count": 51,
+      "name": "Démonka strachu"
+    },
+    {
+      "count": 48,
+      "name": "Rakshasa"
+    },
+    {
+      "count": 39,
+      "name": "Fallgrapp"
+    },
+    {
+      "count": 38,
+      "name": "Vraždící monstrum, elita"
+    },
+    {
+      "count": 38,
+      "name": "Dospělá Snovačka z hlubokého lesa"
+    },
+    {
+      "count": 36,
+      "name": "Toghuk Ghutrum"
+    },
+    {
+      "count": 35,
+      "name": "Praotec Lykanu"
+    },
+    {
+      "count": 33,
+      "name": "Vlkodlak, Vyšší kasta"
+    },
+    {
+      "count": 33,
+      "name": "Summoned Vampire"
+    },
+    {
+      "count": 32,
+      "name": "Puch"
+    },
+    {
+      "count": 31,
+      "name": "Beholder"
+    },
+    {
+      "count": 30,
+      "name": "Kostroun"
+    },
+    {
+      "count": 29,
+      "name": "Prokletý rytíř"
+    },
+    {
+      "count": 25,
+      "name": "Mumifikovaný kněz"
+    }
+  ],
+  "areaChar": [
+    {
+      "count": 25019,
+      "charName": "Amashiel",
+      "playerName": "Amashiel"
+    },
+    {
+      "count": 19684,
+      "charName": "Nyrelle",
+      "playerName": "tp_master"
+    },
+    {
+      "count": 15687,
+      "charName": "Lady Linsy",
+      "playerName": "Gortek_Gurmmison_JR"
+    },
+    {
+      "count": 12200,
+      "charName": "Donatra de Kordan",
+      "playerName": "Lord Dragoo"
+    },
+    {
+      "count": 10165,
+      "charName": "žoldák",
+      "playerName": "pitomec"
+    },
+    {
+      "count": 9841,
+      "charName": "Velisar",
+      "playerName": "Tharok"
+    },
+    {
+      "count": 9090,
+      "charName": "Calvix",
+      "playerName": "Calvix"
+    },
+    {
+      "count": 8615,
+      "charName": "Rehana Rena",
+      "playerName": "darmodej"
+    },
+    {
+      "count": 8085,
+      "charName": "Andrea",
+      "playerName": "Brozijo"
+    },
+    {
+      "count": 7998,
+      "charName": "Vaeris",
+      "playerName": "tp_master"
+    },
+    {
+      "count": 7099,
+      "charName": "Lucia De Kordan",
+      "playerName": "Holy_Avenger"
+    },
+    {
+      "count": 6988,
+      "charName": "Bjorn Drachenblut",
+      "playerName": "Sup__92"
+    },
+    {
+      "count": 6461,
+      "charName": "Gaarg",
+      "playerName": "Gumgarian"
+    },
+    {
+      "count": 6358,
+      "charName": "Aldren",
+      "playerName": "Stajner2"
+    },
+    {
+      "count": 6317,
+      "charName": "Elowen Nightingale",
+      "playerName": "Lord Dragoo"
+    },
+    {
+      "count": 6016,
+      "charName": "Martens",
+      "playerName": "Sup__92"
+    },
+    {
+      "count": 5843,
+      "charName": "Mazut",
+      "playerName": "Faust"
+    },
+    {
+      "count": 5668,
+      "charName": "Nerdean syn Modrinuv",
+      "playerName": "slencak"
+    },
+    {
+      "count": 5644,
+      "charName": "Lorenc Matlal",
+      "playerName": "matysek06"
+    },
+    {
+      "count": 5620,
+      "charName": "Yael",
+      "playerName": "Stajner2"
+    }
+  ],
+  "areaPlayer": [
+    {
+      "count": 33397,
+      "playerName": "tp_master"
+    },
+    {
+      "count": 27932,
+      "playerName": "Stajner2"
+    },
+    {
+      "count": 25020,
+      "playerName": "Amashiel"
+    },
+    {
+      "count": 23299,
+      "playerName": "Brozijo"
+    },
+    {
+      "count": 22988,
+      "playerName": "Tharok"
+    },
+    {
+      "count": 22956,
+      "playerName": "Lord Dragoo"
+    },
+    {
+      "count": 22624,
+      "playerName": "Vomitar"
+    },
+    {
+      "count": 20027,
+      "playerName": "Sup__92"
+    },
+    {
+      "count": 18438,
+      "playerName": "Numenius"
+    },
+    {
+      "count": 17947,
+      "playerName": "Gortek_Gurmmison_JR"
+    },
+    {
+      "count": 17844,
+      "playerName": "darmodej"
+    },
+    {
+      "count": 17380,
+      "playerName": "mooll.ii"
+    },
+    {
+      "count": 17129,
+      "playerName": "pitomec"
+    },
+    {
+      "count": 16513,
+      "playerName": "Gumgarian"
+    },
+    {
+      "count": 15719,
+      "playerName": "HattoriHansa"
+    },
+    {
+      "count": 14690,
+      "playerName": "franceska"
+    },
+    {
+      "count": 14631,
+      "playerName": "matysek06"
+    },
+    {
+      "count": 13550,
+      "playerName": "Welvet"
+    },
+    {
+      "count": 12573,
+      "playerName": "slencak"
+    },
+    {
+      "count": 12436,
+      "playerName": "Mortik"
+    }
+  ]
+}
