@@ -1,0 +1,133 @@
+{
+  "months": [
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02"
+  ],
+  "series": [
+    {
+      "playerName": "pitomec",
+      "counts": [
+        27,
+        60,
+        82,
+        116,
+        139,
+        169,
+        196
+      ]
+    },
+    {
+      "playerName": "Stajner2",
+      "counts": [
+        0,
+        0,
+        0,
+        36,
+        67,
+        114,
+        141
+      ]
+    },
+    {
+      "playerName": "Tharok",
+      "counts": [
+        0,
+        0,
+        0,
+        27,
+        49,
+        73,
+        105
+      ]
+    },
+    {
+      "playerName": "Vomitar",
+      "counts": [
+        0,
+        0,
+        10,
+        39,
+        50,
+        84,
+        87
+      ]
+    },
+    {
+      "playerName": "Brychtezen",
+      "counts": [
+        5,
+        30,
+        51,
+        63,
+        64,
+        69,
+        80
+      ]
+    },
+    {
+      "playerName": "wooh",
+      "counts": [
+        0,
+        0,
+        8,
+        16,
+        29,
+        71,
+        79
+      ]
+    },
+    {
+      "playerName": "slencak",
+      "counts": [
+        1,
+        10,
+        26,
+        34,
+        55,
+        69,
+        76
+      ]
+    },
+    {
+      "playerName": "Viconia12",
+      "counts": [
+        4,
+        16,
+        22,
+        45,
+        45,
+        63,
+        73
+      ]
+    },
+    {
+      "playerName": "Brozijo",
+      "counts": [
+        0,
+        5,
+        22,
+        57,
+        72,
+        73,
+        73
+      ]
+    },
+    {
+      "playerName": "Lord Dragoo",
+      "counts": [
+        0,
+        0,
+        10,
+        16,
+        33,
+        53,
+        71
+      ]
+    }
+  ]
+}

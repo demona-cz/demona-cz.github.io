@@ -1,0 +1,143 @@
+{
+  "months": [
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02"
+  ],
+  "series": [
+    {
+      "charName": "Amashiel",
+      "playerName": "Amashiel",
+      "counts": [
+        3206,
+        8611,
+        13830,
+        18911,
+        22348,
+        24557,
+        25060
+      ]
+    },
+    {
+      "charName": "Nyrelle",
+      "playerName": "tp_master",
+      "counts": [
+        0,
+        2813,
+        11941,
+        15611,
+        17581,
+        18703,
+        19734
+      ]
+    },
+    {
+      "charName": "Lady Linsy",
+      "playerName": "Gortek_Gurmmison_JR",
+      "counts": [
+        491,
+        1173,
+        3552,
+        7865,
+        11742,
+        14694,
+        15787
+      ]
+    },
+    {
+      "charName": "Donatra de Kordan",
+      "playerName": "Lord Dragoo",
+      "counts": [
+        0,
+        0,
+        4235,
+        7758,
+        10130,
+        11952,
+        12200
+      ]
+    },
+    {
+      "charName": "žoldák",
+      "playerName": "pitomec",
+      "counts": [
+        1339,
+        2794,
+        4456,
+        6267,
+        7743,
+        9242,
+        10454
+      ]
+    },
+    {
+      "charName": "Velisar",
+      "playerName": "Tharok",
+      "counts": [
+        0,
+        0,
+        181,
+        4435,
+        8711,
+        9541,
+        9975
+      ]
+    },
+    {
+      "charName": "Calvix",
+      "playerName": "Calvix",
+      "counts": [
+        0,
+        3089,
+        6626,
+        7742,
+        8009,
+        9090,
+        9090
+      ]
+    },
+    {
+      "charName": "Rehana Rena",
+      "playerName": "darmodej",
+      "counts": [
+        688,
+        3408,
+        5262,
+        7592,
+        8279,
+        8614,
+        8615
+      ]
+    },
+    {
+      "charName": "Andrea",
+      "playerName": "Brozijo",
+      "counts": [
+        0,
+        986,
+        4656,
+        7298,
+        8050,
+        8067,
+        8085
+      ]
+    },
+    {
+      "charName": "Vaeris",
+      "playerName": "tp_master",
+      "counts": [
+        0,
+        0,
+        1086,
+        4133,
+        5708,
+        6953,
+        8022
+      ]
+    }
+  ]
+}
