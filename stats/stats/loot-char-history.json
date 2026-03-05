@@ -1,0 +1,143 @@
+{
+  "months": [
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02"
+  ],
+  "series": [
+    {
+      "charName": "Amashiel",
+      "playerName": "Amashiel",
+      "counts": [
+        489,
+        2244,
+        3333,
+        4942,
+        6140,
+        6771,
+        6837
+      ]
+    },
+    {
+      "charName": "Nyrelle",
+      "playerName": "tp_master",
+      "counts": [
+        0,
+        322,
+        1502,
+        1786,
+        1922,
+        2105,
+        2177
+      ]
+    },
+    {
+      "charName": "Velisar",
+      "playerName": "Tharok",
+      "counts": [
+        0,
+        0,
+        25,
+        1046,
+        1901,
+        1991,
+        2063
+      ]
+    },
+    {
+      "charName": "Donatra de Kordan",
+      "playerName": "Lord Dragoo",
+      "counts": [
+        0,
+        0,
+        932,
+        1529,
+        1725,
+        1806,
+        1827
+      ]
+    },
+    {
+      "charName": "Lorenc Matlal",
+      "playerName": "matysek06",
+      "counts": [
+        0,
+        0,
+        0,
+        769,
+        1308,
+        1438,
+        1599
+      ]
+    },
+    {
+      "charName": " Fekal Hadromil",
+      "playerName": "Dedek",
+      "counts": [
+        232,
+        1075,
+        1422,
+        1431,
+        1431,
+        1435,
+        1436
+      ]
+    },
+    {
+      "charName": "žoldák",
+      "playerName": "pitomec",
+      "counts": [
+        221,
+        446,
+        719,
+        942,
+        1127,
+        1287,
+        1428
+      ]
+    },
+    {
+      "charName": "Ethan Hunt",
+      "playerName": "FN2187",
+      "counts": [
+        0,
+        0,
+        0,
+        0,
+        496,
+        963,
+        1419
+      ]
+    },
+    {
+      "charName": "Nico Arna",
+      "playerName": "miniork2",
+      "counts": [
+        36,
+        36,
+        166,
+        811,
+        1392,
+        1392,
+        1392
+      ]
+    },
+    {
+      "charName": "Wel'din Desp'ana",
+      "playerName": "Welvet",
+      "counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        55,
+        1357
+      ]
+    }
+  ]
+}
