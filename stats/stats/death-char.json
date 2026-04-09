@@ -1,16 +1,16 @@
 [
   {
-    "count": 151,
+    "count": 168,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "count": 51,
+    "count": 53,
     "charName": "Amashiel",
     "playerName": "Amashiel"
   },
   {
-    "count": 42,
+    "count": 43,
     "charName": "Yael",
     "playerName": "Stajner2"
   },
@@ -18,6 +18,11 @@
     "count": 34,
     "charName": "Nerdean syn Modrinuv",
     "playerName": "slencak"
+  },
+  {
+    "count": 31,
+    "charName": "Lady Linsy",
+    "playerName": "Gortek_Gurmmison_JR"
   },
   {
     "count": 31,
@@ -41,13 +46,23 @@
   },
   {
     "count": 28,
-    "charName": "Lady Linsy",
-    "playerName": "Gortek_Gurmmison_JR"
+    "charName": "Bjorn Drachenblut",
+    "playerName": "Sup__92"
   },
   {
     "count": 28,
-    "charName": "Bjorn Drachenblut",
-    "playerName": "Sup__92"
+    "charName": "Anathema",
+    "playerName": "Vomitar"
+  },
+  {
+    "count": 27,
+    "charName": "Lorenc Matlal",
+    "playerName": "matysek06"
+  },
+  {
+    "count": 27,
+    "charName": "Aldren",
+    "playerName": "Stajner2"
   },
   {
     "count": 27,
@@ -60,14 +75,14 @@
     "playerName": "Calvix"
   },
   {
-    "count": 25,
-    "charName": "Aldren",
-    "playerName": "Stajner2"
+    "count": 26,
+    "charName": "Haggar",
+    "playerName": "wooh"
   },
   {
     "count": 25,
-    "charName": "Anathema",
-    "playerName": "Vomitar"
+    "charName": "Wel'din Desp'ana",
+    "playerName": "Welvet"
   },
   {
     "count": 25,
@@ -75,28 +90,13 @@
     "playerName": "Brychtezen"
   },
   {
-    "count": 24,
-    "charName": "Zlucoblij",
-    "playerName": "slencak"
-  },
-  {
-    "count": 24,
-    "charName": "Elisabeth",
-    "playerName": "Viconia12"
-  },
-  {
-    "count": 24,
+    "count": 25,
     "charName": "Elowen Nightingale",
     "playerName": "Lord Dragoo"
   },
   {
-    "count": 23,
-    "charName": "Grimmag",
-    "playerName": "Brozijo"
-  },
-  {
-    "count": 23,
-    "charName": "Ashley",
-    "playerName": "wooh"
+    "count": 24,
+    "charName": "Zlucoblij",
+    "playerName": "slencak"
   }
 ]
