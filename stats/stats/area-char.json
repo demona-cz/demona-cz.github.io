@@ -1,31 +1,31 @@
 [
   {
-    "count": 25060,
+    "count": 25713,
     "charName": "Amashiel",
     "playerName": "Amashiel"
   },
   {
-    "count": 19734,
+    "count": 19780,
     "charName": "Nyrelle",
     "playerName": "tp_master"
   },
   {
-    "count": 15787,
+    "count": 16984,
     "charName": "Lady Linsy",
     "playerName": "Gortek_Gurmmison_JR"
   },
   {
-    "count": 12200,
+    "count": 12414,
     "charName": "Donatra de Kordan",
     "playerName": "Lord Dragoo"
   },
   {
-    "count": 10454,
+    "count": 11837,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "count": 9975,
+    "count": 9986,
     "charName": "Velisar",
     "playerName": "Tharok"
   },
@@ -40,12 +40,12 @@
     "playerName": "darmodej"
   },
   {
-    "count": 8085,
+    "count": 8092,
     "charName": "Andrea",
     "playerName": "Brozijo"
   },
   {
-    "count": 8022,
+    "count": 8068,
     "charName": "Vaeris",
     "playerName": "tp_master"
   },
@@ -55,14 +55,24 @@
     "playerName": "Holy_Avenger"
   },
   {
+    "count": 7063,
+    "charName": "Paklec",
+    "playerName": "Lomikar"
+  },
+  {
+    "count": 7034,
+    "charName": "Elowen Nightingale",
+    "playerName": "Lord Dragoo"
+  },
+  {
+    "count": 7032,
+    "charName": "Lorenc Matlal",
+    "playerName": "matysek06"
+  },
+  {
     "count": 6988,
     "charName": "Bjorn Drachenblut",
     "playerName": "Sup__92"
-  },
-  {
-    "count": 6601,
-    "charName": "Elowen Nightingale",
-    "playerName": "Lord Dragoo"
   },
   {
     "count": 6461,
@@ -70,9 +80,14 @@
     "playerName": "Gumgarian"
   },
   {
-    "count": 6373,
+    "count": 6408,
     "charName": "Aldren",
     "playerName": "Stajner2"
+  },
+  {
+    "count": 6325,
+    "charName": "Mazut",
+    "playerName": "Faust"
   },
   {
     "count": 6016,
@@ -80,23 +95,8 @@
     "playerName": "Sup__92"
   },
   {
-    "count": 5861,
-    "charName": "Mazut",
-    "playerName": "Faust"
-  },
-  {
-    "count": 5766,
-    "charName": "Lorenc Matlal",
-    "playerName": "matysek06"
-  },
-  {
-    "count": 5704,
+    "count": 5831,
     "charName": "Yael",
     "playerName": "Stajner2"
-  },
-  {
-    "count": 5668,
-    "charName": "Nerdean syn Modrinuv",
-    "playerName": "slencak"
   }
 ]

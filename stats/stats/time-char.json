@@ -1,21 +1,21 @@
 [
   {
-    "seconds": 3686758,
+    "seconds": 3799060,
     "charName": "Amashiel",
     "playerName": "Amashiel"
   },
   {
-    "seconds": 2415640,
+    "seconds": 2732187,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "seconds": 2184786,
+    "seconds": 2189879,
     "charName": "Nyrelle",
     "playerName": "tp_master"
   },
   {
-    "seconds": 1985996,
+    "seconds": 2138164,
     "charName": "Lady Linsy",
     "playerName": "Gortek_Gurmmison_JR"
   },
@@ -25,14 +25,19 @@
     "playerName": "darmodej"
   },
   {
-    "seconds": 1439501,
+    "seconds": 1467998,
     "charName": "Donatra de Kordan",
     "playerName": "Lord Dragoo"
   },
   {
-    "seconds": 1386073,
+    "seconds": 1386596,
     "charName": "Velisar",
     "playerName": "Tharok"
+  },
+  {
+    "seconds": 1098746,
+    "charName": "Mazut",
+    "playerName": "Faust"
   },
   {
     "seconds": 1071800,
@@ -40,9 +45,9 @@
     "playerName": "Sup__92"
   },
   {
-    "seconds": 1032651,
-    "charName": "Mazut",
-    "playerName": "Faust"
+    "seconds": 1022117,
+    "charName": "Lorenc Matlal",
+    "playerName": "matysek06"
   },
   {
     "seconds": 979529,
@@ -55,14 +60,24 @@
     "playerName": "Holy_Avenger"
   },
   {
-    "seconds": 893354,
+    "seconds": 915674,
+    "charName": "Elowen Nightingale",
+    "playerName": "Lord Dragoo"
+  },
+  {
+    "seconds": 896263,
     "charName": "Vaeris",
     "playerName": "tp_master"
   },
   {
-    "seconds": 893222,
+    "seconds": 893405,
     "charName": "Andrea",
     "playerName": "Brozijo"
+  },
+  {
+    "seconds": 882840,
+    "charName": "Haggar",
+    "playerName": "wooh"
   },
   {
     "seconds": 877411,
@@ -70,9 +85,9 @@
     "playerName": "franceska"
   },
   {
-    "seconds": 866317,
-    "charName": "Elowen Nightingale",
-    "playerName": "Lord Dragoo"
+    "seconds": 856619,
+    "charName": "Yael",
+    "playerName": "Stajner2"
   },
   {
     "seconds": 811460,
@@ -80,23 +95,8 @@
     "playerName": "Gumgarian"
   },
   {
-    "seconds": 808326,
-    "charName": "Yael",
-    "playerName": "Stajner2"
-  },
-  {
-    "seconds": 736410,
-    "charName": "Aldren",
-    "playerName": "Stajner2"
-  },
-  {
-    "seconds": 720222,
-    "charName": "Haggar",
-    "playerName": "wooh"
-  },
-  {
-    "seconds": 712994,
-    "charName": "Nerdean syn Modrinuv",
-    "playerName": "slencak"
+    "seconds": 744426,
+    "charName": "Paklec",
+    "playerName": "Lomikar"
   }
 ]

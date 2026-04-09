@@ -1,39 +1,43 @@
 [
   {
-    "count": 137,
+    "count": 144,
     "name": "Obr Šaman"
   },
   {
-    "count": 124,
+    "count": 136,
     "name": "Erinye"
   },
   {
-    "count": 102,
+    "count": 110,
     "name": "Ohnivý Démon"
   },
   {
-    "count": 74,
+    "count": 81,
     "name": "Kočkodlak z Hluboké jeskyně"
   },
   {
-    "count": 70,
+    "count": 74,
     "name": "Mládě Snovačky"
   },
   {
-    "count": 52,
-    "name": "Ettin Válečník"
-  },
-  {
-    "count": 52,
+    "count": 56,
     "name": "Démonka strachu"
   },
   {
-    "count": 51,
+    "count": 55,
+    "name": "Ettin Válečník"
+  },
+  {
+    "count": 53,
     "name": "Rakshasa"
   },
   {
-    "count": 41,
+    "count": 52,
     "name": "Fallgrapp"
+  },
+  {
+    "count": 40,
+    "name": "Dospělá Snovačka z hlubokého lesa"
   },
   {
     "count": 39,
@@ -41,10 +45,6 @@
   },
   {
     "count": 39,
-    "name": "Dospělá Snovačka z hlubokého lesa"
-  },
-  {
-    "count": 38,
     "name": "Toghuk Ghutrum"
   },
   {
@@ -64,6 +64,10 @@
     "name": "Puch"
   },
   {
+    "count": 32,
+    "name": "Prokletý rytíř"
+  },
+  {
     "count": 31,
     "name": "Kostroun"
   },
@@ -73,10 +77,6 @@
   },
   {
     "count": 29,
-    "name": "Prokletý rytíř"
-  },
-  {
-    "count": 26,
-    "name": "Mumifikovaný kněz"
+    "name": "Dorost Snovacky"
   }
 ]

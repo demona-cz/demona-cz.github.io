@@ -1,11 +1,11 @@
 [
   {
-    "count": 6837,
+    "count": 7030,
     "charName": "Amashiel",
     "playerName": "Amashiel"
   },
   {
-    "count": 2177,
+    "count": 2188,
     "charName": "Nyrelle",
     "playerName": "tp_master"
   },
@@ -15,12 +15,22 @@
     "playerName": "Tharok"
   },
   {
-    "count": 1827,
+    "count": 1906,
+    "charName": "Paklec",
+    "playerName": "Lomikar"
+  },
+  {
+    "count": 1843,
     "charName": "Donatra de Kordan",
     "playerName": "Lord Dragoo"
   },
   {
-    "count": 1599,
+    "count": 1817,
+    "charName": "žoldák",
+    "playerName": "pitomec"
+  },
+  {
+    "count": 1790,
     "charName": "Lorenc Matlal",
     "playerName": "matysek06"
   },
@@ -30,14 +40,14 @@
     "playerName": "Dedek"
   },
   {
-    "count": 1428,
-    "charName": "žoldák",
-    "playerName": "pitomec"
-  },
-  {
-    "count": 1419,
+    "count": 1426,
     "charName": "Ethan Hunt",
     "playerName": "FN2187"
+  },
+  {
+    "count": 1401,
+    "charName": "Wel'din Desp'ana",
+    "playerName": "Welvet"
   },
   {
     "count": 1392,
@@ -45,22 +55,12 @@
     "playerName": "miniork2"
   },
   {
-    "count": 1357,
-    "charName": "Wel'din Desp'ana",
-    "playerName": "Welvet"
-  },
-  {
-    "count": 1212,
+    "count": 1240,
     "charName": "Frederick Santer",
     "playerName": "altharian01"
   },
   {
-    "count": 1180,
-    "charName": "Paklec",
-    "playerName": "Lomikar"
-  },
-  {
-    "count": 1107,
+    "count": 1117,
     "charName": "Elowen Nightingale",
     "playerName": "Lord Dragoo"
   },
@@ -68,6 +68,11 @@
     "count": 1060,
     "charName": "Calvix",
     "playerName": "Calvix"
+  },
+  {
+    "count": 1058,
+    "charName": "Kleopatra Filopator",
+    "playerName": "matysek06"
   },
   {
     "count": 1013,
@@ -80,6 +85,11 @@
     "playerName": "Sup__92"
   },
   {
+    "count": 997,
+    "charName": "Azmera",
+    "playerName": "Numenius"
+  },
+  {
     "count": 982,
     "charName": "Gaarg",
     "playerName": "Gumgarian"
@@ -88,15 +98,5 @@
     "count": 946,
     "charName": "Lacko Hrom",
     "playerName": "Lacko"
-  },
-  {
-    "count": 922,
-    "charName": "Martens",
-    "playerName": "Sup__92"
-  },
-  {
-    "count": 896,
-    "charName": "Palegrim Wraithblade",
-    "playerName": "Stajner2"
   }
 ]
