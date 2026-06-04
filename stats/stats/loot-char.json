@@ -1,8 +1,13 @@
 [
   {
-    "count": 7030,
+    "count": 7283,
     "charName": "Amashiel",
     "playerName": "Amashiel"
+  },
+  {
+    "count": 3541,
+    "charName": "Paklec",
+    "playerName": "Lomikar"
   },
   {
     "count": 2188,
@@ -10,29 +15,34 @@
     "playerName": "tp_master"
   },
   {
-    "count": 2063,
-    "charName": "Velisar",
-    "playerName": "Tharok"
-  },
-  {
-    "count": 1906,
-    "charName": "Paklec",
-    "playerName": "Lomikar"
-  },
-  {
-    "count": 1843,
-    "charName": "Donatra de Kordan",
-    "playerName": "Lord Dragoo"
-  },
-  {
-    "count": 1817,
+    "count": 2188,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "count": 1790,
+    "count": 2084,
+    "charName": "Velisar",
+    "playerName": "Tharok"
+  },
+  {
+    "count": 2057,
+    "charName": "Luter",
+    "playerName": "Davis421"
+  },
+  {
+    "count": 1930,
+    "charName": "Donatra de Kordan",
+    "playerName": "Lord Dragoo"
+  },
+  {
+    "count": 1840,
     "charName": "Lorenc Matlal",
     "playerName": "matysek06"
+  },
+  {
+    "count": 1572,
+    "charName": "Elowen Nightingale",
+    "playerName": "Lord Dragoo"
   },
   {
     "count": 1436,
@@ -40,14 +50,14 @@
     "playerName": "Dedek"
   },
   {
-    "count": 1426,
-    "charName": "Ethan Hunt",
-    "playerName": "FN2187"
-  },
-  {
-    "count": 1401,
+    "count": 1428,
     "charName": "Wel'din Desp'ana",
     "playerName": "Welvet"
+  },
+  {
+    "count": 1428,
+    "charName": "Ethan Hunt",
+    "playerName": "FN2187"
   },
   {
     "count": 1392,
@@ -55,14 +65,24 @@
     "playerName": "miniork2"
   },
   {
-    "count": 1240,
+    "count": 1364,
+    "charName": "Peroxid",
+    "playerName": "altharian01"
+  },
+  {
+    "count": 1326,
+    "charName": "Kleopatra Filopator",
+    "playerName": "matysek06"
+  },
+  {
+    "count": 1243,
     "charName": "Frederick Santer",
     "playerName": "altharian01"
   },
   {
-    "count": 1117,
-    "charName": "Elowen Nightingale",
-    "playerName": "Lord Dragoo"
+    "count": 1174,
+    "charName": "Darthcecka",
+    "playerName": "Beribet"
   },
   {
     "count": 1060,
@@ -70,33 +90,13 @@
     "playerName": "Calvix"
   },
   {
-    "count": 1058,
-    "charName": "Kleopatra Filopator",
-    "playerName": "matysek06"
+    "count": 1054,
+    "charName": "Tia",
+    "playerName": "Sin"
   },
   {
-    "count": 1013,
-    "charName": "Bjorn Drachenblut",
-    "playerName": "Sup__92"
-  },
-  {
-    "count": 1013,
-    "charName": "Layla",
-    "playerName": "Sup__92"
-  },
-  {
-    "count": 997,
-    "charName": "Azmera",
-    "playerName": "Numenius"
-  },
-  {
-    "count": 982,
-    "charName": "Gaarg",
-    "playerName": "Gumgarian"
-  },
-  {
-    "count": 946,
-    "charName": "Lacko Hrom",
-    "playerName": "Lacko"
+    "count": 1042,
+    "charName": "Condro",
+    "playerName": "Lomikar"
   }
 ]

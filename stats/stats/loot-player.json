@@ -1,23 +1,43 @@
 [
   {
-    "count": 7030,
+    "count": 7283,
     "playerName": "Amashiel"
+  },
+  {
+    "count": 5016,
+    "playerName": "Lomikar"
+  },
+  {
+    "count": 4731,
+    "playerName": "Lord Dragoo"
   },
   {
     "count": 4338,
     "playerName": "tp_master"
   },
   {
-    "count": 3982,
+    "count": 4255,
+    "playerName": "altharian01"
+  },
+  {
+    "count": 4251,
+    "playerName": "Davis421"
+  },
+  {
+    "count": 4127,
     "playerName": "Tharok"
   },
   {
-    "count": 3914,
-    "playerName": "Lord Dragoo"
+    "count": 4126,
+    "playerName": "matysek06"
   },
   {
-    "count": 3808,
-    "playerName": "matysek06"
+    "count": 3971,
+    "playerName": "Numenius"
+  },
+  {
+    "count": 3775,
+    "playerName": "Sin"
   },
   {
     "count": 3620,
@@ -28,35 +48,27 @@
     "playerName": "Gumgarian"
   },
   {
-    "count": 3061,
-    "playerName": "Numenius"
-  },
-  {
-    "count": 2891,
+    "count": 3038,
     "playerName": "Vomitar"
   },
   {
-    "count": 2721,
-    "playerName": "Lomikar"
+    "count": 2701,
+    "playerName": "Welvet"
   },
   {
     "count": 2625,
     "playerName": "Mortik"
   },
   {
-    "count": 2557,
-    "playerName": "Welvet"
-  },
-  {
-    "count": 2433,
-    "playerName": "altharian01"
+    "count": 2441,
+    "playerName": "pitomec"
   },
   {
     "count": 2363,
     "playerName": "Stajner2"
   },
   {
-    "count": 2215,
+    "count": 2233,
     "playerName": "Brozijo"
   },
   {
@@ -64,19 +76,7 @@
     "playerName": "miniork2"
   },
   {
-    "count": 2058,
-    "playerName": "pitomec"
-  },
-  {
-    "count": 1967,
-    "playerName": "HattoriHansa"
-  },
-  {
-    "count": 1704,
-    "playerName": "Dedek"
-  },
-  {
-    "count": 1588,
-    "playerName": "Terezzz"
+    "count": 2016,
+    "playerName": "Beribet"
   }
 ]

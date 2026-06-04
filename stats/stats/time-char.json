@@ -1,13 +1,18 @@
 [
   {
-    "seconds": 3799060,
+    "seconds": 4017324,
     "charName": "Amashiel",
     "playerName": "Amashiel"
   },
   {
-    "seconds": 2732187,
+    "seconds": 3309177,
     "charName": "žoldák",
     "playerName": "pitomec"
+  },
+  {
+    "seconds": 2657660,
+    "charName": "Lady Linsy",
+    "playerName": "Gortek_Gurmmison_JR"
   },
   {
     "seconds": 2189879,
@@ -15,27 +20,42 @@
     "playerName": "tp_master"
   },
   {
-    "seconds": 2138164,
-    "charName": "Lady Linsy",
-    "playerName": "Gortek_Gurmmison_JR"
+    "seconds": 1658768,
+    "charName": "Paklec",
+    "playerName": "Lomikar"
   },
   {
-    "seconds": 1547378,
+    "seconds": 1601247,
     "charName": "Rehana Rena",
     "playerName": "darmodej"
   },
   {
-    "seconds": 1467998,
+    "seconds": 1561146,
     "charName": "Donatra de Kordan",
     "playerName": "Lord Dragoo"
   },
   {
-    "seconds": 1386596,
+    "seconds": 1395516,
     "charName": "Velisar",
     "playerName": "Tharok"
   },
   {
-    "seconds": 1098746,
+    "seconds": 1267522,
+    "charName": "Elowen Nightingale",
+    "playerName": "Lord Dragoo"
+  },
+  {
+    "seconds": 1134922,
+    "charName": "Darthcecka",
+    "playerName": "Beribet"
+  },
+  {
+    "seconds": 1130200,
+    "charName": "Gon",
+    "playerName": "Sin"
+  },
+  {
+    "seconds": 1098870,
     "charName": "Mazut",
     "playerName": "Faust"
   },
@@ -45,7 +65,7 @@
     "playerName": "Sup__92"
   },
   {
-    "seconds": 1022117,
+    "seconds": 1064051,
     "charName": "Lorenc Matlal",
     "playerName": "matysek06"
   },
@@ -55,48 +75,28 @@
     "playerName": "Calvix"
   },
   {
+    "seconds": 944010,
+    "charName": "Caelynn Nightshade",
+    "playerName": "Lord Dragoo"
+  },
+  {
     "seconds": 932729,
     "charName": "Lucia De Kordan",
     "playerName": "Holy_Avenger"
   },
   {
-    "seconds": 915674,
-    "charName": "Elowen Nightingale",
-    "playerName": "Lord Dragoo"
-  },
-  {
-    "seconds": 896263,
-    "charName": "Vaeris",
-    "playerName": "tp_master"
-  },
-  {
-    "seconds": 893405,
+    "seconds": 897652,
     "charName": "Andrea",
     "playerName": "Brozijo"
   },
   {
-    "seconds": 882840,
-    "charName": "Haggar",
-    "playerName": "wooh"
+    "seconds": 896882,
+    "charName": "Vaeris",
+    "playerName": "tp_master"
   },
   {
-    "seconds": 877411,
-    "charName": "Nosohryz",
-    "playerName": "franceska"
-  },
-  {
-    "seconds": 856619,
-    "charName": "Yael",
-    "playerName": "Stajner2"
-  },
-  {
-    "seconds": 811460,
-    "charName": "Gaarg",
-    "playerName": "Gumgarian"
-  },
-  {
-    "seconds": 744426,
-    "charName": "Paklec",
-    "playerName": "Lomikar"
+    "seconds": 889912,
+    "charName": "Kleopatra Filopator",
+    "playerName": "matysek06"
   }
 ]

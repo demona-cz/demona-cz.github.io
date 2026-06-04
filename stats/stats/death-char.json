@@ -1,13 +1,18 @@
 [
   {
-    "count": 168,
+    "count": 208,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "count": 53,
+    "count": 54,
     "charName": "Amashiel",
     "playerName": "Amashiel"
+  },
+  {
+    "count": 43,
+    "charName": "Paklec",
+    "playerName": "Lomikar"
   },
   {
     "count": 43,
@@ -15,19 +20,34 @@
     "playerName": "Stajner2"
   },
   {
+    "count": 38,
+    "charName": "Lady Linsy",
+    "playerName": "Gortek_Gurmmison_JR"
+  },
+  {
+    "count": 38,
+    "charName": "Elowen Nightingale",
+    "playerName": "Lord Dragoo"
+  },
+  {
+    "count": 36,
+    "charName": "Donatra de Kordan",
+    "playerName": "Lord Dragoo"
+  },
+  {
     "count": 34,
     "charName": "Nerdean syn Modrinuv",
     "playerName": "slencak"
   },
   {
-    "count": 31,
-    "charName": "Lady Linsy",
-    "playerName": "Gortek_Gurmmison_JR"
+    "count": 32,
+    "charName": "Anathema",
+    "playerName": "Vomitar"
   },
   {
-    "count": 31,
-    "charName": "Donatra de Kordan",
-    "playerName": "Lord Dragoo"
+    "count": 30,
+    "charName": "Lorenc Matlal",
+    "playerName": "matysek06"
   },
   {
     "count": 30,
@@ -41,6 +61,11 @@
   },
   {
     "count": 29,
+    "charName": "Zlucoblij",
+    "playerName": "slencak"
+  },
+  {
+    "count": 29,
     "charName": "Nyrelle",
     "playerName": "tp_master"
   },
@@ -51,13 +76,13 @@
   },
   {
     "count": 28,
-    "charName": "Anathema",
-    "playerName": "Vomitar"
+    "charName": "Dupar",
+    "playerName": "Tharok"
   },
   {
     "count": 27,
-    "charName": "Lorenc Matlal",
-    "playerName": "matysek06"
+    "charName": "Wel'din Desp'ana",
+    "playerName": "Welvet"
   },
   {
     "count": 27,
@@ -66,37 +91,12 @@
   },
   {
     "count": 27,
-    "charName": "Dupar",
+    "charName": "Rip",
     "playerName": "Tharok"
   },
   {
-    "count": 26,
-    "charName": "Calvix",
-    "playerName": "Calvix"
-  },
-  {
-    "count": 26,
-    "charName": "Haggar",
-    "playerName": "wooh"
-  },
-  {
-    "count": 25,
-    "charName": "Wel'din Desp'ana",
-    "playerName": "Welvet"
-  },
-  {
-    "count": 25,
+    "count": 27,
     "charName": "Morokvíl",
     "playerName": "Brychtezen"
-  },
-  {
-    "count": 25,
-    "charName": "Elowen Nightingale",
-    "playerName": "Lord Dragoo"
-  },
-  {
-    "count": 24,
-    "charName": "Zlucoblij",
-    "playerName": "slencak"
   }
 ]
