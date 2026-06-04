@@ -1,8 +1,13 @@
 [
   {
-    "count": 25713,
+    "count": 26700,
     "charName": "Amashiel",
     "playerName": "Amashiel"
+  },
+  {
+    "count": 20903,
+    "charName": "Lady Linsy",
+    "playerName": "Gortek_Gurmmison_JR"
   },
   {
     "count": 19780,
@@ -10,24 +15,34 @@
     "playerName": "tp_master"
   },
   {
-    "count": 16984,
-    "charName": "Lady Linsy",
-    "playerName": "Gortek_Gurmmison_JR"
+    "count": 15508,
+    "charName": "Paklec",
+    "playerName": "Lomikar"
   },
   {
-    "count": 12414,
-    "charName": "Donatra de Kordan",
-    "playerName": "Lord Dragoo"
-  },
-  {
-    "count": 11837,
+    "count": 14040,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "count": 9986,
+    "count": 13013,
+    "charName": "Donatra de Kordan",
+    "playerName": "Lord Dragoo"
+  },
+  {
+    "count": 10043,
     "charName": "Velisar",
     "playerName": "Tharok"
+  },
+  {
+    "count": 9903,
+    "charName": "Elowen Nightingale",
+    "playerName": "Lord Dragoo"
+  },
+  {
+    "count": 9729,
+    "charName": "Darthcecka",
+    "playerName": "Beribet"
   },
   {
     "count": 9090,
@@ -35,39 +50,39 @@
     "playerName": "Calvix"
   },
   {
-    "count": 8615,
+    "count": 8951,
     "charName": "Rehana Rena",
     "playerName": "darmodej"
   },
   {
-    "count": 8092,
+    "count": 8174,
     "charName": "Andrea",
     "playerName": "Brozijo"
   },
   {
-    "count": 8068,
+    "count": 8139,
+    "charName": "Gon",
+    "playerName": "Sin"
+  },
+  {
+    "count": 8069,
     "charName": "Vaeris",
     "playerName": "tp_master"
+  },
+  {
+    "count": 7296,
+    "charName": "Lorenc Matlal",
+    "playerName": "matysek06"
+  },
+  {
+    "count": 7169,
+    "charName": "Caelynn Nightshade",
+    "playerName": "Lord Dragoo"
   },
   {
     "count": 7099,
     "charName": "Lucia De Kordan",
     "playerName": "Holy_Avenger"
-  },
-  {
-    "count": 7063,
-    "charName": "Paklec",
-    "playerName": "Lomikar"
-  },
-  {
-    "count": 7034,
-    "charName": "Elowen Nightingale",
-    "playerName": "Lord Dragoo"
-  },
-  {
-    "count": 7032,
-    "charName": "Lorenc Matlal",
-    "playerName": "matysek06"
   },
   {
     "count": 6988,
@@ -82,21 +97,6 @@
   {
     "count": 6408,
     "charName": "Aldren",
-    "playerName": "Stajner2"
-  },
-  {
-    "count": 6325,
-    "charName": "Mazut",
-    "playerName": "Faust"
-  },
-  {
-    "count": 6016,
-    "charName": "Martens",
-    "playerName": "Sup__92"
-  },
-  {
-    "count": 5831,
-    "charName": "Yael",
     "playerName": "Stajner2"
   }
 ]
