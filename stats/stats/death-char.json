@@ -1,6 +1,6 @@
 [
   {
-    "count": 208,
+    "count": 227,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
@@ -10,9 +10,14 @@
     "playerName": "Amashiel"
   },
   {
-    "count": 43,
+    "count": 49,
     "charName": "Paklec",
     "playerName": "Lomikar"
+  },
+  {
+    "count": 47,
+    "charName": "Lady Linsy",
+    "playerName": "Gortek_Gurmmison_JR"
   },
   {
     "count": 43,
@@ -20,14 +25,14 @@
     "playerName": "Stajner2"
   },
   {
-    "count": 38,
-    "charName": "Lady Linsy",
-    "playerName": "Gortek_Gurmmison_JR"
+    "count": 41,
+    "charName": "Elowen Nightingale",
+    "playerName": "Lord Dragoo"
   },
   {
     "count": 38,
-    "charName": "Elowen Nightingale",
-    "playerName": "Lord Dragoo"
+    "charName": "Lorenc Matlal",
+    "playerName": "matysek06"
   },
   {
     "count": 36,
@@ -40,14 +45,19 @@
     "playerName": "slencak"
   },
   {
-    "count": 32,
+    "count": 33,
     "charName": "Anathema",
     "playerName": "Vomitar"
   },
   {
+    "count": 32,
+    "charName": "Morokvíl",
+    "playerName": "Brychtezen"
+  },
+  {
     "count": 30,
-    "charName": "Lorenc Matlal",
-    "playerName": "matysek06"
+    "charName": "Dupar",
+    "playerName": "Tharok"
   },
   {
     "count": 30,
@@ -70,33 +80,23 @@
     "playerName": "tp_master"
   },
   {
+    "count": 29,
+    "charName": "Kleopatra Filopator",
+    "playerName": "matysek06"
+  },
+  {
     "count": 28,
     "charName": "Bjorn Drachenblut",
     "playerName": "Sup__92"
   },
   {
     "count": 28,
-    "charName": "Dupar",
+    "charName": "Rip",
     "playerName": "Tharok"
   },
   {
     "count": 27,
     "charName": "Wel'din Desp'ana",
     "playerName": "Welvet"
-  },
-  {
-    "count": 27,
-    "charName": "Aldren",
-    "playerName": "Stajner2"
-  },
-  {
-    "count": 27,
-    "charName": "Rip",
-    "playerName": "Tharok"
-  },
-  {
-    "count": 27,
-    "charName": "Morokvíl",
-    "playerName": "Brychtezen"
   }
 ]

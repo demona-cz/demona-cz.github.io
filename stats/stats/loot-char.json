@@ -1,13 +1,23 @@
 [
   {
-    "count": 7283,
+    "count": 7307,
     "charName": "Amashiel",
     "playerName": "Amashiel"
   },
   {
-    "count": 3541,
+    "count": 4491,
     "charName": "Paklec",
     "playerName": "Lomikar"
+  },
+  {
+    "count": 2853,
+    "charName": "Luter",
+    "playerName": "Davis421"
+  },
+  {
+    "count": 2347,
+    "charName": "žoldák",
+    "playerName": "pitomec"
   },
   {
     "count": 2188,
@@ -15,32 +25,22 @@
     "playerName": "tp_master"
   },
   {
-    "count": 2188,
-    "charName": "žoldák",
-    "playerName": "pitomec"
-  },
-  {
-    "count": 2084,
+    "count": 2104,
     "charName": "Velisar",
     "playerName": "Tharok"
   },
   {
-    "count": 2057,
-    "charName": "Luter",
-    "playerName": "Davis421"
-  },
-  {
-    "count": 1930,
-    "charName": "Donatra de Kordan",
-    "playerName": "Lord Dragoo"
-  },
-  {
-    "count": 1840,
+    "count": 1984,
     "charName": "Lorenc Matlal",
     "playerName": "matysek06"
   },
   {
-    "count": 1572,
+    "count": 1931,
+    "charName": "Donatra de Kordan",
+    "playerName": "Lord Dragoo"
+  },
+  {
+    "count": 1645,
     "charName": "Elowen Nightingale",
     "playerName": "Lord Dragoo"
   },
@@ -65,14 +65,14 @@
     "playerName": "miniork2"
   },
   {
+    "count": 1391,
+    "charName": "Kleopatra Filopator",
+    "playerName": "matysek06"
+  },
+  {
     "count": 1364,
     "charName": "Peroxid",
     "playerName": "altharian01"
-  },
-  {
-    "count": 1326,
-    "charName": "Kleopatra Filopator",
-    "playerName": "matysek06"
   },
   {
     "count": 1243,
@@ -80,7 +80,12 @@
     "playerName": "altharian01"
   },
   {
-    "count": 1174,
+    "count": 1213,
+    "charName": "Thesmar",
+    "playerName": "Tharok"
+  },
+  {
+    "count": 1198,
     "charName": "Darthcecka",
     "playerName": "Beribet"
   },
@@ -93,10 +98,5 @@
     "count": 1054,
     "charName": "Tia",
     "playerName": "Sin"
-  },
-  {
-    "count": 1042,
-    "charName": "Condro",
-    "playerName": "Lomikar"
   }
 ]
