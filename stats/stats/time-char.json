@@ -1,56 +1,61 @@
 [
   {
-    "seconds": 4017324,
+    "seconds": 4033288,
     "charName": "Amashiel",
     "playerName": "Amashiel"
   },
   {
-    "seconds": 3309177,
+    "seconds": 3667219,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "seconds": 2657660,
+    "seconds": 3046967,
     "charName": "Lady Linsy",
     "playerName": "Gortek_Gurmmison_JR"
   },
   {
-    "seconds": 2189879,
+    "seconds": 2201884,
     "charName": "Nyrelle",
     "playerName": "tp_master"
   },
   {
-    "seconds": 1658768,
+    "seconds": 2027994,
     "charName": "Paklec",
     "playerName": "Lomikar"
   },
   {
-    "seconds": 1601247,
+    "seconds": 1612731,
     "charName": "Rehana Rena",
     "playerName": "darmodej"
   },
   {
-    "seconds": 1561146,
+    "seconds": 1567874,
     "charName": "Donatra de Kordan",
     "playerName": "Lord Dragoo"
   },
   {
-    "seconds": 1395516,
+    "seconds": 1427730,
     "charName": "Velisar",
     "playerName": "Tharok"
   },
   {
-    "seconds": 1267522,
+    "seconds": 1345301,
     "charName": "Elowen Nightingale",
     "playerName": "Lord Dragoo"
   },
   {
-    "seconds": 1134922,
+    "seconds": 1215837,
+    "charName": "Lorenc Matlal",
+    "playerName": "matysek06"
+  },
+  {
+    "seconds": 1150540,
     "charName": "Darthcecka",
     "playerName": "Beribet"
   },
   {
-    "seconds": 1130200,
+    "seconds": 1130263,
     "charName": "Gon",
     "playerName": "Sin"
   },
@@ -65,8 +70,13 @@
     "playerName": "Sup__92"
   },
   {
-    "seconds": 1064051,
-    "charName": "Lorenc Matlal",
+    "seconds": 1029206,
+    "charName": "Caelynn Nightshade",
+    "playerName": "Lord Dragoo"
+  },
+  {
+    "seconds": 985781,
+    "charName": "Kleopatra Filopator",
     "playerName": "matysek06"
   },
   {
@@ -75,28 +85,18 @@
     "playerName": "Calvix"
   },
   {
-    "seconds": 944010,
-    "charName": "Caelynn Nightshade",
-    "playerName": "Lord Dragoo"
-  },
-  {
     "seconds": 932729,
     "charName": "Lucia De Kordan",
     "playerName": "Holy_Avenger"
   },
   {
-    "seconds": 897652,
-    "charName": "Andrea",
-    "playerName": "Brozijo"
-  },
-  {
-    "seconds": 896882,
+    "seconds": 927512,
     "charName": "Vaeris",
     "playerName": "tp_master"
   },
   {
-    "seconds": 889912,
-    "charName": "Kleopatra Filopator",
-    "playerName": "matysek06"
+    "seconds": 905073,
+    "charName": "Andrea",
+    "playerName": "Brozijo"
   }
 ]
