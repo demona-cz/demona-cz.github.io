@@ -1,48 +1,58 @@
 [
   {
-    "count": 26779,
+    "count": 27433,
     "charName": "Amashiel",
     "playerName": "Amashiel"
   },
   {
-    "count": 23506,
+    "count": 26663,
     "charName": "Lady Linsy",
     "playerName": "Gortek_Gurmmison_JR"
   },
   {
-    "count": 19877,
+    "count": 20935,
     "charName": "Nyrelle",
     "playerName": "tp_master"
   },
   {
-    "count": 19370,
+    "count": 20377,
     "charName": "Paklec",
     "playerName": "Lomikar"
   },
   {
-    "count": 15229,
+    "count": 16510,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "count": 13077,
+    "count": 13138,
     "charName": "Donatra de Kordan",
     "playerName": "Lord Dragoo"
   },
   {
-    "count": 10340,
+    "count": 10698,
     "charName": "Elowen Nightingale",
     "playerName": "Lord Dragoo"
   },
   {
-    "count": 10247,
+    "count": 10388,
     "charName": "Velisar",
     "playerName": "Tharok"
   },
   {
-    "count": 9992,
+    "count": 10346,
     "charName": "Darthcecka",
     "playerName": "Beribet"
+  },
+  {
+    "count": 9586,
+    "charName": "Vaeris",
+    "playerName": "tp_master"
+  },
+  {
+    "count": 9194,
+    "charName": "Rehana Rena",
+    "playerName": "darmodej"
   },
   {
     "count": 9090,
@@ -50,32 +60,27 @@
     "playerName": "Calvix"
   },
   {
-    "count": 9016,
-    "charName": "Rehana Rena",
-    "playerName": "darmodej"
-  },
-  {
-    "count": 8328,
-    "charName": "Andrea",
-    "playerName": "Brozijo"
-  },
-  {
-    "count": 8257,
-    "charName": "Vaeris",
-    "playerName": "tp_master"
-  },
-  {
-    "count": 8185,
+    "count": 8717,
     "charName": "Lorenc Matlal",
     "playerName": "matysek06"
   },
   {
-    "count": 8140,
+    "count": 8341,
+    "charName": "Andrea",
+    "playerName": "Brozijo"
+  },
+  {
+    "count": 8215,
     "charName": "Gon",
     "playerName": "Sin"
   },
   {
-    "count": 7709,
+    "count": 7997,
+    "charName": "Luter",
+    "playerName": "Davis421"
+  },
+  {
+    "count": 7817,
     "charName": "Caelynn Nightshade",
     "playerName": "Lord Dragoo"
   },
@@ -88,11 +93,6 @@
     "count": 6988,
     "charName": "Bjorn Drachenblut",
     "playerName": "Sup__92"
-  },
-  {
-    "count": 6738,
-    "charName": "Luter",
-    "playerName": "Davis421"
   },
   {
     "count": 6461,

@@ -1,43 +1,47 @@
 [
   {
-    "count": 189,
+    "count": 207,
     "name": "Erinye"
   },
   {
-    "count": 160,
+    "count": 172,
     "name": "Obr Šaman"
   },
   {
-    "count": 135,
+    "count": 144,
     "name": "Ohnivý Démon"
   },
   {
-    "count": 110,
+    "count": 125,
     "name": "Kočkodlak z Hluboké jeskyně"
   },
   {
-    "count": 82,
+    "count": 87,
     "name": "Mládě Snovačky"
   },
   {
-    "count": 69,
+    "count": 72,
     "name": "Rakshasa"
   },
   {
-    "count": 66,
+    "count": 68,
     "name": "Démonka strachu"
   },
   {
-    "count": 61,
+    "count": 65,
     "name": "Ettin Válečník"
+  },
+  {
+    "count": 54,
+    "name": "Toghuk Ghutrum"
   },
   {
     "count": 52,
     "name": "Fallgrapp"
   },
   {
-    "count": 50,
-    "name": "Toghuk Ghutrum"
+    "count": 49,
+    "name": "Rakshasa bojovnice"
   },
   {
     "count": 47,
@@ -52,11 +56,7 @@
     "name": "Dospělá Snovačka z hlubokého lesa"
   },
   {
-    "count": 43,
-    "name": "Rakshasa bojovnice"
-  },
-  {
-    "count": 40,
+    "count": 41,
     "name": "Prokletý rytíř"
   },
   {
@@ -64,19 +64,19 @@
     "name": "Praotec Lykanu"
   },
   {
-    "count": 36,
-    "name": "Summoned Vampire"
-  },
-  {
-    "count": 36,
+    "count": 39,
     "name": "Beholder"
   },
   {
-    "count": 34,
-    "name": "Kočkodlak z Temného lesa"
+    "count": 37,
+    "name": "Summoned Vampire"
   },
   {
-    "count": 33,
-    "name": "Puch"
+    "count": 37,
+    "name": "Kostroun"
+  },
+  {
+    "count": 36,
+    "name": "Kočkodlak z Temného lesa"
   }
 ]
