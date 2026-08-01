@@ -1,23 +1,28 @@
 [
   {
-    "count": 227,
+    "count": 243,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "count": 54,
+    "count": 55,
     "charName": "Amashiel",
     "playerName": "Amashiel"
   },
   {
-    "count": 49,
+    "count": 51,
+    "charName": "Lady Linsy",
+    "playerName": "Gortek_Gurmmison_JR"
+  },
+  {
+    "count": 50,
     "charName": "Paklec",
     "playerName": "Lomikar"
   },
   {
-    "count": 47,
-    "charName": "Lady Linsy",
-    "playerName": "Gortek_Gurmmison_JR"
+    "count": 46,
+    "charName": "Elowen Nightingale",
+    "playerName": "Lord Dragoo"
   },
   {
     "count": 43,
@@ -25,14 +30,14 @@
     "playerName": "Stajner2"
   },
   {
-    "count": 41,
-    "charName": "Elowen Nightingale",
-    "playerName": "Lord Dragoo"
-  },
-  {
     "count": 38,
     "charName": "Lorenc Matlal",
     "playerName": "matysek06"
+  },
+  {
+    "count": 38,
+    "charName": "Morokvíl",
+    "playerName": "Brychtezen"
   },
   {
     "count": 36,
@@ -51,18 +56,28 @@
   },
   {
     "count": 32,
-    "charName": "Morokvíl",
-    "playerName": "Brychtezen"
+    "charName": "Thesmar",
+    "playerName": "Tharok"
   },
   {
-    "count": 30,
+    "count": 31,
     "charName": "Dupar",
     "playerName": "Tharok"
   },
   {
-    "count": 30,
+    "count": 31,
     "charName": "Velisar",
     "playerName": "Tharok"
+  },
+  {
+    "count": 30,
+    "charName": "Zlucoblij",
+    "playerName": "slencak"
+  },
+  {
+    "count": 30,
+    "charName": "Nyrelle",
+    "playerName": "tp_master"
   },
   {
     "count": 30,
@@ -71,13 +86,8 @@
   },
   {
     "count": 29,
-    "charName": "Zlucoblij",
-    "playerName": "slencak"
-  },
-  {
-    "count": 29,
-    "charName": "Nyrelle",
-    "playerName": "tp_master"
+    "charName": "Wel'din Desp'ana",
+    "playerName": "Welvet"
   },
   {
     "count": 29,
@@ -88,15 +98,5 @@
     "count": 28,
     "charName": "Bjorn Drachenblut",
     "playerName": "Sup__92"
-  },
-  {
-    "count": 28,
-    "charName": "Rip",
-    "playerName": "Tharok"
-  },
-  {
-    "count": 27,
-    "charName": "Wel'din Desp'ana",
-    "playerName": "Welvet"
   }
 ]

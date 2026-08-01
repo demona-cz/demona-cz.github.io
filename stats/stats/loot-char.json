@@ -1,36 +1,36 @@
 [
   {
-    "count": 7307,
+    "count": 7516,
     "charName": "Amashiel",
     "playerName": "Amashiel"
   },
   {
-    "count": 4491,
+    "count": 4812,
     "charName": "Paklec",
     "playerName": "Lomikar"
   },
   {
-    "count": 2853,
+    "count": 3632,
     "charName": "Luter",
     "playerName": "Davis421"
   },
   {
-    "count": 2347,
+    "count": 2624,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "count": 2188,
+    "count": 2276,
     "charName": "Nyrelle",
     "playerName": "tp_master"
   },
   {
-    "count": 2104,
+    "count": 2121,
     "charName": "Velisar",
     "playerName": "Tharok"
   },
   {
-    "count": 1984,
+    "count": 2042,
     "charName": "Lorenc Matlal",
     "playerName": "matysek06"
   },
@@ -40,9 +40,19 @@
     "playerName": "Lord Dragoo"
   },
   {
-    "count": 1645,
+    "count": 1713,
     "charName": "Elowen Nightingale",
     "playerName": "Lord Dragoo"
+  },
+  {
+    "count": 1513,
+    "charName": "Thesmar",
+    "playerName": "Tharok"
+  },
+  {
+    "count": 1445,
+    "charName": "Wel'din Desp'ana",
+    "playerName": "Welvet"
   },
   {
     "count": 1436,
@@ -51,13 +61,13 @@
   },
   {
     "count": 1428,
-    "charName": "Wel'din Desp'ana",
-    "playerName": "Welvet"
-  },
-  {
-    "count": 1428,
     "charName": "Ethan Hunt",
     "playerName": "FN2187"
+  },
+  {
+    "count": 1418,
+    "charName": "Kleopatra Filopator",
+    "playerName": "matysek06"
   },
   {
     "count": 1392,
@@ -65,29 +75,19 @@
     "playerName": "miniork2"
   },
   {
-    "count": 1391,
-    "charName": "Kleopatra Filopator",
-    "playerName": "matysek06"
-  },
-  {
     "count": 1364,
     "charName": "Peroxid",
     "playerName": "altharian01"
   },
   {
+    "count": 1250,
+    "charName": "Darthcecka",
+    "playerName": "Beribet"
+  },
+  {
     "count": 1243,
     "charName": "Frederick Santer",
     "playerName": "altharian01"
-  },
-  {
-    "count": 1213,
-    "charName": "Thesmar",
-    "playerName": "Tharok"
-  },
-  {
-    "count": 1198,
-    "charName": "Darthcecka",
-    "playerName": "Beribet"
   },
   {
     "count": 1060,
