@@ -1,6 +1,6 @@
 [
   {
-    "count": 7516,
+    "count": 7755,
     "charName": "Amashiel",
     "playerName": "Amashiel"
   },
@@ -10,27 +10,27 @@
     "playerName": "Lomikar"
   },
   {
-    "count": 3632,
+    "count": 4258,
     "charName": "Luter",
     "playerName": "Davis421"
   },
   {
-    "count": 2624,
+    "count": 3054,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "count": 2276,
+    "count": 2310,
     "charName": "Nyrelle",
     "playerName": "tp_master"
   },
   {
-    "count": 2121,
+    "count": 2146,
     "charName": "Velisar",
     "playerName": "Tharok"
   },
   {
-    "count": 2042,
+    "count": 2069,
     "charName": "Lorenc Matlal",
     "playerName": "matysek06"
   },
@@ -40,14 +40,19 @@
     "playerName": "Lord Dragoo"
   },
   {
-    "count": 1713,
+    "count": 1714,
     "charName": "Elowen Nightingale",
     "playerName": "Lord Dragoo"
   },
   {
-    "count": 1513,
+    "count": 1685,
     "charName": "Thesmar",
     "playerName": "Tharok"
+  },
+  {
+    "count": 1447,
+    "charName": " Fekal Hadromil",
+    "playerName": "Dedek"
   },
   {
     "count": 1445,
@@ -55,17 +60,12 @@
     "playerName": "Welvet"
   },
   {
-    "count": 1436,
-    "charName": " Fekal Hadromil",
-    "playerName": "Dedek"
-  },
-  {
-    "count": 1428,
+    "count": 1437,
     "charName": "Ethan Hunt",
     "playerName": "FN2187"
   },
   {
-    "count": 1418,
+    "count": 1429,
     "charName": "Kleopatra Filopator",
     "playerName": "matysek06"
   },
@@ -80,7 +80,7 @@
     "playerName": "altharian01"
   },
   {
-    "count": 1250,
+    "count": 1296,
     "charName": "Darthcecka",
     "playerName": "Beribet"
   },
@@ -90,13 +90,13 @@
     "playerName": "altharian01"
   },
   {
-    "count": 1060,
-    "charName": "Calvix",
-    "playerName": "Calvix"
+    "count": 1196,
+    "charName": "Kaelun",
+    "playerName": "tp_master"
   },
   {
-    "count": 1054,
-    "charName": "Tia",
+    "count": 1147,
+    "charName": "Isra",
     "playerName": "Sin"
   }
 ]

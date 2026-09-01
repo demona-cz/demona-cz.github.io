@@ -1,16 +1,16 @@
 [
   {
-    "count": 243,
+    "count": 265,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "count": 55,
+    "count": 57,
     "charName": "Amashiel",
     "playerName": "Amashiel"
   },
   {
-    "count": 51,
+    "count": 53,
     "charName": "Lady Linsy",
     "playerName": "Gortek_Gurmmison_JR"
   },
@@ -30,19 +30,24 @@
     "playerName": "Stajner2"
   },
   {
+    "count": 40,
+    "charName": "Morokvíl",
+    "playerName": "Brychtezen"
+  },
+  {
     "count": 38,
     "charName": "Lorenc Matlal",
     "playerName": "matysek06"
   },
   {
-    "count": 38,
-    "charName": "Morokvíl",
-    "playerName": "Brychtezen"
-  },
-  {
     "count": 36,
     "charName": "Donatra de Kordan",
     "playerName": "Lord Dragoo"
+  },
+  {
+    "count": 35,
+    "charName": "Anathema",
+    "playerName": "Vomitar"
   },
   {
     "count": 34,
@@ -51,13 +56,18 @@
   },
   {
     "count": 33,
-    "charName": "Anathema",
-    "playerName": "Vomitar"
-  },
-  {
-    "count": 32,
     "charName": "Thesmar",
     "playerName": "Tharok"
+  },
+  {
+    "count": 31,
+    "charName": "Zlucoblij",
+    "playerName": "slencak"
+  },
+  {
+    "count": 31,
+    "charName": "Nyrelle",
+    "playerName": "tp_master"
   },
   {
     "count": 31,
@@ -71,13 +81,8 @@
   },
   {
     "count": 30,
-    "charName": "Zlucoblij",
-    "playerName": "slencak"
-  },
-  {
-    "count": 30,
-    "charName": "Nyrelle",
-    "playerName": "tp_master"
+    "charName": "Luter",
+    "playerName": "Davis421"
   },
   {
     "count": 30,
@@ -93,10 +98,5 @@
     "count": 29,
     "charName": "Kleopatra Filopator",
     "playerName": "matysek06"
-  },
-  {
-    "count": 28,
-    "charName": "Bjorn Drachenblut",
-    "playerName": "Sup__92"
   }
 ]
