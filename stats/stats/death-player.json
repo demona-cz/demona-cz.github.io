@@ -1,6 +1,6 @@
 [
   {
-    "count": 309,
+    "count": 333,
     "playerName": "pitomec"
   },
   {
@@ -8,51 +8,55 @@
     "playerName": "Stajner2"
   },
   {
-    "count": 143,
+    "count": 146,
     "playerName": "Tharok"
   },
   {
-    "count": 116,
+    "count": 119,
     "playerName": "Lord Dragoo"
   },
   {
-    "count": 109,
+    "count": 115,
     "playerName": "Brychtezen"
   },
   {
-    "count": 102,
+    "count": 105,
+    "playerName": "Numenius"
+  },
+  {
+    "count": 105,
     "playerName": "Vomitar"
   },
   {
-    "count": 98,
+    "count": 99,
     "playerName": "matysek06"
   },
   {
-    "count": 96,
-    "playerName": "Numenius"
+    "count": 99,
+    "playerName": "Sin"
   },
   {
     "count": 96,
     "playerName": "wooh"
   },
   {
-    "count": 83,
+    "count": 89,
     "playerName": "slencak"
+  },
+  {
+    "count": 79,
+    "playerName": "Davis421"
   },
   {
     "count": 78,
     "playerName": "Lomikar"
   },
   {
-    "count": 76,
-    "playerName": "Sin"
+    "count": 75,
+    "playerName": "Seraph_MH"
   },
   {
     "count": 74,
-    "playerName": "Davis421"
-  },
-  {
-    "count": 73,
     "playerName": "Viconia12"
   },
   {
@@ -60,23 +64,19 @@
     "playerName": "Brozijo"
   },
   {
-    "count": 67,
-    "playerName": "Faust"
+    "count": 71,
+    "playerName": "darmodej"
   },
   {
-    "count": 66,
-    "playerName": "RICHI"
-  },
-  {
-    "count": 65,
+    "count": 68,
     "playerName": "tp_master"
   },
   {
-    "count": 64,
+    "count": 67,
     "playerName": "Gortek_Gurmmison_JR"
   },
   {
-    "count": 64,
-    "playerName": "Seraph_MH"
+    "count": 67,
+    "playerName": "Faust"
   }
 ]

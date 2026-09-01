@@ -1,21 +1,21 @@
 [
   {
-    "seconds": 4158257,
-    "charName": "Amashiel",
-    "playerName": "Amashiel"
-  },
-  {
-    "seconds": 4049343,
+    "seconds": 4521575,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "seconds": 3534309,
+    "seconds": 4403208,
+    "charName": "Amashiel",
+    "playerName": "Amashiel"
+  },
+  {
+    "seconds": 3945131,
     "charName": "Lady Linsy",
     "playerName": "Gortek_Gurmmison_JR"
   },
   {
-    "seconds": 2328820,
+    "seconds": 2396240,
     "charName": "Nyrelle",
     "playerName": "tp_master"
   },
@@ -25,39 +25,49 @@
     "playerName": "Lomikar"
   },
   {
-    "seconds": 1640007,
+    "seconds": 1659001,
     "charName": "Rehana Rena",
     "playerName": "darmodej"
   },
   {
-    "seconds": 1572074,
+    "seconds": 1573030,
     "charName": "Donatra de Kordan",
     "playerName": "Lord Dragoo"
   },
   {
-    "seconds": 1461504,
+    "seconds": 1482113,
     "charName": "Velisar",
     "playerName": "Tharok"
   },
   {
-    "seconds": 1397112,
+    "seconds": 1437381,
+    "charName": "Gon",
+    "playerName": "Sin"
+  },
+  {
+    "seconds": 1412846,
     "charName": "Elowen Nightingale",
     "playerName": "Lord Dragoo"
   },
   {
-    "seconds": 1277178,
+    "seconds": 1319481,
     "charName": "Lorenc Matlal",
     "playerName": "matysek06"
   },
   {
-    "seconds": 1192007,
+    "seconds": 1308397,
     "charName": "Darthcecka",
     "playerName": "Beribet"
   },
   {
-    "seconds": 1144716,
-    "charName": "Gon",
-    "playerName": "Sin"
+    "seconds": 1128995,
+    "charName": "Vaeris",
+    "playerName": "tp_master"
+  },
+  {
+    "seconds": 1117798,
+    "charName": "Sara Nefer",
+    "playerName": "darmodej"
   },
   {
     "seconds": 1098870,
@@ -65,38 +75,28 @@
     "playerName": "Faust"
   },
   {
+    "seconds": 1083809,
+    "charName": "Thesmar",
+    "playerName": "Tharok"
+  },
+  {
     "seconds": 1071800,
     "charName": "Bjorn Drachenblut",
     "playerName": "Sup__92"
   },
   {
-    "seconds": 1059609,
-    "charName": "Vaeris",
-    "playerName": "tp_master"
-  },
-  {
-    "seconds": 1040877,
+    "seconds": 1062299,
     "charName": "Caelynn Nightshade",
     "playerName": "Lord Dragoo"
   },
   {
-    "seconds": 1025030,
+    "seconds": 1050354,
     "charName": "Kleopatra Filopator",
     "playerName": "matysek06"
-  },
-  {
-    "seconds": 988280,
-    "charName": "Thesmar",
-    "playerName": "Tharok"
   },
   {
     "seconds": 979529,
     "charName": "Calvix",
     "playerName": "Calvix"
-  },
-  {
-    "seconds": 940730,
-    "charName": "Sara Nefer",
-    "playerName": "darmodej"
   }
 ]

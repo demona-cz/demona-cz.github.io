@@ -1,16 +1,16 @@
 [
   {
-    "count": 27433,
-    "charName": "Amashiel",
-    "playerName": "Amashiel"
-  },
-  {
-    "count": 26663,
+    "count": 29756,
     "charName": "Lady Linsy",
     "playerName": "Gortek_Gurmmison_JR"
   },
   {
-    "count": 20935,
+    "count": 28709,
+    "charName": "Amashiel",
+    "playerName": "Amashiel"
+  },
+  {
+    "count": 21402,
     "charName": "Nyrelle",
     "playerName": "tp_master"
   },
@@ -20,37 +20,42 @@
     "playerName": "Lomikar"
   },
   {
-    "count": 16510,
+    "count": 18616,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "count": 13138,
+    "count": 13153,
     "charName": "Donatra de Kordan",
     "playerName": "Lord Dragoo"
   },
   {
-    "count": 10698,
-    "charName": "Elowen Nightingale",
-    "playerName": "Lord Dragoo"
-  },
-  {
-    "count": 10388,
-    "charName": "Velisar",
-    "playerName": "Tharok"
-  },
-  {
-    "count": 10346,
+    "count": 11611,
     "charName": "Darthcecka",
     "playerName": "Beribet"
   },
   {
-    "count": 9586,
+    "count": 10795,
+    "charName": "Elowen Nightingale",
+    "playerName": "Lord Dragoo"
+  },
+  {
+    "count": 10529,
+    "charName": "Velisar",
+    "playerName": "Tharok"
+  },
+  {
+    "count": 10111,
+    "charName": "Gon",
+    "playerName": "Sin"
+  },
+  {
+    "count": 10045,
     "charName": "Vaeris",
     "playerName": "tp_master"
   },
   {
-    "count": 9194,
+    "count": 9342,
     "charName": "Rehana Rena",
     "playerName": "darmodej"
   },
@@ -60,27 +65,22 @@
     "playerName": "Calvix"
   },
   {
-    "count": 8717,
+    "count": 8988,
     "charName": "Lorenc Matlal",
     "playerName": "matysek06"
   },
   {
-    "count": 8341,
-    "charName": "Andrea",
-    "playerName": "Brozijo"
-  },
-  {
-    "count": 8215,
-    "charName": "Gon",
-    "playerName": "Sin"
-  },
-  {
-    "count": 7997,
+    "count": 8926,
     "charName": "Luter",
     "playerName": "Davis421"
   },
   {
-    "count": 7817,
+    "count": 8453,
+    "charName": "Andrea",
+    "playerName": "Brozijo"
+  },
+  {
+    "count": 7974,
     "charName": "Caelynn Nightshade",
     "playerName": "Lord Dragoo"
   },
@@ -95,8 +95,8 @@
     "playerName": "Sup__92"
   },
   {
-    "count": 6461,
-    "charName": "Gaarg",
-    "playerName": "Gumgarian"
+    "count": 6842,
+    "charName": "Thesmar",
+    "playerName": "Tharok"
   }
 ]
