@@ -1,16 +1,16 @@
 [
   {
-    "count": 265,
+    "count": 286,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "count": 57,
+    "count": 60,
     "charName": "Amashiel",
     "playerName": "Amashiel"
   },
   {
-    "count": 53,
+    "count": 55,
     "charName": "Lady Linsy",
     "playerName": "Gortek_Gurmmison_JR"
   },
@@ -20,7 +20,7 @@
     "playerName": "Lomikar"
   },
   {
-    "count": 46,
+    "count": 50,
     "charName": "Elowen Nightingale",
     "playerName": "Lord Dragoo"
   },
@@ -30,14 +30,29 @@
     "playerName": "Stajner2"
   },
   {
+    "count": 42,
+    "charName": "Thesmar",
+    "playerName": "Tharok"
+  },
+  {
+    "count": 41,
+    "charName": "Lorenc Matlal",
+    "playerName": "matysek06"
+  },
+  {
     "count": 40,
     "charName": "Morokvíl",
     "playerName": "Brychtezen"
   },
   {
     "count": 38,
-    "charName": "Lorenc Matlal",
-    "playerName": "matysek06"
+    "charName": "Anathema",
+    "playerName": "Vomitar"
+  },
+  {
+    "count": 36,
+    "charName": "Brychtezenus",
+    "playerName": "Brychtezen"
   },
   {
     "count": 36,
@@ -45,24 +60,24 @@
     "playerName": "Lord Dragoo"
   },
   {
-    "count": 35,
-    "charName": "Anathema",
-    "playerName": "Vomitar"
-  },
-  {
     "count": 34,
     "charName": "Nerdean syn Modrinuv",
     "playerName": "slencak"
   },
   {
-    "count": 33,
-    "charName": "Thesmar",
+    "count": 34,
+    "charName": "Zlucoblij",
+    "playerName": "slencak"
+  },
+  {
+    "count": 34,
+    "charName": "Dupar",
     "playerName": "Tharok"
   },
   {
     "count": 31,
-    "charName": "Zlucoblij",
-    "playerName": "slencak"
+    "charName": "Wel'din Desp'ana",
+    "playerName": "Welvet"
   },
   {
     "count": 31,
@@ -71,32 +86,17 @@
   },
   {
     "count": 31,
-    "charName": "Dupar",
-    "playerName": "Tharok"
-  },
-  {
-    "count": 31,
     "charName": "Velisar",
     "playerName": "Tharok"
   },
   {
-    "count": 30,
+    "count": 31,
     "charName": "Luter",
     "playerName": "Davis421"
   },
   {
     "count": 30,
-    "charName": "Mazut",
-    "playerName": "Faust"
-  },
-  {
-    "count": 29,
-    "charName": "Wel'din Desp'ana",
-    "playerName": "Welvet"
-  },
-  {
-    "count": 29,
-    "charName": "Kleopatra Filopator",
-    "playerName": "matysek06"
+    "charName": "Sara Nefer",
+    "playerName": "darmodej"
   }
 ]

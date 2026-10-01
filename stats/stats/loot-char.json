@@ -1,6 +1,6 @@
 [
   {
-    "count": 7755,
+    "count": 8459,
     "charName": "Amashiel",
     "playerName": "Amashiel"
   },
@@ -10,62 +10,67 @@
     "playerName": "Lomikar"
   },
   {
-    "count": 4258,
+    "count": 4575,
     "charName": "Luter",
     "playerName": "Davis421"
   },
   {
-    "count": 3054,
+    "count": 3293,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "count": 2310,
+    "count": 2319,
     "charName": "Nyrelle",
     "playerName": "tp_master"
   },
   {
-    "count": 2146,
-    "charName": "Velisar",
-    "playerName": "Tharok"
-  },
-  {
-    "count": 2069,
+    "count": 2197,
     "charName": "Lorenc Matlal",
     "playerName": "matysek06"
   },
   {
-    "count": 1931,
-    "charName": "Donatra de Kordan",
-    "playerName": "Lord Dragoo"
+    "count": 2161,
+    "charName": "Velisar",
+    "playerName": "Tharok"
   },
   {
-    "count": 1714,
-    "charName": "Elowen Nightingale",
-    "playerName": "Lord Dragoo"
-  },
-  {
-    "count": 1685,
+    "count": 1962,
     "charName": "Thesmar",
     "playerName": "Tharok"
   },
   {
-    "count": 1447,
-    "charName": " Fekal Hadromil",
-    "playerName": "Dedek"
+    "count": 1934,
+    "charName": "Donatra de Kordan",
+    "playerName": "Lord Dragoo"
   },
   {
-    "count": 1445,
+    "count": 1761,
+    "charName": "Elowen Nightingale",
+    "playerName": "Lord Dragoo"
+  },
+  {
+    "count": 1553,
+    "charName": "Kaelun",
+    "playerName": "tp_master"
+  },
+  {
+    "count": 1504,
     "charName": "Wel'din Desp'ana",
     "playerName": "Welvet"
   },
   {
-    "count": 1437,
+    "count": 1504,
+    "charName": " Fekal Hadromil",
+    "playerName": "Dedek"
+  },
+  {
+    "count": 1458,
     "charName": "Ethan Hunt",
     "playerName": "FN2187"
   },
   {
-    "count": 1429,
+    "count": 1432,
     "charName": "Kleopatra Filopator",
     "playerName": "matysek06"
   },
@@ -80,23 +85,18 @@
     "playerName": "altharian01"
   },
   {
-    "count": 1296,
+    "count": 1326,
+    "charName": "Nhyss",
+    "playerName": "Ertai"
+  },
+  {
+    "count": 1322,
+    "charName": "Adrea Black",
+    "playerName": "Lord Dragoo"
+  },
+  {
+    "count": 1317,
     "charName": "Darthcecka",
     "playerName": "Beribet"
-  },
-  {
-    "count": 1243,
-    "charName": "Frederick Santer",
-    "playerName": "altharian01"
-  },
-  {
-    "count": 1196,
-    "charName": "Kaelun",
-    "playerName": "tp_master"
-  },
-  {
-    "count": 1147,
-    "charName": "Isra",
-    "playerName": "Sin"
   }
 ]
