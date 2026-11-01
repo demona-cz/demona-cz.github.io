@@ -1,38 +1,43 @@
 [
   {
-    "count": 286,
+    "count": 285,
     "charName": "žoldák",
     "playerName": "pitomec"
   },
   {
-    "count": 60,
+    "count": 53,
     "charName": "Amashiel",
     "playerName": "Amashiel"
   },
   {
-    "count": 55,
-    "charName": "Lady Linsy",
-    "playerName": "Gortek_Gurmmison_JR"
-  },
-  {
-    "count": 50,
-    "charName": "Paklec",
-    "playerName": "Lomikar"
-  },
-  {
-    "count": 50,
+    "count": 51,
     "charName": "Elowen Nightingale",
     "playerName": "Lord Dragoo"
   },
   {
-    "count": 43,
+    "count": 49,
+    "charName": "Paklec",
+    "playerName": "Lomikar"
+  },
+  {
+    "count": 49,
+    "charName": "Lady Linsy",
+    "playerName": "Gortek_Gurmmison_JR"
+  },
+  {
+    "count": 45,
     "charName": "Yael",
     "playerName": "Stajner2"
   },
   {
-    "count": 42,
+    "count": 43,
     "charName": "Thesmar",
     "playerName": "Tharok"
+  },
+  {
+    "count": 42,
+    "charName": "Anathema",
+    "playerName": "Vomitar"
   },
   {
     "count": 41,
@@ -45,14 +50,9 @@
     "playerName": "Brychtezen"
   },
   {
-    "count": 38,
-    "charName": "Anathema",
-    "playerName": "Vomitar"
-  },
-  {
-    "count": 36,
-    "charName": "Brychtezenus",
-    "playerName": "Brychtezen"
+    "count": 37,
+    "charName": "Dupar",
+    "playerName": "Tharok"
   },
   {
     "count": 36,
@@ -60,29 +60,19 @@
     "playerName": "Lord Dragoo"
   },
   {
-    "count": 34,
+    "count": 35,
+    "charName": "Brychtezenus",
+    "playerName": "Brychtezen"
+  },
+  {
+    "count": 33,
     "charName": "Nerdean syn Modrinuv",
     "playerName": "slencak"
   },
   {
-    "count": 34,
-    "charName": "Zlucoblij",
-    "playerName": "slencak"
-  },
-  {
-    "count": 34,
-    "charName": "Dupar",
-    "playerName": "Tharok"
-  },
-  {
-    "count": 31,
+    "count": 32,
     "charName": "Wel'din Desp'ana",
     "playerName": "Welvet"
-  },
-  {
-    "count": 31,
-    "charName": "Nyrelle",
-    "playerName": "tp_master"
   },
   {
     "count": 31,
@@ -95,8 +85,18 @@
     "playerName": "Davis421"
   },
   {
+    "count": 31,
+    "charName": "Haggar",
+    "playerName": "wooh"
+  },
+  {
     "count": 30,
     "charName": "Sara Nefer",
     "playerName": "darmodej"
+  },
+  {
+    "count": 30,
+    "charName": "Dorin ",
+    "playerName": "Seraph_MH"
   }
 ]
