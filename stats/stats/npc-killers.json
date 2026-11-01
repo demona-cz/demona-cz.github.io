@@ -1,62 +1,66 @@
 [
   {
-    "count": 231,
+    "count": 257,
     "name": "Erinye"
   },
   {
-    "count": 207,
+    "count": 228,
     "name": "Obr Šaman"
   },
   {
-    "count": 150,
+    "count": 163,
     "name": "Ohnivý Démon"
   },
   {
-    "count": 144,
+    "count": 157,
     "name": "Kočkodlak z Hluboké jeskyně"
   },
   {
-    "count": 114,
+    "count": 123,
     "name": "Mládě Snovačky"
   },
   {
-    "count": 85,
+    "count": 94,
     "name": "Ettin Válečník"
   },
   {
-    "count": 78,
+    "count": 84,
     "name": "Rakshasa"
   },
   {
-    "count": 71,
+    "count": 80,
     "name": "Démonka strachu"
   },
   {
-    "count": 66,
+    "count": 71,
     "name": "Toghuk Ghutrum"
   },
   {
-    "count": 59,
+    "count": 63,
     "name": "Rakshasa bojovnice"
   },
   {
-    "count": 58,
+    "count": 63,
     "name": "Prokletý rytíř"
   },
   {
-    "count": 52,
-    "name": "Fallgrapp"
+    "count": 53,
+    "name": "Summoned Vampire"
   },
   {
-    "count": 50,
+    "count": 52,
     "name": "Dospělá Snovačka z hlubokého lesa"
   },
   {
-    "count": 48,
+    "count": 52,
+    "name": "Dorost Snovacky"
+  },
+  {
+    "count": 50,
     "name": "Beholder"
   },
   {
-    "count": 47,
+    "count": 49,
     "name": "Vraždící monstrum, elita"
   },
   {
@@ -64,19 +68,15 @@
     "name": "Vlkodlak, Vyšší kasta"
   },
   {
-    "count": 46,
-    "name": "Summoned Vampire"
-  },
-  {
-    "count": 46,
-    "name": "Dorost Snovacky"
-  },
-  {
-    "count": 43,
-    "name": "Praotec Lykanu"
-  },
-  {
-    "count": 41,
+    "count": 47,
     "name": "Skrětvěd, zabijak"
+  },
+  {
+    "count": 45,
+    "name": "Prízrak vraha"
+  },
+  {
+    "count": 44,
+    "name": "Praotec Lykanu"
   }
 ]
